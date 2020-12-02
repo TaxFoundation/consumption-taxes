@@ -1,14 +1,9 @@
-#Clean up working environment####
-rm(list=ls())
-gc()
-
 #Directory Variables####
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-R_code_files<-"C:/Github/international-tax-competitiveness-index/R_code_files/"
-source_data<-"C:/Github/international-tax-competitiveness-index/source_data/"
-intermediate_outputs<-"C:/Github/international-tax-competitiveness-index/intermediate_outputs/"
-final_data<-"C:/Github/international-tax-competitiveness-index/final_data/"
-final_outputs<-"C:/Github/international-tax-competitiveness-index/final_outputs/"
+R_code_files<-"C:/Github/consumption-taxes/R_code_files/"
+source_data<-"C:/Github/consumption-taxes/source_data/"
+intermediate_outputs<-"C:/Github/consumption-taxes/intermediate_outputs/"
+final_data<-"C:/Github/consumption-taxes/final_data/"
+final_outputs<-"C:/Github/consumption-taxes/final_outputs/"
 
 #Define Using function####
 using<-function(...,prompt=TRUE){
@@ -43,7 +38,6 @@ using(reshape2)
 using(countrycode)
 using(tidyverse)
 using(stringr)
-using(IMFData)
 using(readr)
 using(xlsx)
 using(scales)
@@ -54,6 +48,7 @@ oecd_countries<-c("AUS",
                   "BEL",
                   "CAN",
                   "CHL",
+                  "COL",
                   "CZE",
                   "DNK",
                   "EST",
@@ -88,5 +83,19 @@ oecd_countries<-c("AUS",
 
 #Read in ISO Country Codes####
 #Source: https://www.cia.gov/library/publications/the-world-factbook/appendix/appendix-d.html
-iso_country_codes <- read_csv(paste(source_data,"iso_country_codes.csv",sep=""))
-colnames(iso_country_codes)<-c("country","ISO_2","ISO_3")
+#Import and match country names with ISO-3 codes####
+
+#Read in country name file
+country_names <- read.csv(paste(source_data,"country_codes.csv",sep=""))
+
+#Keep and rename selected columns
+country_names <- subset(country_names, select = c(official_name_en, ISO3166.1.Alpha.2, ISO3166.1.Alpha.3, Continent))
+
+colnames(country_names)[colnames(country_names)=="official_name_en"] <- "country"
+colnames(country_names)[colnames(country_names)=="ISO3166.1.Alpha.2"] <- "iso_2"
+colnames(country_names)[colnames(country_names)=="ISO3166.1.Alpha.3"] <- "iso_3"
+colnames(country_names)[colnames(country_names)=="Continent"] <- "continent"
+
+#Replace continent abbreviation 'NA' (North America) to 'NO' (R does not recognize 'NA' as a character)
+country_names$continent <- as.character(country_names$continent)
+country_names$continent <- if_else(is.na(country_names$continent),"NO",country_names$continent)

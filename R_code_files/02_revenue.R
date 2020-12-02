@@ -1,66 +1,20 @@
-####Sources of Government Revenue####
-
-#Clear working environment#####
-rm(list=ls())
-gc()
-
-#general set-up
-using<-function(...,prompt=TRUE){
-  libs<-sapply(substitute(list(...))[-1],deparse)
-  req<-unlist(lapply(libs,require,character.only=TRUE))
-  need<-libs[req==FALSE]
-  n<-length(need)
-  installAndRequire<-function(){
-    install.packages(need)
-    lapply(need,require,character.only=TRUE)
-  }
-  if(n>0){
-    libsmsg<-if(n>2) paste(paste(need[1:(n-1)],collapse=", "),",",sep="") else need[1]
-    if(n>1){
-      libsmsg<-paste(libsmsg," and ", need[n],sep="")
-    }
-    libsmsg<-paste("The following packages count not be found: ",libsmsg,"n\r\n\rInstall missing packages?",collapse="")
-    if(prompt==FALSE){
-      installAndRequire()
-    }else if(winDialog(type=c("yesno"),libsmsg)=="YES"){
-      installAndRequire()
-    }
-  }
-}
-
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-
-using(gtools)
-using(plyr)
-using(reshape2)
-using(OECD)
-using(readxl)
-using(rvest)
-using(htmltab)
-using(tidyverse)
-using(stringr)
-using(dplyr)
-using(naniar)
-
-
-
 #Reading in and cleaning OECD's global tax revenue statistics dataset####
-dataset_list <- get_datasets()
-search_dataset("Global Revenue", data= dataset_list)
+#dataset_list <- get_datasets()
+#search_dataset("Global Revenue", data= dataset_list)
 
 dataset <- ("RS_GBL")
 
-dstruc <- get_data_structure(dataset)
-str(dstruc, max.level = 1)
+#dstruc <- get_data_structure(dataset)
+#str(dstruc, max.level = 1)
 #dstruc$VAR
 #dstruc$TAX
 #dstruc$GOV
 #dstruc$YEA
-taxes<-c("1100","1200","1300","2000","3000","4000","5000","6000","CUS")
+taxes<-c("5000","5111","5112","5113","5121")
 
-all_data <- get_dataset("RS_GBL", filter= list(c(),c("NES"),c(taxes),c("TAXPER")),start_time = 2017)
+all_data <- get_dataset("RS_GBL", filter= list(c(oecd_countries),c("NES"),c(taxes),c("TAXPER")),start_time = 2017)
 
-all_data_1990 <- get_dataset("RS_GBL", filter= list(c(),c("NES"),c(taxes),c("TAXPER")),start_time = 1990, end_time = 1990)
+all_data_1990 <- get_dataset("RS_GBL", filter= list(c(oecd_countries),c("NES"),c(taxes),c("TAXPER")),start_time = 1990, end_time = 1990)
 
 
 
@@ -81,74 +35,17 @@ colnames(all_data)[colnames(all_data)=="TAX"] <- "category"
 colnames(all_data)[colnames(all_data)=="obsTime"] <- "year"
 colnames(all_data)[colnames(all_data)=="obsValue"] <- "share"
 
-
-
-#Import and match country names with ISO-3 codes####
-
-#Read in country name file
-country_names <- read.csv("source-data/country_codes.csv")
-
-#Keep and rename selected columns
-country_names <- subset(country_names, select = c(official_name_en, ISO3166.1.Alpha.2, ISO3166.1.Alpha.3, Continent))
-
-colnames(country_names)[colnames(country_names)=="official_name_en"] <- "country"
-colnames(country_names)[colnames(country_names)=="ISO3166.1.Alpha.2"] <- "iso_2"
-colnames(country_names)[colnames(country_names)=="ISO3166.1.Alpha.3"] <- "iso_3"
-colnames(country_names)[colnames(country_names)=="Continent"] <- "continent"
-
-#Replace continent abbreviation 'NA' (North America) to 'NO' (R does not recognize 'NA' as a character)
-country_names$continent <- as.character(country_names$continent)
-country_names$continent <- if_else(is.na(country_names$continent),"NO",country_names$continent)
-
 #Add country names and continents to all_data, and add variable signaling OECD countries####
 all_data <- merge(all_data, country_names, by='iso_3')
 
-all_data$oecd <- ifelse(all_data$iso_3 == "AUS"
-                        | all_data$iso_3 == "AUT"
-                        | all_data$iso_3 == "BEL"
-                        | all_data$iso_3 == "CAN"
-                        | all_data$iso_3 == "CHL"
-                        | all_data$iso_3 == "CZE"
-                        | all_data$iso_3 == "DNK"
-                        | all_data$iso_3 == "EST"
-                        | all_data$iso_3 == "FIN"
-                        | all_data$iso_3 == "FRA"
-                        | all_data$iso_3 == "DEU"
-                        | all_data$iso_3 == "GRC"
-                        | all_data$iso_3 == "HUN"
-                        | all_data$iso_3 == "ISL"
-                        | all_data$iso_3 == "IRL"
-                        | all_data$iso_3 == "ISR"
-                        | all_data$iso_3 == "ITA"
-                        | all_data$iso_3 == "JPN"
-                        | all_data$iso_3 == "KOR"
-                        | all_data$iso_3 == "LTU"
-                        | all_data$iso_3 == "LUX"
-                        | all_data$iso_3 == "LVA"
-                        | all_data$iso_3 == "MEX"
-                        | all_data$iso_3 == "NLD"
-                        | all_data$iso_3 == "NZL"
-                        | all_data$iso_3 == "NOR"
-                        | all_data$iso_3 == "POL"
-                        | all_data$iso_3 == "PRT"
-                        | all_data$iso_3 == "SVK"
-                        | all_data$iso_3 == "SVN"
-                        | all_data$iso_3 == "ESP"
-                        | all_data$iso_3 == "SWE"
-                        | all_data$iso_3 == "CHE"
-                        | all_data$iso_3 == "TUR"
-                        | all_data$iso_3 == "GBR"
-                        | all_data$iso_3 == "USA"
-                        ,1,0)
 
 #Adjust the order of the columns
-all_data <- all_data[c("iso_2", "iso_3", "country", "continent", "oecd", "year", "category", "share")]
+all_data <- all_data[c("iso_2", "iso_3", "country", "continent", "year", "category", "share")]
 
 #Fix country name that was read in incorrectly
 all_data$country <- as.character(all_data$country)
-all_data[all_data$iso_3 == "CIV", "country"] <- "Cote d'Ivoire"
 
-write.csv(all_data, "intermediate-outputs/data_preliminary.csv")
+write.csv(all_data, paste(intermediate_outputs,"revenue_preliminary.csv",sep=""))
 
 
 

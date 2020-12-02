@@ -1,3 +1,8 @@
+#Clean up working environment####
+rm(list=ls())
+gc()
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+
 #Run code files####
 source("01_setup.R")
 source("02_revenue.R")

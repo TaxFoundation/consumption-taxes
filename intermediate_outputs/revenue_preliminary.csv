@@ -1,0 +1,335 @@
+"","iso_2","iso_3","country","continent","year","category","share"
+"1","AU","AUS","Australia","OC","2017","5000",26
+"2","AU","AUS","Australia","OC","2017","5111",12.15
+"3","AU","AUS","Australia","OC","2017","5112",0.31
+"4","AU","AUS","Australia","OC","2017","5113",0
+"5","AU","AUS","Australia","OC","2017","5121",4.49
+"6","AT","AUT","Austria","EU","2017","5000",28.15
+"7","AT","AUT","Austria","EU","2018","5000",27.47
+"8","AT","AUT","Austria","EU","2017","5111",18.31
+"9","AT","AUT","Austria","EU","2018","5111",18.01
+"10","AT","AUT","Austria","EU","2017","5112",0
+"11","AT","AUT","Austria","EU","2018","5112",0
+"12","AT","AUT","Austria","EU","2017","5113",0
+"13","AT","AUT","Austria","EU","2018","5113",0
+"14","AT","AUT","Austria","EU","2017","5121",5.35
+"15","AT","AUT","Austria","EU","2018","5121",5.03
+"16","BE","BEL","Belgium","EU","2017","5000",24.22
+"17","BE","BEL","Belgium","EU","2018","5000",24.37
+"18","BE","BEL","Belgium","EU","2017","5111",15.24
+"19","BE","BEL","Belgium","EU","2018","5111",15.37
+"20","BE","BEL","Belgium","EU","2017","5112",0.1
+"21","BE","BEL","Belgium","EU","2018","5112",0.11
+"22","BE","BEL","Belgium","EU","2017","5113",0
+"23","BE","BEL","Belgium","EU","2018","5113",0
+"24","BE","BEL","Belgium","EU","2017","5121",5.07
+"25","BE","BEL","Belgium","EU","2018","5121",5.01
+"26","CA","CAN","Canada","NO","2017","5000",23.54
+"27","CA","CAN","Canada","NO","2018","5000",23.37
+"28","CA","CAN","Canada","NO","2017","5111",13.68
+"29","CA","CAN","Canada","NO","2018","5111",13.53
+"30","CA","CAN","Canada","NO","2017","5112",0.54
+"31","CA","CAN","Canada","NO","2018","5112",0.68
+"32","CA","CAN","Canada","NO","2017","5113",0
+"33","CA","CAN","Canada","NO","2018","5113",0
+"34","CA","CAN","Canada","NO","2017","5121",3.87
+"35","CA","CAN","Canada","NO","2018","5121",3.78
+"36","CH","CHE","Switzerland","EU","2017","5000",21.07
+"37","CH","CHE","Switzerland","EU","2018","5000",20.81
+"38","CH","CHE","Switzerland","EU","2017","5111",11.99
+"39","CH","CHE","Switzerland","EU","2018","5111",11.82
+"40","CH","CHE","Switzerland","EU","2017","5112",0.21
+"41","CH","CHE","Switzerland","EU","2018","5112",0.2
+"42","CH","CHE","Switzerland","EU","2017","5121",4.24
+"43","CH","CHE","Switzerland","EU","2018","5121",4.18
+"44","CL","CHL","Chile","SA","2017","5000",54.8
+"45","CL","CHL","Chile","SA","2018","5000",53.28
+"46","CL","CHL","Chile","SA","2017","5111",41.58
+"47","CL","CHL","Chile","SA","2018","5111",40.23
+"48","CL","CHL","Chile","SA","2017","5112",0
+"49","CL","CHL","Chile","SA","2017","5113",0
+"50","CL","CHL","Chile","SA","2017","5121",7.4
+"51","CL","CHL","Chile","SA","2018","5121",6.94
+"52","CO","COL","Colombia","SA","2017","5000",43.14
+"53","CO","COL","Colombia","SA","2018","5000",42.78
+"54","CO","COL","Colombia","SA","2017","5111",28.97
+"55","CO","COL","Colombia","SA","2018","5111",29.36
+"56","CO","COL","Colombia","SA","2017","5112",4.55
+"57","CO","COL","Colombia","SA","2018","5112",4.43
+"58","CO","COL","Colombia","SA","2017","5113",0
+"59","CO","COL","Colombia","SA","2018","5113",0
+"60","CO","COL","Colombia","SA","2017","5121",6.65
+"61","CO","COL","Colombia","SA","2018","5121",6.34
+"62","CZ","CZE","Czechia","EU","2017","5000",32.91
+"63","CZ","CZE","Czechia","EU","2018","5000",32.05
+"64","CZ","CZE","Czechia","EU","2017","5111",22.02
+"65","CZ","CZE","Czechia","EU","2018","5111",21.73
+"66","CZ","CZE","Czechia","EU","2017","5112",0
+"67","CZ","CZE","Czechia","EU","2018","5112",0
+"68","CZ","CZE","Czechia","EU","2017","5113",0
+"69","CZ","CZE","Czechia","EU","2018","5113",0
+"70","CZ","CZE","Czechia","EU","2017","5121",9.32
+"71","CZ","CZE","Czechia","EU","2018","5121",8.8
+"72","DE","DEU","Germany","EU","2017","5000",26.28
+"73","DE","DEU","Germany","EU","2018","5000",26.24
+"74","DE","DEU","Germany","EU","2017","5111",18.43
+"75","DE","DEU","Germany","EU","2018","5111",18.21
+"76","DE","DEU","Germany","EU","2017","5112",0
+"77","DE","DEU","Germany","EU","2017","5113",0
+"78","DE","DEU","Germany","EU","2018","5113",0
+"79","DE","DEU","Germany","EU","2017","5121",5.4
+"80","DE","DEU","Germany","EU","2018","5121",5.12
+"81","DK","DNK","Denmark","EU","2017","5000",31.78
+"82","DK","DNK","Denmark","EU","2018","5000",32.67
+"83","DK","DNK","Denmark","EU","2017","5111",20.69
+"84","DK","DNK","Denmark","EU","2018","5111",21.54
+"85","DK","DNK","Denmark","EU","2017","5113",0
+"86","DK","DNK","Denmark","EU","2018","5113",0
+"87","DK","DNK","Denmark","EU","2017","5121",8.1
+"88","DK","DNK","Denmark","EU","2018","5121",8.04
+"89","ES","ESP","Spain","EU","2017","5000",29.35
+"90","ES","ESP","Spain","EU","2018","5000",29.06
+"91","ES","ESP","Spain","EU","2017","5111",19.12
+"92","ES","ESP","Spain","EU","2018","5111",19.15
+"93","ES","ESP","Spain","EU","2017","5112",0.05
+"94","ES","ESP","Spain","EU","2018","5112",0.05
+"95","ES","ESP","Spain","EU","2017","5113",0
+"96","ES","ESP","Spain","EU","2018","5113",0
+"97","ES","ESP","Spain","EU","2017","5121",6.66
+"98","ES","ESP","Spain","EU","2018","5121",6.37
+"99","EE","EST","Estonia","EU","2017","5000",42.59
+"100","EE","EST","Estonia","EU","2018","5000",41.28
+"101","EE","EST","Estonia","EU","2017","5111",27.76
+"102","EE","EST","Estonia","EU","2018","5111",27.32
+"103","EE","EST","Estonia","EU","2017","5112",0
+"104","EE","EST","Estonia","EU","2018","5112",0
+"105","EE","EST","Estonia","EU","2017","5113",0
+"106","EE","EST","Estonia","EU","2018","5113",0
+"107","EE","EST","Estonia","EU","2017","5121",12.79
+"108","EE","EST","Estonia","EU","2018","5121",11.87
+"109","FI","FIN","Finland","EU","2017","5000",32.88
+"110","FI","FIN","Finland","EU","2018","5000",33.63
+"111","FI","FIN","Finland","EU","2017","5111",21.04
+"112","FI","FIN","Finland","EU","2018","5111",21.57
+"113","FI","FIN","Finland","EU","2017","5112",0
+"114","FI","FIN","Finland","EU","2018","5112",0
+"115","FI","FIN","Finland","EU","2017","5113",0
+"116","FI","FIN","Finland","EU","2018","5113",0
+"117","FI","FIN","Finland","EU","2017","5121",8.25
+"118","FI","FIN","Finland","EU","2018","5121",8.47
+"119","FR","FRA","France","EU","2017","5000",24.47
+"120","FR","FRA","France","EU","2018","5000",24.96
+"121","FR","FRA","France","EU","2017","5111",15.28
+"122","FR","FRA","France","EU","2018","5111",15.55
+"123","FR","FRA","France","EU","2017","5112",0
+"124","FR","FRA","France","EU","2018","5112",0
+"125","FR","FRA","France","EU","2017","5113",0.33
+"126","FR","FRA","France","EU","2018","5113",0.35
+"127","FR","FRA","France","EU","2017","5121",5.82
+"128","FR","FRA","France","EU","2018","5121",5.94
+"129","GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2017","5000",31.86
+"130","GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2018","5000",31.95
+"131","GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2017","5111",20.73
+"132","GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2018","5111",21.01
+"133","GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2017","5112",0
+"134","GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2018","5112",0
+"135","GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2017","5113",0
+"136","GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2018","5113",0
+"137","GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2017","5121",7.14
+"138","GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2018","5121",6.92
+"139","GR","GRC","Greece","EU","2017","5000",39.34
+"140","GR","GRC","Greece","EU","2018","5000",39.02
+"141","GR","GRC","Greece","EU","2017","5111",20.88
+"142","GR","GRC","Greece","EU","2017","5112",0
+"143","GR","GRC","Greece","EU","2017","5113",0.38
+"144","GR","GRC","Greece","EU","2017","5121",9.81
+"145","HU","HUN","Hungary","EU","2017","5000",42.93
+"146","HU","HUN","Hungary","EU","2018","5000",44.05
+"147","HU","HUN","Hungary","EU","2017","5111",24.76
+"148","HU","HUN","Hungary","EU","2018","5111",25.55
+"149","HU","HUN","Hungary","EU","2017","5112",0.44
+"150","HU","HUN","Hungary","EU","2018","5112",0.26
+"151","HU","HUN","Hungary","EU","2017","5113",5.26
+"152","HU","HUN","Hungary","EU","2018","5113",5.45
+"153","HU","HUN","Hungary","EU","2017","5121",7.91
+"154","HU","HUN","Hungary","EU","2018","5121",8.18
+"155","IE","IRL","Ireland","EU","2017","5000",32.44
+"156","IE","IRL","Ireland","EU","2018","5000",30.05
+"157","IE","IRL","Ireland","EU","2017","5111",19.59
+"158","IE","IRL","Ireland","EU","2018","5111",19.55
+"159","IE","IRL","Ireland","EU","2017","5112",0
+"160","IE","IRL","Ireland","EU","2018","5112",0
+"161","IE","IRL","Ireland","EU","2017","5113",0
+"162","IE","IRL","Ireland","EU","2018","5113",0
+"163","IE","IRL","Ireland","EU","2017","5121",9.21
+"164","IE","IRL","Ireland","EU","2018","5121",7.59
+"165","IS","ISL","Iceland","EU","2017","5000",33.71
+"166","IS","ISL","Iceland","EU","2018","5000",32.57
+"167","IS","ISL","Iceland","EU","2017","5111",23.84
+"168","IS","ISL","Iceland","EU","2018","5111",22.74
+"169","IS","ISL","Iceland","EU","2017","5112",0
+"170","IS","ISL","Iceland","EU","2018","5112",0
+"171","IS","ISL","Iceland","EU","2017","5113",0
+"172","IS","ISL","Iceland","EU","2018","5113",0
+"173","IS","ISL","Iceland","EU","2017","5121",6.9
+"174","IS","ISL","Iceland","EU","2018","5121",6.71
+"175","IL","ISR","Israel","AS","2017","5000",34.64
+"176","IL","ISR","Israel","AS","2018","5000",36.46
+"177","IL","ISR","Israel","AS","2017","5111",22.86
+"178","IL","ISR","Israel","AS","2018","5111",24.34
+"179","IL","ISR","Israel","AS","2017","5112",3.98
+"180","IL","ISR","Israel","AS","2018","5112",4.32
+"181","IL","ISR","Israel","AS","2017","5113",0
+"182","IL","ISR","Israel","AS","2018","5113",0
+"183","IL","ISR","Israel","AS","2017","5121",4.67
+"184","IL","ISR","Israel","AS","2018","5121",4.58
+"185","IT","ITA","Italy","EU","2017","5000",28.43
+"186","IT","ITA","Italy","EU","2018","5000",28.26
+"187","IT","ITA","Italy","EU","2017","5111",14.83
+"188","IT","ITA","Italy","EU","2018","5111",14.78
+"189","IT","ITA","Italy","EU","2017","5112",0
+"190","IT","ITA","Italy","EU","2018","5112",0
+"191","IT","ITA","Italy","EU","2017","5113",0
+"192","IT","ITA","Italy","EU","2018","5113",0
+"193","IT","ITA","Italy","EU","2017","5121",6.43
+"194","IT","ITA","Italy","EU","2018","5121",6.33
+"195","JP","JPN","Japan","AS","2017","5000",20.98
+"196","JP","JPN","Japan","AS","2017","5111",12.95
+"197","JP","JPN","Japan","AS","2017","5121",5.96
+"198","KR","KOR","Republic of Korea","AS","2017","5000",27.73
+"199","KR","KOR","Republic of Korea","AS","2018","5000",26.27
+"200","KR","KOR","Republic of Korea","AS","2017","5111",15.98
+"201","KR","KOR","Republic of Korea","AS","2018","5111",15.29
+"202","KR","KOR","Republic of Korea","AS","2017","5112",0
+"203","KR","KOR","Republic of Korea","AS","2018","5112",0
+"204","KR","KOR","Republic of Korea","AS","2017","5113",0
+"205","KR","KOR","Republic of Korea","AS","2017","5121",7.69
+"206","KR","KOR","Republic of Korea","AS","2018","5121",7.15
+"207","LT","LTU","Lithuania","EU","2017","5121",10.74
+"208","LT","LTU","Lithuania","EU","2018","5121",10.57
+"209","LT","LTU","Lithuania","EU","2017","5112",0
+"210","LT","LTU","Lithuania","EU","2017","5111",26.57
+"211","LT","LTU","Lithuania","EU","2018","5111",25.78
+"212","LT","LTU","Lithuania","EU","2017","5000",38.54
+"213","LT","LTU","Lithuania","EU","2018","5000",37.51
+"214","LT","LTU","Lithuania","EU","2017","5113",0.21
+"215","LT","LTU","Lithuania","EU","2018","5113",0.22
+"216","LU","LUX","Luxembourg","EU","2017","5000",24.31
+"217","LU","LUX","Luxembourg","EU","2018","5000",24.05
+"218","LU","LUX","Luxembourg","EU","2017","5111",15.9
+"219","LU","LUX","Luxembourg","EU","2018","5111",15.81
+"220","LU","LUX","Luxembourg","EU","2017","5112",0
+"221","LU","LUX","Luxembourg","EU","2018","5112",0
+"222","LU","LUX","Luxembourg","EU","2017","5113",0
+"223","LU","LUX","Luxembourg","EU","2018","5113",0
+"224","LU","LUX","Luxembourg","EU","2017","5121",6.77
+"225","LU","LUX","Luxembourg","EU","2018","5121",6.6
+"226","LV","LVA","Latvia","EU","2017","5000",43.04
+"227","LV","LVA","Latvia","EU","2018","5000",44.48
+"228","LV","LVA","Latvia","EU","2017","5111",25.72
+"229","LV","LVA","Latvia","EU","2018","5111",26.98
+"230","LV","LVA","Latvia","EU","2017","5112",0.37
+"231","LV","LVA","Latvia","EU","2018","5112",0
+"232","LV","LVA","Latvia","EU","2017","5113",2.91
+"233","LV","LVA","Latvia","EU","2018","5113",2.75
+"234","LV","LVA","Latvia","EU","2017","5121",10.86
+"235","LV","LVA","Latvia","EU","2018","5121",11.47
+"236","MX","MEX","Mexico","NO","2017","5000",36.38
+"237","MX","MEX","Mexico","NO","2017","5111",23.14
+"238","MX","MEX","Mexico","NO","2017","5112",0
+"239","MX","MEX","Mexico","NO","2017","5113",0
+"240","MX","MEX","Mexico","NO","2017","5121",10.73
+"241","NL","NLD","Netherlands","EU","2017","5000",29.14
+"242","NL","NLD","Netherlands","EU","2018","5000",29.29
+"243","NL","NLD","Netherlands","EU","2017","5111",17.44
+"244","NL","NLD","Netherlands","EU","2018","5111",17.54
+"245","NL","NLD","Netherlands","EU","2017","5112",0
+"246","NL","NLD","Netherlands","EU","2018","5112",0
+"247","NL","NLD","Netherlands","EU","2017","5113",0.02
+"248","NL","NLD","Netherlands","EU","2018","5113",0.03
+"249","NL","NLD","Netherlands","EU","2017","5121",6.89
+"250","NL","NLD","Netherlands","EU","2018","5121",7
+"251","NO","NOR","Norway","EU","2017","5000",30.89
+"252","NO","NOR","Norway","EU","2018","5000",30.07
+"253","NO","NOR","Norway","EU","2017","5111",22.06
+"254","NO","NOR","Norway","EU","2018","5111",21.74
+"255","NO","NOR","Norway","EU","2017","5112",0.08
+"256","NO","NOR","Norway","EU","2018","5112",0.08
+"257","NO","NOR","Norway","EU","2017","5113",0.07
+"258","NO","NOR","Norway","EU","2018","5113",0
+"259","NO","NOR","Norway","EU","2017","5121",6.34
+"260","NO","NOR","Norway","EU","2018","5121",6.08
+"261","NZ","NZL","New Zealand","OC","2017","5000",38.43
+"262","NZ","NZL","New Zealand","OC","2018","5000",38.45
+"263","NZ","NZL","New Zealand","OC","2017","5111",30.16
+"264","NZ","NZL","New Zealand","OC","2018","5111",30.06
+"265","NZ","NZL","New Zealand","OC","2017","5112",0
+"266","NZ","NZL","New Zealand","OC","2018","5112",0
+"267","NZ","NZL","New Zealand","OC","2017","5113",0
+"268","NZ","NZL","New Zealand","OC","2018","5113",0
+"269","NZ","NZL","New Zealand","OC","2017","5121",2.39
+"270","NZ","NZL","New Zealand","OC","2018","5121",2.5
+"271","PL","POL","Poland","EU","2017","5000",36.9
+"272","PL","POL","Poland","EU","2018","5000",35.15
+"273","PL","POL","Poland","EU","2017","5111",22.77
+"274","PL","POL","Poland","EU","2018","5111",23.24
+"275","PL","POL","Poland","EU","2017","5112",0
+"276","PL","POL","Poland","EU","2018","5112",0
+"277","PL","POL","Poland","EU","2017","5113",0
+"278","PL","POL","Poland","EU","2018","5113",0
+"279","PL","POL","Poland","EU","2017","5121",11.63
+"280","PL","POL","Poland","EU","2018","5121",11.04
+"281","PT","PRT","Portugal","EU","2017","5000",39.96
+"282","PT","PRT","Portugal","EU","2018","5000",39.63
+"283","PT","PRT","Portugal","EU","2017","5111",25.08
+"284","PT","PRT","Portugal","EU","2018","5111",25.01
+"285","PT","PRT","Portugal","EU","2017","5112",0
+"286","PT","PRT","Portugal","EU","2018","5112",0
+"287","PT","PRT","Portugal","EU","2017","5113",0
+"288","PT","PRT","Portugal","EU","2018","5113",0
+"289","PT","PRT","Portugal","EU","2017","5121",9.14
+"290","PT","PRT","Portugal","EU","2018","5121",8.73
+"291","SK","SVK","Slovakia","EU","2017","5000",33.14
+"292","SK","SVK","Slovakia","EU","2018","5000",33.08
+"293","SK","SVK","Slovakia","EU","2017","5111",21.06
+"294","SK","SVK","Slovakia","EU","2018","5111",21.22
+"295","SK","SVK","Slovakia","EU","2017","5112",0
+"296","SK","SVK","Slovakia","EU","2017","5113",0
+"297","SK","SVK","Slovakia","EU","2017","5121",8.01
+"298","SK","SVK","Slovakia","EU","2018","5121",7.77
+"299","SI","SVN","Slovenia","EU","2017","5000",38.63
+"300","SI","SVN","Slovenia","EU","2018","5000",37.98
+"301","SI","SVN","Slovenia","EU","2017","5111",22.33
+"302","SI","SVN","Slovenia","EU","2018","5111",22.53
+"303","SI","SVN","Slovenia","EU","2017","5112",0
+"304","SI","SVN","Slovenia","EU","2018","5112",0
+"305","SI","SVN","Slovenia","EU","2017","5113",0
+"306","SI","SVN","Slovenia","EU","2018","5113",0
+"307","SI","SVN","Slovenia","EU","2017","5121",10.95
+"308","SI","SVN","Slovenia","EU","2018","5121",10.05
+"309","SE","SWE","Sweden","EU","2017","5000",27.81
+"310","SE","SWE","Sweden","EU","2018","5000",28.02
+"311","SE","SWE","Sweden","EU","2017","5111",20.91
+"312","SE","SWE","Sweden","EU","2018","5111",21.15
+"313","SE","SWE","Sweden","EU","2017","5112",0
+"314","SE","SWE","Sweden","EU","2018","5112",0
+"315","SE","SWE","Sweden","EU","2017","5113",0.13
+"316","SE","SWE","Sweden","EU","2018","5113",0.01
+"317","SE","SWE","Sweden","EU","2017","5121",4.82
+"318","SE","SWE","Sweden","EU","2018","5121",4.85
+"319","TR","TUR","Turkey","AS","2017","5000",43.48
+"320","TR","TUR","Turkey","AS","2018","5000",40.48
+"321","TR","TUR","Turkey","AS","2017","5111",20.13
+"322","TR","TUR","Turkey","AS","2018","5111",19.8
+"323","TR","TUR","Turkey","AS","2017","5112",0
+"324","TR","TUR","Turkey","AS","2017","5113",0
+"325","TR","TUR","Turkey","AS","2017","5121",17.89
+"326","TR","TUR","Turkey","AS","2018","5121",14.86
+"327","US","USA","United States of America","NO","2017","5000",15.69
+"328","US","USA","United States of America","NO","2018","5000",17.58
+"329","US","USA","United States of America","NO","2017","5111",0
+"330","US","USA","United States of America","NO","2018","5111",0
+"331","US","USA","United States of America","NO","2017","5112",7.57
+"332","US","USA","United States of America","NO","2018","5112",8.27
+"333","US","USA","United States of America","NO","2017","5121",3.08
+"334","US","USA","United States of America","NO","2018","5121",3.25
