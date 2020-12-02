@@ -2,12 +2,16 @@
 
 #VAT Rates####
 
-vat_rates <- read_excel(paste(source_data,"oecd_vat_gst_rates_ctt_trends.xlsx",sep=""), 
+vat_rates <- read_excel(paste(source_data,"vat-gst-rates-ctt-trends.xlsx",sep=""), 
                         range = "A4:T39")
 
-vat_rates<-vat_rates[-c(3:13)]
+vat_rates<-vat_rates[-c(2)]
 
 colnames(vat_rates) <- c("country", "year", "2014", "2015", "2016", "2017", "2018", "2019", "2020")
+
+vat_rates <- melt(vat_rates,id.vars=c("country"))
+
+
 
 #US VAT rate equivalent
 columns <- names(vat_rates)
