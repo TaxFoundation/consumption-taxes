@@ -142,4 +142,4 @@ for(year in years){
 }
 pct_gdp<-magic_result_as_dataframe() 
 
-write.csv(pct_gdp, paste(intermediate_outputs,"consumption_pct_rev.csv",sep=""), row.names = F)
+write.csv(pct_gdp, paste(intermediate_outputs,"consumption_pct_gdp.csv",sep=""), row.names = F)
