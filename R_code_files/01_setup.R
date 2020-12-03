@@ -41,6 +41,7 @@ using(stringr)
 using(readr)
 using(xlsx)
 using(scales)
+using(magicfor)
 
 #Define list of OECD countries####
 oecd_countries<-c("AUS",
