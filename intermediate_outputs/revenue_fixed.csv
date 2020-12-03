@@ -1,0 +1,1185 @@
+"iso_2","iso_3","country","continent","year","tax","variable","value"
+"AU","AUS","Australia","OC","2016","5000 Consumption","% of GDP",7.481
+"AU","AUS","Australia","OC","2016","5000 Consumption","% of Total Revenue",27.086
+"AU","AUS","Australia","OC","2017","5000 Consumption","% of GDP",7.495
+"AU","AUS","Australia","OC","2017","5000 Consumption","% of Total Revenue",26.301
+"AU","AUS","Australia","OC","2018","5000 Consumption","% of GDP",7.3
+"AU","AUS","Australia","OC","2018","5000 Consumption","% of Total Revenue",25.454
+"AU","AUS","Australia","OC","2019","5000 Consumption","% of GDP",7.3
+"AU","AUS","Australia","OC","2019","5000 Consumption","% of Total Revenue",25.454
+"AU","AUS","Australia","OC","2016","5111 VAT","% of Total Revenue",12.878
+"AU","AUS","Australia","OC","2016","5111 VAT","% of GDP",3.557
+"AU","AUS","Australia","OC","2017","5111 VAT","% of GDP",3.463
+"AU","AUS","Australia","OC","2017","5111 VAT","% of Total Revenue",12.152
+"AU","AUS","Australia","OC","2018","5111 VAT","% of Total Revenue",11.666
+"AU","AUS","Australia","OC","2018","5111 VAT","% of GDP",3.346
+"AU","AUS","Australia","OC","2019","5111 VAT","% of Total Revenue",11.666
+"AU","AUS","Australia","OC","2019","5111 VAT","% of GDP",3.346
+"AU","AUS","Australia","OC","2016","5112 Sales","% of Total Revenue",0.313
+"AU","AUS","Australia","OC","2016","5112 Sales","% of GDP",0.086
+"AU","AUS","Australia","OC","2017","5112 Sales","% of Total Revenue",0.311
+"AU","AUS","Australia","OC","2017","5112 Sales","% of GDP",0.089
+"AU","AUS","Australia","OC","2018","5112 Sales","% of Total Revenue",0.301
+"AU","AUS","Australia","OC","2018","5112 Sales","% of GDP",0.086
+"AU","AUS","Australia","OC","2019","5112 Sales","% of Total Revenue",0.301
+"AU","AUS","Australia","OC","2019","5112 Sales","% of GDP",0.086
+"AU","AUS","Australia","OC","2016","5121 Excise","% of GDP",1.291
+"AU","AUS","Australia","OC","2016","5121 Excise","% of Total Revenue",4.675
+"AU","AUS","Australia","OC","2017","5121 Excise","% of Total Revenue",4.49
+"AU","AUS","Australia","OC","2017","5121 Excise","% of GDP",1.28
+"AU","AUS","Australia","OC","2018","5121 Excise","% of GDP",1.258
+"AU","AUS","Australia","OC","2018","5121 Excise","% of Total Revenue",4.387
+"AU","AUS","Australia","OC","2019","5121 Excise","% of GDP",1.258
+"AU","AUS","Australia","OC","2019","5121 Excise","% of Total Revenue",4.387
+"AT","AUT","Austria","EU","2016","5000 Consumption","% of GDP",11.924
+"AT","AUT","Austria","EU","2016","5000 Consumption","% of Total Revenue",28.535
+"AT","AUT","Austria","EU","2017","5000 Consumption","% of GDP",11.879
+"AT","AUT","Austria","EU","2017","5000 Consumption","% of Total Revenue",28.449
+"AT","AUT","Austria","EU","2018","5000 Consumption","% of GDP",11.704
+"AT","AUT","Austria","EU","2018","5000 Consumption","% of Total Revenue",27.726
+"AT","AUT","Austria","EU","2019","5000 Consumption","% of GDP",11.688
+"AT","AUT","Austria","EU","2019","5000 Consumption","% of Total Revenue",27.538
+"AT","AUT","Austria","EU","2016","5111 VAT","% of GDP",7.643
+"AT","AUT","Austria","EU","2016","5111 VAT","% of Total Revenue",18.289
+"AT","AUT","Austria","EU","2017","5111 VAT","% of GDP",7.646
+"AT","AUT","Austria","EU","2017","5111 VAT","% of Total Revenue",18.31
+"AT","AUT","Austria","EU","2018","5111 VAT","% of GDP",7.602
+"AT","AUT","Austria","EU","2018","5111 VAT","% of Total Revenue",18.01
+"AT","AUT","Austria","EU","2019","5111 VAT","% of GDP",7.637
+"AT","AUT","Austria","EU","2019","5111 VAT","% of Total Revenue",17.992
+"AT","AUT","Austria","EU","2016","5112 Sales","% of GDP",0
+"AT","AUT","Austria","EU","2016","5112 Sales","% of Total Revenue",0
+"AT","AUT","Austria","EU","2017","5112 Sales","% of Total Revenue",0
+"AT","AUT","Austria","EU","2017","5112 Sales","% of GDP",0
+"AT","AUT","Austria","EU","2018","5112 Sales","% of Total Revenue",0
+"AT","AUT","Austria","EU","2018","5112 Sales","% of GDP",0
+"AT","AUT","Austria","EU","2019","5112 Sales","% of Total Revenue",0
+"AT","AUT","Austria","EU","2019","5112 Sales","% of GDP",0
+"AT","AUT","Austria","EU","2016","5121 Excise","% of GDP",2.217
+"AT","AUT","Austria","EU","2016","5121 Excise","% of Total Revenue",5.305
+"AT","AUT","Austria","EU","2017","5121 Excise","% of GDP",2.234
+"AT","AUT","Austria","EU","2017","5121 Excise","% of Total Revenue",5.35
+"AT","AUT","Austria","EU","2018","5121 Excise","% of GDP",2.125
+"AT","AUT","Austria","EU","2018","5121 Excise","% of Total Revenue",5.034
+"AT","AUT","Austria","EU","2019","5121 Excise","% of GDP",2.061
+"AT","AUT","Austria","EU","2019","5121 Excise","% of Total Revenue",4.856
+"BE","BEL","Belgium","EU","2016","5000 Consumption","% of GDP",10.974
+"BE","BEL","Belgium","EU","2016","5000 Consumption","% of Total Revenue",25.331
+"BE","BEL","Belgium","EU","2017","5000 Consumption","% of GDP",10.961
+"BE","BEL","Belgium","EU","2017","5000 Consumption","% of Total Revenue",25.027
+"BE","BEL","Belgium","EU","2018","5000 Consumption","% of GDP",11.07
+"BE","BEL","Belgium","EU","2018","5000 Consumption","% of Total Revenue",25.189
+"BE","BEL","Belgium","EU","2019","5000 Consumption","% of Total Revenue",25.681
+"BE","BEL","Belgium","EU","2019","5000 Consumption","% of GDP",11.021
+"BE","BEL","Belgium","EU","2016","5111 VAT","% of GDP",6.682
+"BE","BEL","Belgium","EU","2016","5111 VAT","% of Total Revenue",15.425
+"BE","BEL","Belgium","EU","2017","5111 VAT","% of GDP",6.674
+"BE","BEL","Belgium","EU","2017","5111 VAT","% of Total Revenue",15.239
+"BE","BEL","Belgium","EU","2018","5111 VAT","% of GDP",6.758
+"BE","BEL","Belgium","EU","2018","5111 VAT","% of Total Revenue",15.376
+"BE","BEL","Belgium","EU","2019","5111 VAT","% of GDP",6.701
+"BE","BEL","Belgium","EU","2019","5111 VAT","% of Total Revenue",15.615
+"BE","BEL","Belgium","EU","2016","5112 Sales","% of Total Revenue",0.126
+"BE","BEL","Belgium","EU","2016","5112 Sales","% of GDP",0.055
+"BE","BEL","Belgium","EU","2017","5112 Sales","% of GDP",0.044
+"BE","BEL","Belgium","EU","2017","5112 Sales","% of Total Revenue",0.099
+"BE","BEL","Belgium","EU","2018","5112 Sales","% of Total Revenue",0.114
+"BE","BEL","Belgium","EU","2018","5112 Sales","% of GDP",0.05
+"BE","BEL","Belgium","EU","2019","5112 Sales","% of Total Revenue",0.185
+"BE","BEL","Belgium","EU","2019","5112 Sales","% of GDP",0.079
+"BE","BEL","Belgium","EU","2016","5121 Excise","% of GDP",2.195
+"BE","BEL","Belgium","EU","2016","5121 Excise","% of Total Revenue",5.066
+"BE","BEL","Belgium","EU","2017","5121 Excise","% of GDP",2.221
+"BE","BEL","Belgium","EU","2017","5121 Excise","% of Total Revenue",5.072
+"BE","BEL","Belgium","EU","2018","5121 Excise","% of GDP",2.204
+"BE","BEL","Belgium","EU","2018","5121 Excise","% of Total Revenue",5.015
+"BE","BEL","Belgium","EU","2019","5121 Excise","% of GDP",2.109
+"BE","BEL","Belgium","EU","2019","5121 Excise","% of Total Revenue",4.913
+"CA","CAN","Canada","NO","2016","5000 Consumption","% of GDP",7.642
+"CA","CAN","Canada","NO","2016","5000 Consumption","% of Total Revenue",22.978
+"CA","CAN","Canada","NO","2017","5000 Consumption","% of GDP",7.741
+"CA","CAN","Canada","NO","2017","5000 Consumption","% of Total Revenue",23.376
+"CA","CAN","Canada","NO","2018","5000 Consumption","% of GDP",7.805
+"CA","CAN","Canada","NO","2018","5000 Consumption","% of Total Revenue",23.497
+"CA","CAN","Canada","NO","2019","5000 Consumption","% of GDP",7.677
+"CA","CAN","Canada","NO","2019","5000 Consumption","% of Total Revenue",22.949
+"CA","CAN","Canada","NO","2016","5111 VAT","% of GDP",4.46
+"CA","CAN","Canada","NO","2016","5111 VAT","% of Total Revenue",13.411
+"CA","CAN","Canada","NO","2017","5111 VAT","% of Total Revenue",13.546
+"CA","CAN","Canada","NO","2017","5111 VAT","% of GDP",4.486
+"CA","CAN","Canada","NO","2018","5111 VAT","% of GDP",4.522
+"CA","CAN","Canada","NO","2018","5111 VAT","% of Total Revenue",13.614
+"CA","CAN","Canada","NO","2019","5111 VAT","% of Total Revenue",13.44
+"CA","CAN","Canada","NO","2019","5111 VAT","% of GDP",4.496
+"CA","CAN","Canada","NO","2016","5112 Sales","% of GDP",0.157
+"CA","CAN","Canada","NO","2016","5112 Sales","% of Total Revenue",0.472
+"CA","CAN","Canada","NO","2017","5112 Sales","% of Total Revenue",0.543
+"CA","CAN","Canada","NO","2017","5112 Sales","% of GDP",0.18
+"CA","CAN","Canada","NO","2018","5112 Sales","% of GDP",0.198
+"CA","CAN","Canada","NO","2018","5112 Sales","% of Total Revenue",0.595
+"CA","CAN","Canada","NO","2019","5112 Sales","% of GDP",0.212
+"CA","CAN","Canada","NO","2019","5112 Sales","% of Total Revenue",0.635
+"CA","CAN","Canada","NO","2016","5121 Excise","% of GDP",1.289
+"CA","CAN","Canada","NO","2016","5121 Excise","% of Total Revenue",3.876
+"CA","CAN","Canada","NO","2017","5121 Excise","% of Total Revenue",3.856
+"CA","CAN","Canada","NO","2017","5121 Excise","% of GDP",1.277
+"CA","CAN","Canada","NO","2018","5121 Excise","% of Total Revenue",3.796
+"CA","CAN","Canada","NO","2018","5121 Excise","% of GDP",1.261
+"CA","CAN","Canada","NO","2019","5121 Excise","% of Total Revenue",3.741
+"CA","CAN","Canada","NO","2019","5121 Excise","% of GDP",1.252
+"CL","CHL","Chile","SA","2016","5000 Consumption","% of Total Revenue",54.584
+"CL","CHL","Chile","SA","2016","5000 Consumption","% of GDP",10.989
+"CL","CHL","Chile","SA","2017","5000 Consumption","% of Total Revenue",54.8
+"CL","CHL","Chile","SA","2017","5000 Consumption","% of GDP",11.048
+"CL","CHL","Chile","SA","2018","5000 Consumption","% of Total Revenue",53.257
+"CL","CHL","Chile","SA","2018","5000 Consumption","% of GDP",11.225
+"CL","CHL","Chile","SA","2019","5000 Consumption","% of Total Revenue",53.059
+"CL","CHL","Chile","SA","2019","5000 Consumption","% of GDP",10.96
+"CL","CHL","Chile","SA","2016","5111 VAT","% of GDP",8.301
+"CL","CHL","Chile","SA","2016","5111 VAT","% of Total Revenue",41.234
+"CL","CHL","Chile","SA","2017","5111 VAT","% of GDP",8.383
+"CL","CHL","Chile","SA","2017","5111 VAT","% of Total Revenue",41.584
+"CL","CHL","Chile","SA","2018","5111 VAT","% of GDP",8.476
+"CL","CHL","Chile","SA","2018","5111 VAT","% of Total Revenue",40.213
+"CL","CHL","Chile","SA","2019","5111 VAT","% of Total Revenue",39.883
+"CL","CHL","Chile","SA","2019","5111 VAT","% of GDP",8.239
+"CL","CHL","Chile","SA","2016","5112 Sales","% of Total Revenue",0
+"CL","CHL","Chile","SA","2016","5112 Sales","% of GDP",0
+"CL","CHL","Chile","SA","2017","5112 Sales","% of Total Revenue",0
+"CL","CHL","Chile","SA","2017","5112 Sales","% of GDP",0
+"CL","CHL","Chile","SA","2018","5112 Sales","% of GDP",0
+"CL","CHL","Chile","SA","2018","5112 Sales","% of Total Revenue",0
+"CL","CHL","Chile","SA","2019","5112 Sales","% of Total Revenue",0
+"CL","CHL","Chile","SA","2019","5112 Sales","% of GDP",0
+"CL","CHL","Chile","SA","2016","5121 Excise","% of Total Revenue",7.527
+"CL","CHL","Chile","SA","2016","5121 Excise","% of GDP",1.515
+"CL","CHL","Chile","SA","2017","5121 Excise","% of GDP",1.492
+"CL","CHL","Chile","SA","2017","5121 Excise","% of Total Revenue",7.403
+"CL","CHL","Chile","SA","2018","5121 Excise","% of GDP",1.462
+"CL","CHL","Chile","SA","2018","5121 Excise","% of Total Revenue",6.936
+"CL","CHL","Chile","SA","2019","5121 Excise","% of Total Revenue",6.983
+"CL","CHL","Chile","SA","2019","5121 Excise","% of GDP",1.442
+"CO","COL","Colombia","SA","2016","5000 Consumption","% of GDP",7.752
+"CO","COL","Colombia","SA","2016","5000 Consumption","% of Total Revenue",40.633
+"CO","COL","Colombia","SA","2017","5000 Consumption","% of GDP",8.189
+"CO","COL","Colombia","SA","2017","5000 Consumption","% of Total Revenue",43.14
+"CO","COL","Colombia","SA","2018","5000 Consumption","% of GDP",8.257
+"CO","COL","Colombia","SA","2018","5000 Consumption","% of Total Revenue",42.779
+"CO","COL","Colombia","SA","2019","5000 Consumption","% of GDP",8.45
+"CO","COL","Colombia","SA","2019","5000 Consumption","% of Total Revenue",42.943
+"CO","COL","Colombia","SA","2016","5111 VAT","% of GDP",4.848
+"CO","COL","Colombia","SA","2016","5111 VAT","% of Total Revenue",25.412
+"CO","COL","Colombia","SA","2017","5111 VAT","% of GDP",5.499
+"CO","COL","Colombia","SA","2017","5111 VAT","% of Total Revenue",28.969
+"CO","COL","Colombia","SA","2018","5111 VAT","% of GDP",5.668
+"CO","COL","Colombia","SA","2018","5111 VAT","% of Total Revenue",29.364
+"CO","COL","Colombia","SA","2019","5111 VAT","% of GDP",5.83
+"CO","COL","Colombia","SA","2019","5111 VAT","% of Total Revenue",29.63
+"CO","COL","Colombia","SA","2016","5112 Sales","% of GDP",0.866
+"CO","COL","Colombia","SA","2016","5112 Sales","% of Total Revenue",4.537
+"CO","COL","Colombia","SA","2017","5112 Sales","% of GDP",0.863
+"CO","COL","Colombia","SA","2017","5112 Sales","% of Total Revenue",4.547
+"CO","COL","Colombia","SA","2018","5112 Sales","% of GDP",0.856
+"CO","COL","Colombia","SA","2018","5112 Sales","% of Total Revenue",4.433
+"CO","COL","Colombia","SA","2019","5112 Sales","% of GDP",0.875
+"CO","COL","Colombia","SA","2019","5112 Sales","% of Total Revenue",4.448
+"CO","COL","Colombia","SA","2016","5121 Excise","% of GDP",1.426
+"CO","COL","Colombia","SA","2016","5121 Excise","% of Total Revenue",7.475
+"CO","COL","Colombia","SA","2017","5121 Excise","% of GDP",1.262
+"CO","COL","Colombia","SA","2017","5121 Excise","% of Total Revenue",6.648
+"CO","COL","Colombia","SA","2018","5121 Excise","% of GDP",1.223
+"CO","COL","Colombia","SA","2018","5121 Excise","% of Total Revenue",6.338
+"CO","COL","Colombia","SA","2019","5121 Excise","% of GDP",1.223
+"CO","COL","Colombia","SA","2019","5121 Excise","% of Total Revenue",6.216
+"CZ","CZE","Czechia","EU","2016","5000 Consumption","% of GDP",11.403
+"CZ","CZE","Czechia","EU","2016","5000 Consumption","% of Total Revenue",33.508
+"CZ","CZE","Czechia","EU","2017","5000 Consumption","% of GDP",11.496
+"CZ","CZE","Czechia","EU","2017","5000 Consumption","% of Total Revenue",33.382
+"CZ","CZE","Czechia","EU","2018","5000 Consumption","% of GDP",11.293
+"CZ","CZE","Czechia","EU","2018","5000 Consumption","% of Total Revenue",32.278
+"CZ","CZE","Czechia","EU","2019","5000 Consumption","% of Total Revenue",31.968
+"CZ","CZE","Czechia","EU","2019","5000 Consumption","% of GDP",11.165
+"CZ","CZE","Czechia","EU","2016","5111 VAT","% of Total Revenue",21.68
+"CZ","CZE","Czechia","EU","2016","5111 VAT","% of GDP",7.378
+"CZ","CZE","Czechia","EU","2017","5111 VAT","% of GDP",7.583
+"CZ","CZE","Czechia","EU","2017","5111 VAT","% of Total Revenue",22.019
+"CZ","CZE","Czechia","EU","2018","5111 VAT","% of GDP",7.553
+"CZ","CZE","Czechia","EU","2018","5111 VAT","% of Total Revenue",21.588
+"CZ","CZE","Czechia","EU","2019","5111 VAT","% of GDP",7.575
+"CZ","CZE","Czechia","EU","2019","5111 VAT","% of Total Revenue",21.688
+"CZ","CZE","Czechia","EU","2016","5112 Sales","% of GDP",0
+"CZ","CZE","Czechia","EU","2016","5112 Sales","% of Total Revenue",0
+"CZ","CZE","Czechia","EU","2017","5112 Sales","% of Total Revenue",0
+"CZ","CZE","Czechia","EU","2017","5112 Sales","% of GDP",0
+"CZ","CZE","Czechia","EU","2018","5112 Sales","% of Total Revenue",0
+"CZ","CZE","Czechia","EU","2018","5112 Sales","% of GDP",0
+"CZ","CZE","Czechia","EU","2019","5112 Sales","% of Total Revenue",0
+"CZ","CZE","Czechia","EU","2019","5112 Sales","% of GDP",0
+"CZ","CZE","Czechia","EU","2016","5121 Excise","% of Total Revenue",9.703
+"CZ","CZE","Czechia","EU","2016","5121 Excise","% of GDP",3.302
+"CZ","CZE","Czechia","EU","2017","5121 Excise","% of Total Revenue",9.324
+"CZ","CZE","Czechia","EU","2017","5121 Excise","% of GDP",3.211
+"CZ","CZE","Czechia","EU","2018","5121 Excise","% of Total Revenue",8.739
+"CZ","CZE","Czechia","EU","2018","5121 Excise","% of GDP",3.058
+"CZ","CZE","Czechia","EU","2019","5121 Excise","% of Total Revenue",8.377
+"CZ","CZE","Czechia","EU","2019","5121 Excise","% of GDP",2.926
+"DK","DNK","Denmark","EU","2016","5000 Consumption","% of GDP",14.713
+"DK","DNK","Denmark","EU","2016","5000 Consumption","% of Total Revenue",32.341
+"DK","DNK","Denmark","EU","2017","5000 Consumption","% of GDP",14.665
+"DK","DNK","Denmark","EU","2017","5000 Consumption","% of Total Revenue",31.985
+"DK","DNK","Denmark","EU","2018","5000 Consumption","% of GDP",14.607
+"DK","DNK","Denmark","EU","2018","5000 Consumption","% of Total Revenue",32.933
+"DK","DNK","Denmark","EU","2019","5000 Consumption","% of Total Revenue",30.472
+"DK","DNK","Denmark","EU","2019","5000 Consumption","% of GDP",14.12
+"DK","DNK","Denmark","EU","2016","5111 VAT","% of GDP",9.325
+"DK","DNK","Denmark","EU","2016","5111 VAT","% of Total Revenue",20.497
+"DK","DNK","Denmark","EU","2017","5111 VAT","% of GDP",9.48
+"DK","DNK","Denmark","EU","2017","5111 VAT","% of Total Revenue",20.676
+"DK","DNK","Denmark","EU","2018","5111 VAT","% of GDP",9.535
+"DK","DNK","Denmark","EU","2018","5111 VAT","% of Total Revenue",21.497
+"DK","DNK","Denmark","EU","2019","5111 VAT","% of GDP",9.408
+"DK","DNK","Denmark","EU","2019","5111 VAT","% of Total Revenue",20.303
+"DK","DNK","Denmark","EU","2016","5112 Sales","% of Total Revenue",0
+"DK","DNK","Denmark","EU","2016","5112 Sales","% of GDP",0
+"DK","DNK","Denmark","EU","2017","5112 Sales","% of Total Revenue",0
+"DK","DNK","Denmark","EU","2017","5112 Sales","% of GDP",0
+"DK","DNK","Denmark","EU","2018","5112 Sales","% of Total Revenue",0
+"DK","DNK","Denmark","EU","2018","5112 Sales","% of GDP",0
+"DK","DNK","Denmark","EU","2019","5112 Sales","% of GDP",0
+"DK","DNK","Denmark","EU","2019","5112 Sales","% of Total Revenue",0
+"DK","DNK","Denmark","EU","2016","5121 Excise","% of GDP",3.883
+"DK","DNK","Denmark","EU","2016","5121 Excise","% of Total Revenue",8.534
+"DK","DNK","Denmark","EU","2017","5121 Excise","% of Total Revenue",8.075
+"DK","DNK","Denmark","EU","2017","5121 Excise","% of GDP",3.702
+"DK","DNK","Denmark","EU","2018","5121 Excise","% of GDP",3.559
+"DK","DNK","Denmark","EU","2018","5121 Excise","% of Total Revenue",8.025
+"DK","DNK","Denmark","EU","2019","5121 Excise","% of Total Revenue",7.055
+"DK","DNK","Denmark","EU","2019","5121 Excise","% of GDP",3.269
+"EE","EST","Estonia","EU","2016","5000 Consumption","% of GDP",14.401
+"EE","EST","Estonia","EU","2016","5000 Consumption","% of Total Revenue",43.33
+"EE","EST","Estonia","EU","2017","5000 Consumption","% of GDP",13.985
+"EE","EST","Estonia","EU","2017","5000 Consumption","% of Total Revenue",43.012
+"EE","EST","Estonia","EU","2018","5000 Consumption","% of GDP",13.75
+"EE","EST","Estonia","EU","2018","5000 Consumption","% of Total Revenue",41.802
+"EE","EST","Estonia","EU","2019","5000 Consumption","% of GDP",14.024
+"EE","EST","Estonia","EU","2019","5000 Consumption","% of Total Revenue",42.403
+"EE","EST","Estonia","EU","2016","5111 VAT","% of Total Revenue",27.096
+"EE","EST","Estonia","EU","2016","5111 VAT","% of GDP",9.006
+"EE","EST","Estonia","EU","2017","5111 VAT","% of Total Revenue",27.699
+"EE","EST","Estonia","EU","2017","5111 VAT","% of GDP",9.006
+"EE","EST","Estonia","EU","2018","5111 VAT","% of GDP",8.986
+"EE","EST","Estonia","EU","2018","5111 VAT","% of Total Revenue",27.318
+"EE","EST","Estonia","EU","2019","5111 VAT","% of Total Revenue",26.702
+"EE","EST","Estonia","EU","2019","5111 VAT","% of GDP",8.831
+"EE","EST","Estonia","EU","2016","5112 Sales","% of GDP",0
+"EE","EST","Estonia","EU","2016","5112 Sales","% of Total Revenue",0
+"EE","EST","Estonia","EU","2017","5112 Sales","% of GDP",0
+"EE","EST","Estonia","EU","2017","5112 Sales","% of Total Revenue",0
+"EE","EST","Estonia","EU","2018","5112 Sales","% of GDP",0
+"EE","EST","Estonia","EU","2018","5112 Sales","% of Total Revenue",0
+"EE","EST","Estonia","EU","2019","5112 Sales","% of Total Revenue",0
+"EE","EST","Estonia","EU","2019","5112 Sales","% of GDP",0
+"EE","EST","Estonia","EU","2016","5121 Excise","% of Total Revenue",13.682
+"EE","EST","Estonia","EU","2016","5121 Excise","% of GDP",4.547
+"EE","EST","Estonia","EU","2017","5121 Excise","% of Total Revenue",12.76
+"EE","EST","Estonia","EU","2017","5121 Excise","% of GDP",4.149
+"EE","EST","Estonia","EU","2018","5121 Excise","% of Total Revenue",11.862
+"EE","EST","Estonia","EU","2018","5121 Excise","% of GDP",3.902
+"EE","EST","Estonia","EU","2019","5121 Excise","% of GDP",4.014
+"EE","EST","Estonia","EU","2019","5121 Excise","% of Total Revenue",12.136
+"FI","FIN","Finland","EU","2016","5000 Consumption","% of GDP",14.429
+"FI","FIN","Finland","EU","2016","5000 Consumption","% of Total Revenue",32.998
+"FI","FIN","Finland","EU","2017","5000 Consumption","% of GDP",14.19
+"FI","FIN","Finland","EU","2017","5000 Consumption","% of Total Revenue",33.058
+"FI","FIN","Finland","EU","2018","5000 Consumption","% of GDP",14.328
+"FI","FIN","Finland","EU","2018","5000 Consumption","% of Total Revenue",33.81
+"FI","FIN","Finland","EU","2019","5000 Consumption","% of Total Revenue",33.698
+"FI","FIN","Finland","EU","2019","5000 Consumption","% of GDP",14.217
+"FI","FIN","Finland","EU","2016","5111 VAT","% of GDP",9.054
+"FI","FIN","Finland","EU","2016","5111 VAT","% of Total Revenue",20.705
+"FI","FIN","Finland","EU","2017","5111 VAT","% of GDP",9.031
+"FI","FIN","Finland","EU","2017","5111 VAT","% of Total Revenue",21.038
+"FI","FIN","Finland","EU","2018","5111 VAT","% of GDP",9.143
+"FI","FIN","Finland","EU","2018","5111 VAT","% of Total Revenue",21.574
+"FI","FIN","Finland","EU","2019","5111 VAT","% of Total Revenue",21.652
+"FI","FIN","Finland","EU","2019","5111 VAT","% of GDP",9.135
+"FI","FIN","Finland","EU","2016","5112 Sales","% of GDP",0
+"FI","FIN","Finland","EU","2016","5112 Sales","% of Total Revenue",0
+"FI","FIN","Finland","EU","2017","5112 Sales","% of GDP",0
+"FI","FIN","Finland","EU","2017","5112 Sales","% of Total Revenue",0
+"FI","FIN","Finland","EU","2018","5112 Sales","% of GDP",0
+"FI","FIN","Finland","EU","2018","5112 Sales","% of Total Revenue",0
+"FI","FIN","Finland","EU","2019","5112 Sales","% of GDP",0
+"FI","FIN","Finland","EU","2019","5112 Sales","% of Total Revenue",0
+"FI","FIN","Finland","EU","2016","5121 Excise","% of GDP",3.768
+"FI","FIN","Finland","EU","2016","5121 Excise","% of Total Revenue",8.616
+"FI","FIN","Finland","EU","2017","5121 Excise","% of GDP",3.542
+"FI","FIN","Finland","EU","2017","5121 Excise","% of Total Revenue",8.251
+"FI","FIN","Finland","EU","2018","5121 Excise","% of Total Revenue",8.473
+"FI","FIN","Finland","EU","2018","5121 Excise","% of GDP",3.591
+"FI","FIN","Finland","EU","2019","5121 Excise","% of GDP",3.419
+"FI","FIN","Finland","EU","2019","5121 Excise","% of Total Revenue",8.104
+"FR","FRA","France","EU","2016","5000 Consumption","% of GDP",11.825
+"FR","FRA","France","EU","2016","5000 Consumption","% of Total Revenue",26.061
+"FR","FRA","France","EU","2017","5000 Consumption","% of GDP",12.029
+"FR","FRA","France","EU","2017","5000 Consumption","% of Total Revenue",26.112
+"FR","FRA","France","EU","2018","5000 Consumption","% of GDP",12.211
+"FR","FRA","France","EU","2018","5000 Consumption","% of Total Revenue",26.588
+"FR","FRA","France","EU","2019","5000 Consumption","% of Total Revenue",27.061
+"FR","FRA","France","EU","2019","5000 Consumption","% of GDP",12.286
+"FR","FRA","France","EU","2016","5111 VAT","% of Total Revenue",15.216
+"FR","FRA","France","EU","2016","5111 VAT","% of GDP",6.904
+"FR","FRA","France","EU","2017","5111 VAT","% of GDP",7.034
+"FR","FRA","France","EU","2017","5111 VAT","% of Total Revenue",15.269
+"FR","FRA","France","EU","2018","5111 VAT","% of GDP",7.09
+"FR","FRA","France","EU","2018","5111 VAT","% of Total Revenue",15.438
+"FR","FRA","France","EU","2019","5111 VAT","% of GDP",7.209
+"FR","FRA","France","EU","2019","5111 VAT","% of Total Revenue",15.879
+"FR","FRA","France","EU","2016","5112 Sales","% of GDP",0
+"FR","FRA","France","EU","2016","5112 Sales","% of Total Revenue",0
+"FR","FRA","France","EU","2017","5112 Sales","% of GDP",0
+"FR","FRA","France","EU","2017","5112 Sales","% of Total Revenue",0
+"FR","FRA","France","EU","2018","5112 Sales","% of Total Revenue",0
+"FR","FRA","France","EU","2018","5112 Sales","% of GDP",0
+"FR","FRA","France","EU","2019","5112 Sales","% of Total Revenue",0
+"FR","FRA","France","EU","2019","5112 Sales","% of GDP",0
+"FR","FRA","France","EU","2016","5121 Excise","% of GDP",2.624
+"FR","FRA","France","EU","2016","5121 Excise","% of Total Revenue",5.782
+"FR","FRA","France","EU","2017","5121 Excise","% of GDP",2.679
+"FR","FRA","France","EU","2017","5121 Excise","% of Total Revenue",5.814
+"FR","FRA","France","EU","2018","5121 Excise","% of Total Revenue",5.957
+"FR","FRA","France","EU","2018","5121 Excise","% of GDP",2.736
+"FR","FRA","France","EU","2019","5121 Excise","% of GDP",2.666
+"FR","FRA","France","EU","2019","5121 Excise","% of Total Revenue",5.872
+"DE","DEU","Germany","EU","2016","5000 Consumption","% of GDP",10.436
+"DE","DEU","Germany","EU","2016","5000 Consumption","% of Total Revenue",27.667
+"DE","DEU","Germany","EU","2017","5000 Consumption","% of GDP",10.132
+"DE","DEU","Germany","EU","2017","5000 Consumption","% of Total Revenue",26.809
+"DE","DEU","Germany","EU","2018","5000 Consumption","% of GDP",10.317
+"DE","DEU","Germany","EU","2018","5000 Consumption","% of Total Revenue",26.768
+"DE","DEU","Germany","EU","2019","5000 Consumption","% of GDP",10.365
+"DE","DEU","Germany","EU","2019","5000 Consumption","% of Total Revenue",26.706
+"DE","DEU","Germany","EU","2016","5111 VAT","% of GDP",6.989
+"DE","DEU","Germany","EU","2016","5111 VAT","% of Total Revenue",18.529
+"DE","DEU","Germany","EU","2017","5111 VAT","% of GDP",6.96
+"DE","DEU","Germany","EU","2017","5111 VAT","% of Total Revenue",18.417
+"DE","DEU","Germany","EU","2018","5111 VAT","% of GDP",7.015
+"DE","DEU","Germany","EU","2018","5111 VAT","% of Total Revenue",18.2
+"DE","DEU","Germany","EU","2019","5111 VAT","% of GDP",7.087
+"DE","DEU","Germany","EU","2019","5111 VAT","% of Total Revenue",18.26
+"DE","DEU","Germany","EU","2016","5112 Sales","% of Total Revenue",0
+"DE","DEU","Germany","EU","2016","5112 Sales","% of GDP",0
+"DE","DEU","Germany","EU","2017","5112 Sales","% of Total Revenue",0
+"DE","DEU","Germany","EU","2017","5112 Sales","% of GDP",0
+"DE","DEU","Germany","EU","2018","5112 Sales","% of Total Revenue",0
+"DE","DEU","Germany","EU","2018","5112 Sales","% of GDP",0
+"DE","DEU","Germany","EU","2019","5112 Sales","% of Total Revenue",0
+"DE","DEU","Germany","EU","2019","5112 Sales","% of GDP",0
+"DE","DEU","Germany","EU","2016","5121 Excise","% of GDP",2.071
+"DE","DEU","Germany","EU","2016","5121 Excise","% of Total Revenue",5.49
+"DE","DEU","Germany","EU","2017","5121 Excise","% of GDP",2.04
+"DE","DEU","Germany","EU","2017","5121 Excise","% of Total Revenue",5.398
+"DE","DEU","Germany","EU","2018","5121 Excise","% of GDP",1.97
+"DE","DEU","Germany","EU","2018","5121 Excise","% of Total Revenue",5.112
+"DE","DEU","Germany","EU","2019","5121 Excise","% of GDP",1.919
+"DE","DEU","Germany","EU","2019","5121 Excise","% of Total Revenue",4.943
+"GR","GRC","Greece","EU","2016","5000 Consumption","% of GDP",15.501
+"GR","GRC","Greece","EU","2016","5000 Consumption","% of Total Revenue",40.409
+"GR","GRC","Greece","EU","2017","5000 Consumption","% of Total Revenue",39.792
+"GR","GRC","Greece","EU","2017","5000 Consumption","% of GDP",15.369
+"GR","GRC","Greece","EU","2018","5000 Consumption","% of Total Revenue",39.497
+"GR","GRC","Greece","EU","2018","5000 Consumption","% of GDP",15.372
+"GR","GRC","Greece","EU","2019","5000 Consumption","% of GDP",15.328
+"GR","GRC","Greece","EU","2019","5000 Consumption","% of Total Revenue",39.6
+"GR","GRC","Greece","EU","2016","5111 VAT","% of Total Revenue",21.17
+"GR","GRC","Greece","EU","2016","5111 VAT","% of GDP",8.121
+"GR","GRC","Greece","EU","2017","5111 VAT","% of GDP",8.125
+"GR","GRC","Greece","EU","2017","5111 VAT","% of Total Revenue",21.036
+"GR","GRC","Greece","EU","2018","5111 VAT","% of GDP",8.277
+"GR","GRC","Greece","EU","2018","5111 VAT","% of Total Revenue",21.266
+"GR","GRC","Greece","EU","2019","5111 VAT","% of GDP",8.277
+"GR","GRC","Greece","EU","2019","5111 VAT","% of Total Revenue",21.266
+"GR","GRC","Greece","EU","2016","5112 Sales","% of Total Revenue",0
+"GR","GRC","Greece","EU","2016","5112 Sales","% of GDP",0
+"GR","GRC","Greece","EU","2017","5112 Sales","% of Total Revenue",0
+"GR","GRC","Greece","EU","2017","5112 Sales","% of GDP",0
+"GR","GRC","Greece","EU","2018","5112 Sales","% of GDP",0
+"GR","GRC","Greece","EU","2018","5112 Sales","% of Total Revenue",0
+"GR","GRC","Greece","EU","2019","5112 Sales","% of GDP",0
+"GR","GRC","Greece","EU","2019","5112 Sales","% of Total Revenue",0
+"GR","GRC","Greece","EU","2016","5121 Excise","% of Total Revenue",10.533
+"GR","GRC","Greece","EU","2016","5121 Excise","% of GDP",4.041
+"GR","GRC","Greece","EU","2017","5121 Excise","% of Total Revenue",9.882
+"GR","GRC","Greece","EU","2017","5121 Excise","% of GDP",3.816
+"GR","GRC","Greece","EU","2018","5121 Excise","% of GDP",3.862
+"GR","GRC","Greece","EU","2018","5121 Excise","% of Total Revenue",9.924
+"GR","GRC","Greece","EU","2019","5121 Excise","% of GDP",3.862
+"GR","GRC","Greece","EU","2019","5121 Excise","% of Total Revenue",9.924
+"HU","HUN","Hungary","EU","2016","5000 Consumption","% of GDP",16.663
+"HU","HUN","Hungary","EU","2016","5000 Consumption","% of Total Revenue",42.277
+"HU","HUN","Hungary","EU","2017","5000 Consumption","% of GDP",16.444
+"HU","HUN","Hungary","EU","2017","5000 Consumption","% of Total Revenue",42.953
+"HU","HUN","Hungary","EU","2018","5000 Consumption","% of GDP",16.757
+"HU","HUN","Hungary","EU","2018","5000 Consumption","% of Total Revenue",44.745
+"HU","HUN","Hungary","EU","2019","5000 Consumption","% of GDP",16.22
+"HU","HUN","Hungary","EU","2019","5000 Consumption","% of Total Revenue",45.344
+"HU","HUN","Hungary","EU","2016","5111 VAT","% of Total Revenue",23.323
+"HU","HUN","Hungary","EU","2016","5111 VAT","% of GDP",9.193
+"HU","HUN","Hungary","EU","2017","5111 VAT","% of Total Revenue",24.393
+"HU","HUN","Hungary","EU","2017","5111 VAT","% of GDP",9.338
+"HU","HUN","Hungary","EU","2018","5111 VAT","% of Total Revenue",25.847
+"HU","HUN","Hungary","EU","2018","5111 VAT","% of GDP",9.68
+"HU","HUN","Hungary","EU","2019","5111 VAT","% of GDP",9.687
+"HU","HUN","Hungary","EU","2019","5111 VAT","% of Total Revenue",27.081
+"HU","HUN","Hungary","EU","2016","5112 Sales","% of GDP",0.144
+"HU","HUN","Hungary","EU","2016","5112 Sales","% of Total Revenue",0.366
+"HU","HUN","Hungary","EU","2017","5112 Sales","% of Total Revenue",0.438
+"HU","HUN","Hungary","EU","2017","5112 Sales","% of GDP",0.168
+"HU","HUN","Hungary","EU","2018","5112 Sales","% of Total Revenue",0.46
+"HU","HUN","Hungary","EU","2018","5112 Sales","% of GDP",0.172
+"HU","HUN","Hungary","EU","2019","5112 Sales","% of GDP",0.113
+"HU","HUN","Hungary","EU","2019","5112 Sales","% of Total Revenue",0.315
+"HU","HUN","Hungary","EU","2016","5121 Excise","% of GDP",3.205
+"HU","HUN","Hungary","EU","2016","5121 Excise","% of Total Revenue",8.132
+"HU","HUN","Hungary","EU","2017","5121 Excise","% of GDP",2.981
+"HU","HUN","Hungary","EU","2017","5121 Excise","% of Total Revenue",7.787
+"HU","HUN","Hungary","EU","2018","5121 Excise","% of Total Revenue",7.95
+"HU","HUN","Hungary","EU","2018","5121 Excise","% of GDP",2.977
+"HU","HUN","Hungary","EU","2019","5121 Excise","% of GDP",2.788
+"HU","HUN","Hungary","EU","2019","5121 Excise","% of Total Revenue",7.794
+"IS","ISL","Iceland","EU","2016","5000 Consumption","% of GDP",11.877
+"IS","ISL","Iceland","EU","2016","5000 Consumption","% of Total Revenue",23.376
+"IS","ISL","Iceland","EU","2017","5000 Consumption","% of GDP",12.644
+"IS","ISL","Iceland","EU","2017","5000 Consumption","% of Total Revenue",33.659
+"IS","ISL","Iceland","EU","2018","5000 Consumption","% of GDP",12.388
+"IS","ISL","Iceland","EU","2018","5000 Consumption","% of Total Revenue",33.278
+"IS","ISL","Iceland","EU","2019","5000 Consumption","% of GDP",11.81
+"IS","ISL","Iceland","EU","2019","5000 Consumption","% of Total Revenue",32.738
+"IS","ISL","Iceland","EU","2016","5111 VAT","% of GDP",8.247
+"IS","ISL","Iceland","EU","2016","5111 VAT","% of Total Revenue",16.232
+"IS","ISL","Iceland","EU","2017","5111 VAT","% of GDP",8.942
+"IS","ISL","Iceland","EU","2017","5111 VAT","% of Total Revenue",23.805
+"IS","ISL","Iceland","EU","2018","5111 VAT","% of GDP",8.776
+"IS","ISL","Iceland","EU","2018","5111 VAT","% of Total Revenue",23.576
+"IS","ISL","Iceland","EU","2019","5111 VAT","% of GDP",8.509
+"IS","ISL","Iceland","EU","2019","5111 VAT","% of Total Revenue",23.587
+"IS","ISL","Iceland","EU","2016","5112 Sales","% of Total Revenue",0
+"IS","ISL","Iceland","EU","2016","5112 Sales","% of GDP",0
+"IS","ISL","Iceland","EU","2017","5112 Sales","% of Total Revenue",0
+"IS","ISL","Iceland","EU","2017","5112 Sales","% of GDP",0
+"IS","ISL","Iceland","EU","2018","5112 Sales","% of Total Revenue",0
+"IS","ISL","Iceland","EU","2018","5112 Sales","% of GDP",0
+"IS","ISL","Iceland","EU","2019","5112 Sales","% of Total Revenue",0
+"IS","ISL","Iceland","EU","2019","5112 Sales","% of GDP",0
+"IS","ISL","Iceland","EU","2016","5121 Excise","% of Total Revenue",4.876
+"IS","ISL","Iceland","EU","2016","5121 Excise","% of GDP",2.477
+"IS","ISL","Iceland","EU","2017","5121 Excise","% of Total Revenue",6.89
+"IS","ISL","Iceland","EU","2017","5121 Excise","% of GDP",2.588
+"IS","ISL","Iceland","EU","2018","5121 Excise","% of Total Revenue",6.7
+"IS","ISL","Iceland","EU","2018","5121 Excise","% of GDP",2.494
+"IS","ISL","Iceland","EU","2019","5121 Excise","% of GDP",2.29
+"IS","ISL","Iceland","EU","2019","5121 Excise","% of Total Revenue",6.347
+"IE","IRL","Ireland","EU","2016","5000 Consumption","% of GDP",7.724
+"IE","IRL","Ireland","EU","2016","5000 Consumption","% of Total Revenue",32.716
+"IE","IRL","Ireland","EU","2017","5000 Consumption","% of GDP",7.43
+"IE","IRL","Ireland","EU","2017","5000 Consumption","% of Total Revenue",32.643
+"IE","IRL","Ireland","EU","2018","5000 Consumption","% of GDP",6.98
+"IE","IRL","Ireland","EU","2018","5000 Consumption","% of Total Revenue",30.785
+"IE","IRL","Ireland","EU","2019","5000 Consumption","% of Total Revenue",30.601
+"IE","IRL","Ireland","EU","2019","5000 Consumption","% of GDP",6.933
+"IE","IRL","Ireland","EU","2016","5111 VAT","% of Total Revenue",19.647
+"IE","IRL","Ireland","EU","2016","5111 VAT","% of GDP",4.639
+"IE","IRL","Ireland","EU","2017","5111 VAT","% of GDP",4.395
+"IE","IRL","Ireland","EU","2017","5111 VAT","% of Total Revenue",19.311
+"IE","IRL","Ireland","EU","2018","5111 VAT","% of GDP",4.375
+"IE","IRL","Ireland","EU","2018","5111 VAT","% of Total Revenue",19.294
+"IE","IRL","Ireland","EU","2019","5111 VAT","% of GDP",4.4
+"IE","IRL","Ireland","EU","2019","5111 VAT","% of Total Revenue",19.423
+"IE","IRL","Ireland","EU","2016","5112 Sales","% of Total Revenue",0
+"IE","IRL","Ireland","EU","2016","5112 Sales","% of GDP",0
+"IE","IRL","Ireland","EU","2017","5112 Sales","% of Total Revenue",0
+"IE","IRL","Ireland","EU","2017","5112 Sales","% of GDP",0
+"IE","IRL","Ireland","EU","2018","5112 Sales","% of GDP",0
+"IE","IRL","Ireland","EU","2018","5112 Sales","% of Total Revenue",0
+"IE","IRL","Ireland","EU","2019","5112 Sales","% of GDP",0
+"IE","IRL","Ireland","EU","2019","5112 Sales","% of Total Revenue",0
+"IE","IRL","Ireland","EU","2016","5121 Excise","% of GDP",2.122
+"IE","IRL","Ireland","EU","2016","5121 Excise","% of Total Revenue",8.989
+"IE","IRL","Ireland","EU","2017","5121 Excise","% of GDP",2.074
+"IE","IRL","Ireland","EU","2017","5121 Excise","% of Total Revenue",9.114
+"IE","IRL","Ireland","EU","2018","5121 Excise","% of Total Revenue",7.469
+"IE","IRL","Ireland","EU","2018","5121 Excise","% of GDP",1.693
+"IE","IRL","Ireland","EU","2019","5121 Excise","% of GDP",1.721
+"IE","IRL","Ireland","EU","2019","5121 Excise","% of Total Revenue",7.596
+"IL","ISR","Israel","AS","2016","5000 Consumption","% of GDP",11.796
+"IL","ISR","Israel","AS","2016","5000 Consumption","% of Total Revenue",37.83
+"IL","ISR","Israel","AS","2017","5000 Consumption","% of GDP",11.284
+"IL","ISR","Israel","AS","2017","5000 Consumption","% of Total Revenue",34.674
+"IL","ISR","Israel","AS","2018","5000 Consumption","% of Total Revenue",36.319
+"IL","ISR","Israel","AS","2018","5000 Consumption","% of GDP",11.24
+"IL","ISR","Israel","AS","2019","5000 Consumption","% of GDP",10.931
+"IL","ISR","Israel","AS","2019","5000 Consumption","% of Total Revenue",35.87
+"IL","ISR","Israel","AS","2016","5111 VAT","% of GDP",7.518
+"IL","ISR","Israel","AS","2016","5111 VAT","% of Total Revenue",24.11
+"IL","ISR","Israel","AS","2017","5111 VAT","% of GDP",7.447
+"IL","ISR","Israel","AS","2017","5111 VAT","% of Total Revenue",22.882
+"IL","ISR","Israel","AS","2018","5111 VAT","% of GDP",7.476
+"IL","ISR","Israel","AS","2018","5111 VAT","% of Total Revenue",24.158
+"IL","ISR","Israel","AS","2019","5111 VAT","% of GDP",7.284
+"IL","ISR","Israel","AS","2019","5111 VAT","% of Total Revenue",23.901
+"IL","ISR","Israel","AS","2016","5112 Sales","% of GDP",1.705
+"IL","ISR","Israel","AS","2016","5112 Sales","% of Total Revenue",5.469
+"IL","ISR","Israel","AS","2017","5112 Sales","% of GDP",1.295
+"IL","ISR","Israel","AS","2017","5112 Sales","% of Total Revenue",3.979
+"IL","ISR","Israel","AS","2018","5112 Sales","% of GDP",1.339
+"IL","ISR","Israel","AS","2018","5112 Sales","% of Total Revenue",4.326
+"IL","ISR","Israel","AS","2019","5112 Sales","% of Total Revenue",4.217
+"IL","ISR","Israel","AS","2019","5112 Sales","% of GDP",1.285
+"IL","ISR","Israel","AS","2016","5121 Excise","% of GDP",1.493
+"IL","ISR","Israel","AS","2016","5121 Excise","% of Total Revenue",4.787
+"IL","ISR","Israel","AS","2017","5121 Excise","% of Total Revenue",4.675
+"IL","ISR","Israel","AS","2017","5121 Excise","% of GDP",1.521
+"IL","ISR","Israel","AS","2018","5121 Excise","% of Total Revenue",4.59
+"IL","ISR","Israel","AS","2018","5121 Excise","% of GDP",1.421
+"IL","ISR","Israel","AS","2019","5121 Excise","% of GDP",1.387
+"IL","ISR","Israel","AS","2019","5121 Excise","% of Total Revenue",4.551
+"IT","ITA","Italy","EU","2016","5000 Consumption","% of GDP",12.094
+"IT","ITA","Italy","EU","2016","5000 Consumption","% of Total Revenue",28.631
+"IT","ITA","Italy","EU","2017","5000 Consumption","% of GDP",12.088
+"IT","ITA","Italy","EU","2017","5000 Consumption","% of Total Revenue",28.84
+"IT","ITA","Italy","EU","2018","5000 Consumption","% of GDP",12.011
+"IT","ITA","Italy","EU","2018","5000 Consumption","% of Total Revenue",28.685
+"IT","ITA","Italy","EU","2019","5000 Consumption","% of GDP",12.058
+"IT","ITA","Italy","EU","2019","5000 Consumption","% of Total Revenue",28.408
+"IT","ITA","Italy","EU","2016","5111 VAT","% of Total Revenue",14.251
+"IT","ITA","Italy","EU","2016","5111 VAT","% of GDP",6.02
+"IT","ITA","Italy","EU","2017","5111 VAT","% of Total Revenue",14.78
+"IT","ITA","Italy","EU","2017","5111 VAT","% of GDP",6.195
+"IT","ITA","Italy","EU","2018","5111 VAT","% of Total Revenue",14.784
+"IT","ITA","Italy","EU","2018","5111 VAT","% of GDP",6.19
+"IT","ITA","Italy","EU","2019","5111 VAT","% of GDP",6.254
+"IT","ITA","Italy","EU","2019","5111 VAT","% of Total Revenue",14.733
+"IT","ITA","Italy","EU","2016","5112 Sales","% of GDP",0
+"IT","ITA","Italy","EU","2016","5112 Sales","% of Total Revenue",0
+"IT","ITA","Italy","EU","2017","5112 Sales","% of GDP",0
+"IT","ITA","Italy","EU","2017","5112 Sales","% of Total Revenue",0
+"IT","ITA","Italy","EU","2018","5112 Sales","% of GDP",0
+"IT","ITA","Italy","EU","2018","5112 Sales","% of Total Revenue",0
+"IT","ITA","Italy","EU","2019","5112 Sales","% of GDP",0
+"IT","ITA","Italy","EU","2019","5112 Sales","% of Total Revenue",0
+"IT","ITA","Italy","EU","2016","5121 Excise","% of Total Revenue",6.873
+"IT","ITA","Italy","EU","2016","5121 Excise","% of GDP",2.903
+"IT","ITA","Italy","EU","2017","5121 Excise","% of GDP",2.742
+"IT","ITA","Italy","EU","2017","5121 Excise","% of Total Revenue",6.541
+"IT","ITA","Italy","EU","2018","5121 Excise","% of GDP",2.666
+"IT","ITA","Italy","EU","2018","5121 Excise","% of Total Revenue",6.367
+"IT","ITA","Italy","EU","2019","5121 Excise","% of GDP",2.644
+"IT","ITA","Italy","EU","2019","5121 Excise","% of Total Revenue",6.229
+"JP","JPN","Japan","AS","2016","5000 Consumption","% of Total Revenue",20.435
+"JP","JPN","Japan","AS","2016","5000 Consumption","% of GDP",6.279
+"JP","JPN","Japan","AS","2017","5000 Consumption","% of Total Revenue",20.972
+"JP","JPN","Japan","AS","2017","5000 Consumption","% of GDP",6.58
+"JP","JPN","Japan","AS","2018","5000 Consumption","% of Total Revenue",19.51
+"JP","JPN","Japan","AS","2018","5000 Consumption","% of GDP",6.249
+"JP","JPN","Japan","AS","2019","5000 Consumption","% of GDP",6.505
+"JP","JPN","Japan","AS","2019","5000 Consumption","% of Total Revenue",19.51
+"JP","JPN","Japan","AS","2016","5111 VAT","% of Total Revenue",13.294
+"JP","JPN","Japan","AS","2016","5111 VAT","% of GDP",4.085
+"JP","JPN","Japan","AS","2017","5111 VAT","% of Total Revenue",12.95
+"JP","JPN","Japan","AS","2017","5111 VAT","% of GDP",4.063
+"JP","JPN","Japan","AS","2018","5111 VAT","% of GDP",4.104
+"JP","JPN","Japan","AS","2018","5111 VAT","% of Total Revenue",12.814
+"JP","JPN","Japan","AS","2019","5111 VAT","% of GDP",4.386
+"JP","JPN","Japan","AS","2019","5111 VAT","% of Total Revenue",12.814
+"JP","JPN","Japan","AS","2016","5112 Sales","% of GDP",0
+"JP","JPN","Japan","AS","2016","5112 Sales","% of Total Revenue",0
+"JP","JPN","Japan","AS","2017","5112 Sales","% of GDP",0
+"JP","JPN","Japan","AS","2017","5112 Sales","% of Total Revenue",0
+"JP","JPN","Japan","AS","2018","5112 Sales","% of GDP",0
+"JP","JPN","Japan","AS","2018","5112 Sales","% of Total Revenue",0
+"JP","JPN","Japan","AS","2019","5112 Sales","% of GDP",0
+"JP","JPN","Japan","AS","2019","5112 Sales","% of Total Revenue",0
+"JP","JPN","Japan","AS","2016","5121 Excise","% of Total Revenue",5.041
+"JP","JPN","Japan","AS","2016","5121 Excise","% of GDP",1.549
+"JP","JPN","Japan","AS","2017","5121 Excise","% of Total Revenue",5.961
+"JP","JPN","Japan","AS","2017","5121 Excise","% of GDP",1.87
+"JP","JPN","Japan","AS","2018","5121 Excise","% of Total Revenue",4.626
+"JP","JPN","Japan","AS","2018","5121 Excise","% of GDP",1.482
+"JP","JPN","Japan","AS","2019","5121 Excise","% of GDP",1.461
+"JP","JPN","Japan","AS","2019","5121 Excise","% of Total Revenue",4.626
+"LV","LVA","Latvia","EU","2016","5000 Consumption","% of GDP",13.81
+"LV","LVA","Latvia","EU","2016","5000 Consumption","% of Total Revenue",44.321
+"LV","LVA","Latvia","EU","2017","5000 Consumption","% of GDP",13.685
+"LV","LVA","Latvia","EU","2017","5000 Consumption","% of Total Revenue",43.592
+"LV","LVA","Latvia","EU","2018","5000 Consumption","% of GDP",14.077
+"LV","LVA","Latvia","EU","2018","5000 Consumption","% of Total Revenue",45.065
+"LV","LVA","Latvia","EU","2019","5000 Consumption","% of GDP",14.064
+"LV","LVA","Latvia","EU","2019","5000 Consumption","% of Total Revenue",45.075
+"LV","LVA","Latvia","EU","2016","5111 VAT","% of GDP",8.104
+"LV","LVA","Latvia","EU","2016","5111 VAT","% of Total Revenue",26.01
+"LV","LVA","Latvia","EU","2017","5111 VAT","% of GDP",8.074
+"LV","LVA","Latvia","EU","2017","5111 VAT","% of Total Revenue",25.721
+"LV","LVA","Latvia","EU","2018","5111 VAT","% of GDP",8.429
+"LV","LVA","Latvia","EU","2018","5111 VAT","% of Total Revenue",26.984
+"LV","LVA","Latvia","EU","2019","5111 VAT","% of GDP",8.641
+"LV","LVA","Latvia","EU","2019","5111 VAT","% of Total Revenue",27.696
+"LV","LVA","Latvia","EU","2016","5112 Sales","% of GDP",0.117
+"LV","LVA","Latvia","EU","2016","5112 Sales","% of Total Revenue",0.375
+"LV","LVA","Latvia","EU","2017","5112 Sales","% of GDP",0.116
+"LV","LVA","Latvia","EU","2017","5112 Sales","% of Total Revenue",0.369
+"LV","LVA","Latvia","EU","2018","5112 Sales","% of GDP",0
+"LV","LVA","Latvia","EU","2018","5112 Sales","% of Total Revenue",0
+"LV","LVA","Latvia","EU","2019","5112 Sales","% of GDP",0
+"LV","LVA","Latvia","EU","2019","5112 Sales","% of Total Revenue",0
+"LV","LVA","Latvia","EU","2016","5121 Excise","% of GDP",3.484
+"LV","LVA","Latvia","EU","2016","5121 Excise","% of Total Revenue",11.183
+"LV","LVA","Latvia","EU","2017","5121 Excise","% of GDP",3.408
+"LV","LVA","Latvia","EU","2017","5121 Excise","% of Total Revenue",10.857
+"LV","LVA","Latvia","EU","2018","5121 Excise","% of GDP",3.582
+"LV","LVA","Latvia","EU","2018","5121 Excise","% of Total Revenue",11.468
+"LV","LVA","Latvia","EU","2019","5121 Excise","% of GDP",3.504
+"LV","LVA","Latvia","EU","2019","5121 Excise","% of Total Revenue",11.23
+"LT","LTU","Lithuania","EU","2016","5000 Consumption","% of GDP",11.65
+"LT","LTU","Lithuania","EU","2016","5000 Consumption","% of Total Revenue",39.289
+"LT","LTU","Lithuania","EU","2017","5000 Consumption","% of GDP",11.601
+"LT","LTU","Lithuania","EU","2017","5000 Consumption","% of Total Revenue",39.369
+"LT","LTU","Lithuania","EU","2018","5000 Consumption","% of GDP",11.589
+"LT","LTU","Lithuania","EU","2018","5000 Consumption","% of Total Revenue",38.417
+"LT","LTU","Lithuania","EU","2019","5000 Consumption","% of GDP",11.646
+"LT","LTU","Lithuania","EU","2019","5000 Consumption","% of Total Revenue",38.389
+"LT","LTU","Lithuania","EU","2016","5111 VAT","% of GDP",7.784
+"LT","LTU","Lithuania","EU","2016","5111 VAT","% of Total Revenue",26.251
+"LT","LTU","Lithuania","EU","2017","5111 VAT","% of GDP",7.832
+"LT","LTU","Lithuania","EU","2017","5111 VAT","% of Total Revenue",26.577
+"LT","LTU","Lithuania","EU","2018","5111 VAT","% of GDP",7.781
+"LT","LTU","Lithuania","EU","2018","5111 VAT","% of Total Revenue",25.795
+"LT","LTU","Lithuania","EU","2019","5111 VAT","% of GDP",7.95
+"LT","LTU","Lithuania","EU","2019","5111 VAT","% of Total Revenue",26.204
+"LT","LTU","Lithuania","EU","2016","5112 Sales","% of GDP",0
+"LT","LTU","Lithuania","EU","2016","5112 Sales","% of Total Revenue",0
+"LT","LTU","Lithuania","EU","2017","5112 Sales","% of GDP",0
+"LT","LTU","Lithuania","EU","2017","5112 Sales","% of Total Revenue",0
+"LT","LTU","Lithuania","EU","2018","5112 Sales","% of GDP",0
+"LT","LTU","Lithuania","EU","2018","5112 Sales","% of Total Revenue",0
+"LT","LTU","Lithuania","EU","2019","5112 Sales","% of GDP",0
+"LT","LTU","Lithuania","EU","2019","5112 Sales","% of Total Revenue",0
+"LT","LTU","Lithuania","EU","2016","5121 Excise","% of GDP",3.177
+"LT","LTU","Lithuania","EU","2016","5121 Excise","% of Total Revenue",10.715
+"LT","LTU","Lithuania","EU","2017","5121 Excise","% of GDP",3.167
+"LT","LTU","Lithuania","EU","2017","5121 Excise","% of Total Revenue",10.747
+"LT","LTU","Lithuania","EU","2018","5121 Excise","% of GDP",3.191
+"LT","LTU","Lithuania","EU","2018","5121 Excise","% of Total Revenue",10.578
+"LT","LTU","Lithuania","EU","2019","5121 Excise","% of GDP",3.104
+"LT","LTU","Lithuania","EU","2019","5121 Excise","% of Total Revenue",10.231
+"LU","LUX","Luxembourg","EU","2016","5000 Consumption","% of GDP",9.333
+"LU","LUX","Luxembourg","EU","2016","5000 Consumption","% of Total Revenue",25.344
+"LU","LUX","Luxembourg","EU","2017","5000 Consumption","% of Total Revenue",24.312
+"LU","LUX","Luxembourg","EU","2017","5000 Consumption","% of GDP",9.144
+"LU","LUX","Luxembourg","EU","2018","5000 Consumption","% of Total Revenue",23.694
+"LU","LUX","Luxembourg","EU","2018","5000 Consumption","% of GDP",9.417
+"LU","LUX","Luxembourg","EU","2019","5000 Consumption","% of GDP",9.358
+"LU","LUX","Luxembourg","EU","2019","5000 Consumption","% of Total Revenue",23.859
+"LU","LUX","Luxembourg","EU","2016","5111 VAT","% of GDP",6.15
+"LU","LUX","Luxembourg","EU","2016","5111 VAT","% of Total Revenue",16.7
+"LU","LUX","Luxembourg","EU","2017","5111 VAT","% of Total Revenue",15.757
+"LU","LUX","Luxembourg","EU","2017","5111 VAT","% of GDP",5.927
+"LU","LUX","Luxembourg","EU","2018","5111 VAT","% of Total Revenue",15.374
+"LU","LUX","Luxembourg","EU","2018","5111 VAT","% of GDP",6.11
+"LU","LUX","Luxembourg","EU","2019","5111 VAT","% of Total Revenue",15.543
+"LU","LUX","Luxembourg","EU","2019","5111 VAT","% of GDP",6.096
+"LU","LUX","Luxembourg","EU","2016","5112 Sales","% of Total Revenue",0
+"LU","LUX","Luxembourg","EU","2016","5112 Sales","% of GDP",0
+"LU","LUX","Luxembourg","EU","2017","5112 Sales","% of Total Revenue",0
+"LU","LUX","Luxembourg","EU","2017","5112 Sales","% of GDP",0
+"LU","LUX","Luxembourg","EU","2018","5112 Sales","% of Total Revenue",0
+"LU","LUX","Luxembourg","EU","2018","5112 Sales","% of GDP",0
+"LU","LUX","Luxembourg","EU","2019","5112 Sales","% of Total Revenue",0
+"LU","LUX","Luxembourg","EU","2019","5112 Sales","% of GDP",0
+"LU","LUX","Luxembourg","EU","2016","5121 Excise","% of GDP",2.577
+"LU","LUX","Luxembourg","EU","2016","5121 Excise","% of Total Revenue",6.997
+"LU","LUX","Luxembourg","EU","2017","5121 Excise","% of GDP",2.551
+"LU","LUX","Luxembourg","EU","2017","5121 Excise","% of Total Revenue",6.782
+"LU","LUX","Luxembourg","EU","2018","5121 Excise","% of GDP",2.592
+"LU","LUX","Luxembourg","EU","2018","5121 Excise","% of Total Revenue",6.521
+"LU","LUX","Luxembourg","EU","2019","5121 Excise","% of GDP",2.636
+"LU","LUX","Luxembourg","EU","2019","5121 Excise","% of Total Revenue",6.721
+"MX","MEX","Mexico","NO","2016","5000 Consumption","% of Total Revenue",38.754
+"MX","MEX","Mexico","NO","2016","5000 Consumption","% of GDP",6.44
+"MX","MEX","Mexico","NO","2017","5000 Consumption","% of Total Revenue",36.378
+"MX","MEX","Mexico","NO","2017","5000 Consumption","% of GDP",5.855
+"MX","MEX","Mexico","NO","2018","5000 Consumption","% of Total Revenue",36.38
+"MX","MEX","Mexico","NO","2018","5000 Consumption","% of GDP",5.882
+"MX","MEX","Mexico","NO","2019","5000 Consumption","% of Total Revenue",36.38
+"MX","MEX","Mexico","NO","2019","5000 Consumption","% of GDP",5.882
+"MX","MEX","Mexico","NO","2016","5111 VAT","% of Total Revenue",23.68
+"MX","MEX","Mexico","NO","2016","5111 VAT","% of GDP",3.935
+"MX","MEX","Mexico","NO","2017","5111 VAT","% of Total Revenue",23.137
+"MX","MEX","Mexico","NO","2017","5111 VAT","% of GDP",3.724
+"MX","MEX","Mexico","NO","2018","5111 VAT","% of Total Revenue",24.283
+"MX","MEX","Mexico","NO","2018","5111 VAT","% of GDP",3.926
+"MX","MEX","Mexico","NO","2019","5111 VAT","% of Total Revenue",24.283
+"MX","MEX","Mexico","NO","2019","5111 VAT","% of GDP",3.926
+"MX","MEX","Mexico","NO","2016","5112 Sales","% of GDP",0
+"MX","MEX","Mexico","NO","2016","5112 Sales","% of Total Revenue",0
+"MX","MEX","Mexico","NO","2017","5112 Sales","% of GDP",0
+"MX","MEX","Mexico","NO","2017","5112 Sales","% of Total Revenue",0
+"MX","MEX","Mexico","NO","2018","5112 Sales","% of GDP",0
+"MX","MEX","Mexico","NO","2018","5112 Sales","% of Total Revenue",0
+"MX","MEX","Mexico","NO","2019","5112 Sales","% of GDP",0
+"MX","MEX","Mexico","NO","2019","5112 Sales","% of Total Revenue",0
+"MX","MEX","Mexico","NO","2016","5121 Excise","% of GDP",2.09
+"MX","MEX","Mexico","NO","2016","5121 Excise","% of Total Revenue",12.576
+"MX","MEX","Mexico","NO","2017","5121 Excise","% of Total Revenue",10.732
+"MX","MEX","Mexico","NO","2017","5121 Excise","% of GDP",1.728
+"MX","MEX","Mexico","NO","2018","5121 Excise","% of Total Revenue",9.441
+"MX","MEX","Mexico","NO","2018","5121 Excise","% of GDP",1.526
+"MX","MEX","Mexico","NO","2019","5121 Excise","% of Total Revenue",9.441
+"MX","MEX","Mexico","NO","2019","5121 Excise","% of GDP",1.526
+"NL","NLD","Netherlands","EU","2016","5000 Consumption","% of Total Revenue",30.387
+"NL","NLD","Netherlands","EU","2016","5000 Consumption","% of GDP",11.67
+"NL","NLD","Netherlands","EU","2017","5000 Consumption","% of Total Revenue",29.983
+"NL","NLD","Netherlands","EU","2017","5000 Consumption","% of GDP",11.604
+"NL","NLD","Netherlands","EU","2018","5000 Consumption","% of Total Revenue",30.147
+"NL","NLD","Netherlands","EU","2018","5000 Consumption","% of GDP",11.697
+"NL","NLD","Netherlands","EU","2019","5000 Consumption","% of GDP",12.069
+"NL","NLD","Netherlands","EU","2019","5000 Consumption","% of Total Revenue",30.684
+"NL","NLD","Netherlands","EU","2016","5111 VAT","% of GDP",6.755
+"NL","NLD","Netherlands","EU","2016","5111 VAT","% of Total Revenue",17.589
+"NL","NLD","Netherlands","EU","2017","5111 VAT","% of GDP",6.751
+"NL","NLD","Netherlands","EU","2017","5111 VAT","% of Total Revenue",17.444
+"NL","NLD","Netherlands","EU","2018","5111 VAT","% of Total Revenue",17.553
+"NL","NLD","Netherlands","EU","2018","5111 VAT","% of GDP",6.81
+"NL","NLD","Netherlands","EU","2019","5111 VAT","% of GDP",7.174
+"NL","NLD","Netherlands","EU","2019","5111 VAT","% of Total Revenue",18.24
+"NL","NLD","Netherlands","EU","2016","5112 Sales","% of GDP",0
+"NL","NLD","Netherlands","EU","2016","5112 Sales","% of Total Revenue",0
+"NL","NLD","Netherlands","EU","2017","5112 Sales","% of GDP",0
+"NL","NLD","Netherlands","EU","2017","5112 Sales","% of Total Revenue",0
+"NL","NLD","Netherlands","EU","2018","5112 Sales","% of GDP",0
+"NL","NLD","Netherlands","EU","2018","5112 Sales","% of Total Revenue",0
+"NL","NLD","Netherlands","EU","2019","5112 Sales","% of GDP",0
+"NL","NLD","Netherlands","EU","2019","5112 Sales","% of Total Revenue",0
+"NL","NLD","Netherlands","EU","2016","5121 Excise","% of Total Revenue",6.974
+"NL","NLD","Netherlands","EU","2016","5121 Excise","% of GDP",2.679
+"NL","NLD","Netherlands","EU","2017","5121 Excise","% of Total Revenue",6.893
+"NL","NLD","Netherlands","EU","2017","5121 Excise","% of GDP",2.668
+"NL","NLD","Netherlands","EU","2018","5121 Excise","% of Total Revenue",6.991
+"NL","NLD","Netherlands","EU","2018","5121 Excise","% of GDP",2.713
+"NL","NLD","Netherlands","EU","2019","5121 Excise","% of Total Revenue",6.915
+"NL","NLD","Netherlands","EU","2019","5121 Excise","% of GDP",2.72
+"NZ","NZL","New Zealand","OC","2016","5000 Consumption","% of Total Revenue",38.351
+"NZ","NZL","New Zealand","OC","2016","5000 Consumption","% of GDP",12.087
+"NZ","NZL","New Zealand","OC","2017","5000 Consumption","% of Total Revenue",38.443
+"NZ","NZL","New Zealand","OC","2017","5000 Consumption","% of GDP",12.15
+"NZ","NZL","New Zealand","OC","2018","5000 Consumption","% of Total Revenue",37.905
+"NZ","NZL","New Zealand","OC","2018","5000 Consumption","% of GDP",12.465
+"NZ","NZL","New Zealand","OC","2019","5000 Consumption","% of GDP",12.554
+"NZ","NZL","New Zealand","OC","2019","5000 Consumption","% of Total Revenue",38.851
+"NZ","NZL","New Zealand","OC","2016","5111 VAT","% of GDP",9.409
+"NZ","NZL","New Zealand","OC","2016","5111 VAT","% of Total Revenue",29.855
+"NZ","NZL","New Zealand","OC","2017","5111 VAT","% of GDP",9.536
+"NZ","NZL","New Zealand","OC","2017","5111 VAT","% of Total Revenue",30.173
+"NZ","NZL","New Zealand","OC","2018","5111 VAT","% of GDP",9.723
+"NZ","NZL","New Zealand","OC","2018","5111 VAT","% of Total Revenue",29.568
+"NZ","NZL","New Zealand","OC","2019","5111 VAT","% of Total Revenue",30.377
+"NZ","NZL","New Zealand","OC","2019","5111 VAT","% of GDP",9.816
+"NZ","NZL","New Zealand","OC","2016","5112 Sales","% of GDP",0
+"NZ","NZL","New Zealand","OC","2016","5112 Sales","% of Total Revenue",0
+"NZ","NZL","New Zealand","OC","2017","5112 Sales","% of GDP",0
+"NZ","NZL","New Zealand","OC","2017","5112 Sales","% of Total Revenue",0
+"NZ","NZL","New Zealand","OC","2018","5112 Sales","% of Total Revenue",0
+"NZ","NZL","New Zealand","OC","2018","5112 Sales","% of GDP",0
+"NZ","NZL","New Zealand","OC","2019","5112 Sales","% of Total Revenue",0
+"NZ","NZL","New Zealand","OC","2019","5112 Sales","% of GDP",0
+"NZ","NZL","New Zealand","OC","2016","5121 Excise","% of GDP",0.812
+"NZ","NZL","New Zealand","OC","2016","5121 Excise","% of Total Revenue",2.577
+"NZ","NZL","New Zealand","OC","2017","5121 Excise","% of GDP",0.755
+"NZ","NZL","New Zealand","OC","2017","5121 Excise","% of Total Revenue",2.39
+"NZ","NZL","New Zealand","OC","2018","5121 Excise","% of Total Revenue",2.626
+"NZ","NZL","New Zealand","OC","2018","5121 Excise","% of GDP",0.864
+"NZ","NZL","New Zealand","OC","2019","5121 Excise","% of Total Revenue",2.507
+"NZ","NZL","New Zealand","OC","2019","5121 Excise","% of GDP",0.81
+"NO","NOR","Norway","EU","2016","5000 Consumption","% of Total Revenue",31.352
+"NO","NOR","Norway","EU","2016","5000 Consumption","% of GDP",12.189
+"NO","NOR","Norway","EU","2017","5000 Consumption","% of Total Revenue",30.878
+"NO","NOR","Norway","EU","2017","5000 Consumption","% of GDP",11.974
+"NO","NOR","Norway","EU","2018","5000 Consumption","% of Total Revenue",29.471
+"NO","NOR","Norway","EU","2018","5000 Consumption","% of GDP",11.662
+"NO","NOR","Norway","EU","2019","5000 Consumption","% of GDP",11.787
+"NO","NOR","Norway","EU","2019","5000 Consumption","% of Total Revenue",29.519
+"NO","NOR","Norway","EU","2016","5111 VAT","% of GDP",8.69
+"NO","NOR","Norway","EU","2016","5111 VAT","% of Total Revenue",22.351
+"NO","NOR","Norway","EU","2017","5111 VAT","% of GDP",8.603
+"NO","NOR","Norway","EU","2017","5111 VAT","% of Total Revenue",22.185
+"NO","NOR","Norway","EU","2018","5111 VAT","% of Total Revenue",21.25
+"NO","NOR","Norway","EU","2018","5111 VAT","% of GDP",8.409
+"NO","NOR","Norway","EU","2019","5111 VAT","% of GDP",8.649
+"NO","NOR","Norway","EU","2019","5111 VAT","% of Total Revenue",21.662
+"NO","NOR","Norway","EU","2016","5112 Sales","% of Total Revenue",0.072
+"NO","NOR","Norway","EU","2016","5112 Sales","% of GDP",0.028
+"NO","NOR","Norway","EU","2017","5112 Sales","% of Total Revenue",0.08
+"NO","NOR","Norway","EU","2017","5112 Sales","% of GDP",0.031
+"NO","NOR","Norway","EU","2018","5112 Sales","% of Total Revenue",0.073
+"NO","NOR","Norway","EU","2018","5112 Sales","% of GDP",0.029
+"NO","NOR","Norway","EU","2019","5112 Sales","% of Total Revenue",0.076
+"NO","NOR","Norway","EU","2019","5112 Sales","% of GDP",0.03
+"NO","NOR","Norway","EU","2016","5121 Excise","% of GDP",2.565
+"NO","NOR","Norway","EU","2016","5121 Excise","% of Total Revenue",6.597
+"NO","NOR","Norway","EU","2017","5121 Excise","% of GDP",2.466
+"NO","NOR","Norway","EU","2017","5121 Excise","% of Total Revenue",6.358
+"NO","NOR","Norway","EU","2018","5121 Excise","% of Total Revenue",6.012
+"NO","NOR","Norway","EU","2018","5121 Excise","% of GDP",2.379
+"NO","NOR","Norway","EU","2019","5121 Excise","% of Total Revenue",5.635
+"NO","NOR","Norway","EU","2019","5121 Excise","% of GDP",2.25
+"PL","POL","Poland","EU","2016","5000 Consumption","% of GDP",12.39
+"PL","POL","Poland","EU","2016","5000 Consumption","% of Total Revenue",37.085
+"PL","POL","Poland","EU","2017","5000 Consumption","% of Total Revenue",37.399
+"PL","POL","Poland","EU","2017","5000 Consumption","% of GDP",12.762
+"PL","POL","Poland","EU","2018","5000 Consumption","% of Total Revenue",37.185
+"PL","POL","Poland","EU","2018","5000 Consumption","% of GDP",13.074
+"PL","POL","Poland","EU","2019","5000 Consumption","% of GDP",8.522
+"PL","POL","Poland","EU","2019","5000 Consumption","% of Total Revenue",24.083
+"PL","POL","Poland","EU","2016","5111 VAT","% of Total Revenue",21.64
+"PL","POL","Poland","EU","2016","5111 VAT","% of GDP",7.23
+"PL","POL","Poland","EU","2017","5111 VAT","% of Total Revenue",22.782
+"PL","POL","Poland","EU","2017","5111 VAT","% of GDP",7.774
+"PL","POL","Poland","EU","2018","5111 VAT","% of Total Revenue",23.099
+"PL","POL","Poland","EU","2018","5111 VAT","% of GDP",8.121
+"PL","POL","Poland","EU","2019","5111 VAT","% of Total Revenue",22.641
+"PL","POL","Poland","EU","2019","5111 VAT","% of GDP",8.012
+"PL","POL","Poland","EU","2016","5112 Sales","% of GDP",0
+"PL","POL","Poland","EU","2016","5112 Sales","% of Total Revenue",0
+"PL","POL","Poland","EU","2017","5112 Sales","% of GDP",0
+"PL","POL","Poland","EU","2017","5112 Sales","% of Total Revenue",0
+"PL","POL","Poland","EU","2018","5112 Sales","% of GDP",0
+"PL","POL","Poland","EU","2018","5112 Sales","% of Total Revenue",0
+"PL","POL","Poland","EU","2019","5112 Sales","% of GDP",0
+"PL","POL","Poland","EU","2019","5112 Sales","% of Total Revenue",0
+"PL","POL","Poland","EU","2016","5121 Excise","% of Total Revenue",12.165
+"PL","POL","Poland","EU","2016","5121 Excise","% of GDP",4.064
+"PL","POL","Poland","EU","2017","5121 Excise","% of Total Revenue",11.631
+"PL","POL","Poland","EU","2017","5121 Excise","% of GDP",3.969
+"PL","POL","Poland","EU","2018","5121 Excise","% of Total Revenue",11.018
+"PL","POL","Poland","EU","2018","5121 Excise","% of GDP",3.874
+"PL","POL","Poland","EU","2019","5121 Excise","% of Total Revenue",0
+"PL","POL","Poland","EU","2019","5121 Excise","% of GDP",0
+"PT","PRT","Portugal","EU","2016","5000 Consumption","% of Total Revenue",39.645
+"PT","PRT","Portugal","EU","2016","5000 Consumption","% of GDP",13.504
+"PT","PRT","Portugal","EU","2017","5000 Consumption","% of Total Revenue",40.074
+"PT","PRT","Portugal","EU","2017","5000 Consumption","% of GDP",13.674
+"PT","PRT","Portugal","EU","2018","5000 Consumption","% of Total Revenue",39.832
+"PT","PRT","Portugal","EU","2018","5000 Consumption","% of GDP",13.87
+"PT","PRT","Portugal","EU","2019","5000 Consumption","% of Total Revenue",40.05
+"PT","PRT","Portugal","EU","2019","5000 Consumption","% of GDP",13.956
+"PT","PRT","Portugal","EU","2016","5111 VAT","% of GDP",8.455
+"PT","PRT","Portugal","EU","2016","5111 VAT","% of Total Revenue",24.822
+"PT","PRT","Portugal","EU","2017","5111 VAT","% of GDP",8.579
+"PT","PRT","Portugal","EU","2017","5111 VAT","% of Total Revenue",25.142
+"PT","PRT","Portugal","EU","2018","5111 VAT","% of GDP",8.744
+"PT","PRT","Portugal","EU","2018","5111 VAT","% of Total Revenue",25.113
+"PT","PRT","Portugal","EU","2019","5111 VAT","% of Total Revenue",25.449
+"PT","PRT","Portugal","EU","2019","5111 VAT","% of GDP",8.868
+"PT","PRT","Portugal","EU","2016","5112 Sales","% of Total Revenue",0
+"PT","PRT","Portugal","EU","2016","5112 Sales","% of GDP",0
+"PT","PRT","Portugal","EU","2017","5112 Sales","% of GDP",0
+"PT","PRT","Portugal","EU","2017","5112 Sales","% of Total Revenue",0
+"PT","PRT","Portugal","EU","2018","5112 Sales","% of GDP",0
+"PT","PRT","Portugal","EU","2018","5112 Sales","% of Total Revenue",0
+"PT","PRT","Portugal","EU","2019","5112 Sales","% of GDP",0
+"PT","PRT","Portugal","EU","2019","5112 Sales","% of Total Revenue",0
+"PT","PRT","Portugal","EU","2016","5121 Excise","% of Total Revenue",9.146
+"PT","PRT","Portugal","EU","2016","5121 Excise","% of GDP",3.115
+"PT","PRT","Portugal","EU","2017","5121 Excise","% of Total Revenue",9.162
+"PT","PRT","Portugal","EU","2017","5121 Excise","% of GDP",3.126
+"PT","PRT","Portugal","EU","2018","5121 Excise","% of Total Revenue",8.758
+"PT","PRT","Portugal","EU","2018","5121 Excise","% of GDP",3.05
+"PT","PRT","Portugal","EU","2019","5121 Excise","% of GDP",2.914
+"PT","PRT","Portugal","EU","2019","5121 Excise","% of Total Revenue",8.362
+"KR","KOR","Republic of Korea","AS","2016","5000 Consumption","% of GDP",6.962
+"KR","KOR","Republic of Korea","AS","2016","5000 Consumption","% of Total Revenue",28.136
+"KR","KOR","Republic of Korea","AS","2017","5000 Consumption","% of Total Revenue",27.728
+"KR","KOR","Republic of Korea","AS","2017","5000 Consumption","% of GDP",7.031
+"KR","KOR","Republic of Korea","AS","2018","5000 Consumption","% of Total Revenue",26.275
+"KR","KOR","Republic of Korea","AS","2018","5000 Consumption","% of GDP",7.029
+"KR","KOR","Republic of Korea","AS","2019","5000 Consumption","% of Total Revenue",25.817
+"KR","KOR","Republic of Korea","AS","2019","5000 Consumption","% of GDP",7.068
+"KR","KOR","Republic of Korea","AS","2016","5111 VAT","% of GDP",3.919
+"KR","KOR","Republic of Korea","AS","2016","5111 VAT","% of Total Revenue",15.84
+"KR","KOR","Republic of Korea","AS","2017","5111 VAT","% of GDP",4.051
+"KR","KOR","Republic of Korea","AS","2017","5111 VAT","% of Total Revenue",15.975
+"KR","KOR","Republic of Korea","AS","2018","5111 VAT","% of GDP",4.091
+"KR","KOR","Republic of Korea","AS","2018","5111 VAT","% of Total Revenue",15.294
+"KR","KOR","Republic of Korea","AS","2019","5111 VAT","% of Total Revenue",15.683
+"KR","KOR","Republic of Korea","AS","2019","5111 VAT","% of GDP",4.293
+"KR","KOR","Republic of Korea","AS","2016","5112 Sales","% of GDP",0
+"KR","KOR","Republic of Korea","AS","2016","5112 Sales","% of Total Revenue",0
+"KR","KOR","Republic of Korea","AS","2017","5112 Sales","% of GDP",0
+"KR","KOR","Republic of Korea","AS","2017","5112 Sales","% of Total Revenue",0
+"KR","KOR","Republic of Korea","AS","2018","5112 Sales","% of Total Revenue",0
+"KR","KOR","Republic of Korea","AS","2018","5112 Sales","% of GDP",0
+"KR","KOR","Republic of Korea","AS","2019","5112 Sales","% of Total Revenue",0
+"KR","KOR","Republic of Korea","AS","2019","5112 Sales","% of GDP",0
+"KR","KOR","Republic of Korea","AS","2016","5121 Excise","% of Total Revenue",8.07
+"KR","KOR","Republic of Korea","AS","2016","5121 Excise","% of GDP",1.997
+"KR","KOR","Republic of Korea","AS","2017","5121 Excise","% of GDP",1.949
+"KR","KOR","Republic of Korea","AS","2017","5121 Excise","% of Total Revenue",7.687
+"KR","KOR","Republic of Korea","AS","2018","5121 Excise","% of GDP",1.913
+"KR","KOR","Republic of Korea","AS","2018","5121 Excise","% of Total Revenue",7.15
+"KR","KOR","Republic of Korea","AS","2019","5121 Excise","% of GDP",1.813
+"KR","KOR","Republic of Korea","AS","2019","5121 Excise","% of Total Revenue",6.621
+"SK","SVK","Slovakia","EU","2016","5000 Consumption","% of Total Revenue",35.132
+"SK","SVK","Slovakia","EU","2016","5000 Consumption","% of GDP",11.689
+"SK","SVK","Slovakia","EU","2017","5000 Consumption","% of Total Revenue",35.321
+"SK","SVK","Slovakia","EU","2017","5000 Consumption","% of GDP",12.088
+"SK","SVK","Slovakia","EU","2018","5000 Consumption","% of GDP",12.028
+"SK","SVK","Slovakia","EU","2018","5000 Consumption","% of Total Revenue",35.045
+"SK","SVK","Slovakia","EU","2019","5000 Consumption","% of GDP",12.207
+"SK","SVK","Slovakia","EU","2019","5000 Consumption","% of Total Revenue",35.142
+"SK","SVK","Slovakia","EU","2016","5111 VAT","% of GDP",6.693
+"SK","SVK","Slovakia","EU","2016","5111 VAT","% of Total Revenue",20.116
+"SK","SVK","Slovakia","EU","2017","5111 VAT","% of GDP",7.003
+"SK","SVK","Slovakia","EU","2017","5111 VAT","% of Total Revenue",20.461
+"SK","SVK","Slovakia","EU","2018","5111 VAT","% of GDP",7.052
+"SK","SVK","Slovakia","EU","2018","5111 VAT","% of Total Revenue",20.548
+"SK","SVK","Slovakia","EU","2019","5111 VAT","% of GDP",7.248
+"SK","SVK","Slovakia","EU","2019","5111 VAT","% of Total Revenue",20.867
+"SK","SVK","Slovakia","EU","2016","5112 Sales","% of Total Revenue",0
+"SK","SVK","Slovakia","EU","2016","5112 Sales","% of GDP",0
+"SK","SVK","Slovakia","EU","2017","5112 Sales","% of Total Revenue",0
+"SK","SVK","Slovakia","EU","2017","5112 Sales","% of GDP",0
+"SK","SVK","Slovakia","EU","2018","5112 Sales","% of Total Revenue",0
+"SK","SVK","Slovakia","EU","2018","5112 Sales","% of GDP",0
+"SK","SVK","Slovakia","EU","2019","5112 Sales","% of Total Revenue",0
+"SK","SVK","Slovakia","EU","2019","5112 Sales","% of GDP",0
+"SK","SVK","Slovakia","EU","2016","5121 Excise","% of GDP",3.284
+"SK","SVK","Slovakia","EU","2016","5121 Excise","% of Total Revenue",9.869
+"SK","SVK","Slovakia","EU","2017","5121 Excise","% of Total Revenue",9.745
+"SK","SVK","Slovakia","EU","2017","5121 Excise","% of GDP",3.335
+"SK","SVK","Slovakia","EU","2018","5121 Excise","% of Total Revenue",9.483
+"SK","SVK","Slovakia","EU","2018","5121 Excise","% of GDP",3.255
+"SK","SVK","Slovakia","EU","2019","5121 Excise","% of Total Revenue",9.203
+"SK","SVK","Slovakia","EU","2019","5121 Excise","% of GDP",3.197
+"SI","SVN","Slovenia","EU","2016","5000 Consumption","% of Total Revenue",38.714
+"SI","SVN","Slovenia","EU","2016","5000 Consumption","% of GDP",14.495
+"SI","SVN","Slovenia","EU","2017","5000 Consumption","% of Total Revenue",38.099
+"SI","SVN","Slovenia","EU","2017","5000 Consumption","% of GDP",14.148
+"SI","SVN","Slovenia","EU","2018","5000 Consumption","% of Total Revenue",37.438
+"SI","SVN","Slovenia","EU","2018","5000 Consumption","% of GDP",14.006
+"SI","SVN","Slovenia","EU","2019","5000 Consumption","% of GDP",13.658
+"SI","SVN","Slovenia","EU","2019","5000 Consumption","% of Total Revenue",36.276
+"SI","SVN","Slovenia","EU","2016","5111 VAT","% of GDP",8.224
+"SI","SVN","Slovenia","EU","2016","5111 VAT","% of Total Revenue",21.963
+"SI","SVN","Slovenia","EU","2017","5111 VAT","% of GDP",8.104
+"SI","SVN","Slovenia","EU","2017","5111 VAT","% of Total Revenue",21.825
+"SI","SVN","Slovenia","EU","2018","5111 VAT","% of GDP",8.234
+"SI","SVN","Slovenia","EU","2018","5111 VAT","% of Total Revenue",22.009
+"SI","SVN","Slovenia","EU","2019","5111 VAT","% of GDP",8.104
+"SI","SVN","Slovenia","EU","2019","5111 VAT","% of Total Revenue",21.525
+"SI","SVN","Slovenia","EU","2016","5112 Sales","% of Total Revenue",0
+"SI","SVN","Slovenia","EU","2016","5112 Sales","% of GDP",0
+"SI","SVN","Slovenia","EU","2017","5112 Sales","% of Total Revenue",0
+"SI","SVN","Slovenia","EU","2017","5112 Sales","% of GDP",0
+"SI","SVN","Slovenia","EU","2018","5112 Sales","% of Total Revenue",0
+"SI","SVN","Slovenia","EU","2018","5112 Sales","% of GDP",0
+"SI","SVN","Slovenia","EU","2019","5112 Sales","% of Total Revenue",0
+"SI","SVN","Slovenia","EU","2019","5112 Sales","% of GDP",0
+"SI","SVN","Slovenia","EU","2016","5121 Excise","% of GDP",4.138
+"SI","SVN","Slovenia","EU","2016","5121 Excise","% of Total Revenue",11.051
+"SI","SVN","Slovenia","EU","2017","5121 Excise","% of GDP",3.972
+"SI","SVN","Slovenia","EU","2017","5121 Excise","% of Total Revenue",10.697
+"SI","SVN","Slovenia","EU","2018","5121 Excise","% of GDP",3.67
+"SI","SVN","Slovenia","EU","2018","5121 Excise","% of Total Revenue",9.81
+"SI","SVN","Slovenia","EU","2019","5121 Excise","% of GDP",3.48
+"SI","SVN","Slovenia","EU","2019","5121 Excise","% of Total Revenue",9.244
+"ES","ESP","Spain","EU","2016","5000 Consumption","% of Total Revenue",30.252
+"ES","ESP","Spain","EU","2016","5000 Consumption","% of GDP",10.164
+"ES","ESP","Spain","EU","2017","5000 Consumption","% of Total Revenue",29.99
+"ES","ESP","Spain","EU","2017","5000 Consumption","% of GDP",10.158
+"ES","ESP","Spain","EU","2018","5000 Consumption","% of Total Revenue",29.506
+"ES","ESP","Spain","EU","2018","5000 Consumption","% of GDP",10.21
+"ES","ESP","Spain","EU","2019","5000 Consumption","% of GDP",10.018
+"ES","ESP","Spain","EU","2019","5000 Consumption","% of Total Revenue",28.912
+"ES","ESP","Spain","EU","2016","5111 VAT","% of Total Revenue",19.174
+"ES","ESP","Spain","EU","2016","5111 VAT","% of GDP",6.442
+"ES","ESP","Spain","EU","2017","5111 VAT","% of Total Revenue",19.211
+"ES","ESP","Spain","EU","2017","5111 VAT","% of GDP",6.507
+"ES","ESP","Spain","EU","2018","5111 VAT","% of Total Revenue",19.022
+"ES","ESP","Spain","EU","2018","5111 VAT","% of GDP",6.582
+"ES","ESP","Spain","EU","2019","5111 VAT","% of Total Revenue",18.772
+"ES","ESP","Spain","EU","2019","5111 VAT","% of GDP",6.504
+"ES","ESP","Spain","EU","2016","5112 Sales","% of Total Revenue",0.051
+"ES","ESP","Spain","EU","2016","5112 Sales","% of GDP",0.017
+"ES","ESP","Spain","EU","2017","5112 Sales","% of Total Revenue",0.05
+"ES","ESP","Spain","EU","2017","5112 Sales","% of GDP",0.017
+"ES","ESP","Spain","EU","2018","5112 Sales","% of GDP",0.016
+"ES","ESP","Spain","EU","2018","5112 Sales","% of Total Revenue",0.047
+"ES","ESP","Spain","EU","2019","5112 Sales","% of GDP",0.015
+"ES","ESP","Spain","EU","2019","5112 Sales","% of Total Revenue",0.045
+"ES","ESP","Spain","EU","2016","5121 Excise","% of Total Revenue",6.873
+"ES","ESP","Spain","EU","2016","5121 Excise","% of GDP",2.309
+"ES","ESP","Spain","EU","2017","5121 Excise","% of GDP",2.279
+"ES","ESP","Spain","EU","2017","5121 Excise","% of Total Revenue",6.728
+"ES","ESP","Spain","EU","2018","5121 Excise","% of GDP",2.225
+"ES","ESP","Spain","EU","2018","5121 Excise","% of Total Revenue",6.429
+"ES","ESP","Spain","EU","2019","5121 Excise","% of Total Revenue",6.079
+"ES","ESP","Spain","EU","2019","5121 Excise","% of GDP",2.106
+"SE","SWE","Sweden","EU","2016","5000 Consumption","% of Total Revenue",28.31
+"SE","SWE","Sweden","EU","2016","5000 Consumption","% of GDP",12.544
+"SE","SWE","Sweden","EU","2017","5000 Consumption","% of Total Revenue",28.015
+"SE","SWE","Sweden","EU","2017","5000 Consumption","% of GDP",12.413
+"SE","SWE","Sweden","EU","2018","5000 Consumption","% of Total Revenue",28.149
+"SE","SWE","Sweden","EU","2018","5000 Consumption","% of GDP",12.363
+"SE","SWE","Sweden","EU","2019","5000 Consumption","% of Total Revenue",28.251
+"SE","SWE","Sweden","EU","2019","5000 Consumption","% of GDP",12.123
+"SE","SWE","Sweden","EU","2016","5111 VAT","% of Total Revenue",20.702
+"SE","SWE","Sweden","EU","2016","5111 VAT","% of GDP",9.173
+"SE","SWE","Sweden","EU","2017","5111 VAT","% of Total Revenue",20.742
+"SE","SWE","Sweden","EU","2017","5111 VAT","% of GDP",9.19
+"SE","SWE","Sweden","EU","2018","5111 VAT","% of Total Revenue",21.016
+"SE","SWE","Sweden","EU","2018","5111 VAT","% of GDP",9.23
+"SE","SWE","Sweden","EU","2019","5111 VAT","% of GDP",9.157
+"SE","SWE","Sweden","EU","2019","5111 VAT","% of Total Revenue",21.341
+"SE","SWE","Sweden","EU","2016","5112 Sales","% of GDP",0
+"SE","SWE","Sweden","EU","2016","5112 Sales","% of Total Revenue",0
+"SE","SWE","Sweden","EU","2017","5112 Sales","% of GDP",0
+"SE","SWE","Sweden","EU","2017","5112 Sales","% of Total Revenue",0
+"SE","SWE","Sweden","EU","2018","5112 Sales","% of GDP",0
+"SE","SWE","Sweden","EU","2018","5112 Sales","% of Total Revenue",0
+"SE","SWE","Sweden","EU","2019","5112 Sales","% of GDP",0
+"SE","SWE","Sweden","EU","2019","5112 Sales","% of Total Revenue",0
+"SE","SWE","Sweden","EU","2016","5121 Excise","% of Total Revenue",4.882
+"SE","SWE","Sweden","EU","2016","5121 Excise","% of GDP",2.163
+"SE","SWE","Sweden","EU","2017","5121 Excise","% of Total Revenue",4.779
+"SE","SWE","Sweden","EU","2017","5121 Excise","% of GDP",2.117
+"SE","SWE","Sweden","EU","2018","5121 Excise","% of GDP",2.115
+"SE","SWE","Sweden","EU","2018","5121 Excise","% of Total Revenue",4.815
+"SE","SWE","Sweden","EU","2019","5121 Excise","% of GDP",2.08
+"SE","SWE","Sweden","EU","2019","5121 Excise","% of Total Revenue",4.848
+"CH","CHE","Switzerland","EU","2016","5000 Consumption","% of GDP",5.929
+"CH","CHE","Switzerland","EU","2016","5000 Consumption","% of Total Revenue",21.433
+"CH","CHE","Switzerland","EU","2017","5000 Consumption","% of Total Revenue",21.12
+"CH","CHE","Switzerland","EU","2017","5000 Consumption","% of GDP",6.001
+"CH","CHE","Switzerland","EU","2018","5000 Consumption","% of Total Revenue",20.815
+"CH","CHE","Switzerland","EU","2018","5000 Consumption","% of GDP",5.838
+"CH","CHE","Switzerland","EU","2019","5000 Consumption","% of Total Revenue",20.953
+"CH","CHE","Switzerland","EU","2019","5000 Consumption","% of GDP",5.978
+"CH","CHE","Switzerland","EU","2016","5111 VAT","% of GDP",3.376
+"CH","CHE","Switzerland","EU","2016","5111 VAT","% of Total Revenue",12.204
+"CH","CHE","Switzerland","EU","2017","5111 VAT","% of GDP",3.416
+"CH","CHE","Switzerland","EU","2017","5111 VAT","% of Total Revenue",12.021
+"CH","CHE","Switzerland","EU","2018","5111 VAT","% of GDP",3.278
+"CH","CHE","Switzerland","EU","2018","5111 VAT","% of Total Revenue",11.688
+"CH","CHE","Switzerland","EU","2019","5111 VAT","% of GDP",3.359
+"CH","CHE","Switzerland","EU","2019","5111 VAT","% of Total Revenue",11.772
+"CH","CHE","Switzerland","EU","2016","5112 Sales","% of GDP",0.053
+"CH","CHE","Switzerland","EU","2016","5112 Sales","% of Total Revenue",0.19
+"CH","CHE","Switzerland","EU","2017","5112 Sales","% of Total Revenue",0.208
+"CH","CHE","Switzerland","EU","2017","5112 Sales","% of GDP",0.059
+"CH","CHE","Switzerland","EU","2018","5112 Sales","% of Total Revenue",0.206
+"CH","CHE","Switzerland","EU","2018","5112 Sales","% of GDP",0.058
+"CH","CHE","Switzerland","EU","2019","5112 Sales","% of Total Revenue",0.207
+"CH","CHE","Switzerland","EU","2019","5112 Sales","% of GDP",0.059
+"CH","CHE","Switzerland","EU","2016","5121 Excise","% of GDP",1.219
+"CH","CHE","Switzerland","EU","2016","5121 Excise","% of Total Revenue",4.408
+"CH","CHE","Switzerland","EU","2017","5121 Excise","% of GDP",1.209
+"CH","CHE","Switzerland","EU","2017","5121 Excise","% of Total Revenue",4.254
+"CH","CHE","Switzerland","EU","2018","5121 Excise","% of GDP",1.224
+"CH","CHE","Switzerland","EU","2018","5121 Excise","% of Total Revenue",4.365
+"CH","CHE","Switzerland","EU","2019","5121 Excise","% of GDP",1.254
+"CH","CHE","Switzerland","EU","2019","5121 Excise","% of Total Revenue",4.397
+"TR","TUR","Turkey","AS","2016","5000 Consumption","% of GDP",10.963
+"TR","TUR","Turkey","AS","2016","5000 Consumption","% of Total Revenue",43.628
+"TR","TUR","Turkey","AS","2017","5000 Consumption","% of GDP",10.73
+"TR","TUR","Turkey","AS","2017","5000 Consumption","% of Total Revenue",43.477
+"TR","TUR","Turkey","AS","2018","5000 Consumption","% of Total Revenue",40.487
+"TR","TUR","Turkey","AS","2018","5000 Consumption","% of GDP",9.711
+"TR","TUR","Turkey","AS","2019","5000 Consumption","% of Total Revenue",38.976
+"TR","TUR","Turkey","AS","2019","5000 Consumption","% of GDP",8.995
+"TR","TUR","Turkey","AS","2016","5111 VAT","% of GDP",4.981
+"TR","TUR","Turkey","AS","2016","5111 VAT","% of Total Revenue",19.821
+"TR","TUR","Turkey","AS","2017","5111 VAT","% of GDP",4.968
+"TR","TUR","Turkey","AS","2017","5111 VAT","% of Total Revenue",20.129
+"TR","TUR","Turkey","AS","2018","5111 VAT","% of GDP",4.753
+"TR","TUR","Turkey","AS","2018","5111 VAT","% of Total Revenue",19.814
+"TR","TUR","Turkey","AS","2019","5111 VAT","% of Total Revenue",18.085
+"TR","TUR","Turkey","AS","2019","5111 VAT","% of GDP",4.174
+"TR","TUR","Turkey","AS","2016","5112 Sales","% of GDP",0
+"TR","TUR","Turkey","AS","2016","5112 Sales","% of Total Revenue",0
+"TR","TUR","Turkey","AS","2017","5112 Sales","% of GDP",0
+"TR","TUR","Turkey","AS","2017","5112 Sales","% of Total Revenue",0
+"TR","TUR","Turkey","AS","2018","5112 Sales","% of Total Revenue",0
+"TR","TUR","Turkey","AS","2018","5112 Sales","% of GDP",0
+"TR","TUR","Turkey","AS","2019","5112 Sales","% of GDP",0
+"TR","TUR","Turkey","AS","2019","5112 Sales","% of Total Revenue",0
+"TR","TUR","Turkey","AS","2016","5121 Excise","% of Total Revenue",18.242
+"TR","TUR","Turkey","AS","2016","5121 Excise","% of GDP",4.584
+"TR","TUR","Turkey","AS","2017","5121 Excise","% of GDP",4.415
+"TR","TUR","Turkey","AS","2017","5121 Excise","% of Total Revenue",17.887
+"TR","TUR","Turkey","AS","2018","5121 Excise","% of GDP",3.563
+"TR","TUR","Turkey","AS","2018","5121 Excise","% of Total Revenue",14.854
+"TR","TUR","Turkey","AS","2019","5121 Excise","% of GDP",3.406
+"TR","TUR","Turkey","AS","2019","5121 Excise","% of Total Revenue",14.756
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2016","5000 Consumption","% of GDP",10.777
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2016","5000 Consumption","% of Total Revenue",33.021
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2017","5000 Consumption","% of GDP",10.704
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2017","5000 Consumption","% of Total Revenue",32.608
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2018","5000 Consumption","% of Total Revenue",32.635
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2018","5000 Consumption","% of GDP",10.733
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2019","5000 Consumption","% of Total Revenue",32.589
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2019","5000 Consumption","% of GDP",10.749
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2016","5111 VAT","% of GDP",6.892
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2016","5111 VAT","% of Total Revenue",21.118
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2017","5111 VAT","% of Total Revenue",20.94
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2017","5111 VAT","% of GDP",6.874
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2018","5111 VAT","% of GDP",6.952
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2018","5111 VAT","% of Total Revenue",21.14
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2019","5111 VAT","% of GDP",6.997
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2019","5111 VAT","% of Total Revenue",21.213
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2016","5112 Sales","% of GDP",0
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2016","5112 Sales","% of Total Revenue",0
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2017","5112 Sales","% of GDP",0
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2017","5112 Sales","% of Total Revenue",0
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2018","5112 Sales","% of Total Revenue",0
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2018","5112 Sales","% of GDP",0
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2019","5112 Sales","% of GDP",0
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2019","5112 Sales","% of Total Revenue",0
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2016","5121 Excise","% of Total Revenue",7.363
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2016","5121 Excise","% of GDP",2.403
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2017","5121 Excise","% of GDP",2.351
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2017","5121 Excise","% of Total Revenue",7.161
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2018","5121 Excise","% of GDP",2.291
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2018","5121 Excise","% of Total Revenue",6.966
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2019","5121 Excise","% of GDP",2.224
+"GB","GBR","United Kingdom of Great Britain and Northern Ireland","EU","2019","5121 Excise","% of Total Revenue",6.742
+"US","USA","United States of America","NO","2016","5000 Consumption","% of Total Revenue",16.658
+"US","USA","United States of America","NO","2016","5000 Consumption","% of GDP",4.299
+"US","USA","United States of America","NO","2017","5000 Consumption","% of Total Revenue",15.791
+"US","USA","United States of America","NO","2017","5000 Consumption","% of GDP",4.223
+"US","USA","United States of America","NO","2018","5000 Consumption","% of Total Revenue",17.627
+"US","USA","United States of America","NO","2018","5000 Consumption","% of GDP",4.303
+"US","USA","United States of America","NO","2019","5000 Consumption","% of Total Revenue",17.558
+"US","USA","United States of America","NO","2019","5000 Consumption","% of GDP",4.296
+"US","USA","United States of America","NO","2016","5111 VAT","% of GDP",0
+"US","USA","United States of America","NO","2016","5111 VAT","% of Total Revenue",0
+"US","USA","United States of America","NO","2017","5111 VAT","% of GDP",0
+"US","USA","United States of America","NO","2017","5111 VAT","% of Total Revenue",0
+"US","USA","United States of America","NO","2018","5111 VAT","% of GDP",0
+"US","USA","United States of America","NO","2018","5111 VAT","% of Total Revenue",0
+"US","USA","United States of America","NO","2019","5111 VAT","% of Total Revenue",0
+"US","USA","United States of America","NO","2019","5111 VAT","% of GDP",0
+"US","USA","United States of America","NO","2016","5112 Sales","% of GDP",2.041
+"US","USA","United States of America","NO","2016","5112 Sales","% of Total Revenue",7.91
+"US","USA","United States of America","NO","2017","5112 Sales","% of Total Revenue",7.553
+"US","USA","United States of America","NO","2017","5112 Sales","% of GDP",2.02
+"US","USA","United States of America","NO","2018","5112 Sales","% of Total Revenue",8.186
+"US","USA","United States of America","NO","2018","5112 Sales","% of GDP",1.998
+"US","USA","United States of America","NO","2019","5112 Sales","% of Total Revenue",8.23
+"US","USA","United States of America","NO","2019","5112 Sales","% of GDP",2.013
+"US","USA","United States of America","NO","2016","5121 Excise","% of Total Revenue",3.285
+"US","USA","United States of America","NO","2016","5121 Excise","% of GDP",0.848
+"US","USA","United States of America","NO","2017","5121 Excise","% of GDP",0.83
+"US","USA","United States of America","NO","2017","5121 Excise","% of Total Revenue",3.104
+"US","USA","United States of America","NO","2018","5121 Excise","% of GDP",0.798
+"US","USA","United States of America","NO","2018","5121 Excise","% of Total Revenue",3.267
+"US","USA","United States of America","NO","2019","5121 Excise","% of GDP",0.766
+"US","USA","United States of America","NO","2019","5121 Excise","% of Total Revenue",3.132
