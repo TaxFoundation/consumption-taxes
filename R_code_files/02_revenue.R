@@ -1,8 +1,9 @@
-#Reading in and cleaning OECD's global tax revenue statistics dataset####
-#dataset_list <- get_datasets()
-#search_dataset("Global Revenue", data= dataset_list)
+#Reading in and cleaning OECD's Revenue Statistics - OECD countries: Comparative tables####
+#https://stats.oecd.org/Index.aspx?DataSetCode=REV 
 
-dataset <- ("RS_GBL")
+#dataset_list <- get_datasets()
+#search_dataset("Revenue", data= dataset_list)
+dataset <- ("REV")
 
 #dstruc <- get_data_structure(dataset)
 #str(dstruc, max.level = 1)
@@ -10,77 +11,98 @@ dataset <- ("RS_GBL")
 #dstruc$TAX
 #dstruc$GOV
 #dstruc$YEA
-taxes<-c("5000","5111","5112","5113","5121")
+taxes<-c("5000","5111","5112","5121")
 
-all_data <- get_dataset("RS_GBL", filter= list(c(oecd_countries),c("NES"),c(taxes),c("TAXPER")),start_time = 2017)
-
-all_data_1990 <- get_dataset("RS_GBL", filter= list(c(oecd_countries),c("NES"),c(taxes),c("TAXPER")),start_time = 1990, end_time = 1990)
-
-
-
-
-#Only keep data that shows tax revenue as a share of total revenue (drop other indicators)
-#all_data <- subset(all_data, all_data$VAR == "TAXPER")
-#all_data <- subset(all_data, all_data$GOV == "NES")
-
-#Only keep the tax revenue categories used in the publication (drop the remaining ones)
-#all_data <- subset(all_data, subset = TAX == "1100" | TAX == "1200" | TAX == "1300" | TAX == "2000" | TAX == "3000" | TAX == "4000" | TAX == "5000" | TAX == "6000" | TAX == "CUS")
+data <- get_dataset(dataset, filter= list(c("NES"),c(taxes),c("TAXGDP","TAXPER"),c(oecd_countries)),start_time = 2016)
 
 #Drop redundant columns
-all_data <- subset(all_data, select=-c(TIME_FORMAT, GOV, VAR))
+data <- subset(data, select=-c(GOV, TIME_FORMAT,POWERCODE,UNIT))
 
 #Rename columns
-colnames(all_data)[colnames(all_data)=="COU"] <- "iso_3"
-colnames(all_data)[colnames(all_data)=="TAX"] <- "category"
-colnames(all_data)[colnames(all_data)=="obsTime"] <- "year"
-colnames(all_data)[colnames(all_data)=="obsValue"] <- "share"
+colnames(data)[colnames(data)=="COU"] <- "iso_3"
+colnames(data)[colnames(data)=="TAX"] <- "tax"
+colnames(data)[colnames(data)=="VAR"] <- "variable"
+colnames(data)[colnames(data)=="obsTime"] <- "year"
+colnames(data)[colnames(data)=="obsValue"] <- "value"
 
-#Add country names and continents to all_data, and add variable signaling OECD countries####
-all_data <- merge(all_data, country_names, by='iso_3')
-
+#Add country names and continents to data, and add variable signaling OECD countries####
+data <- merge(data, country_names, by='iso_3')
 
 #Adjust the order of the columns
-all_data <- all_data[c("iso_2", "iso_3", "country", "continent", "year", "category", "share")]
+data <- data[c("iso_2", "iso_3", "country", "continent", "year", "tax","variable", "value")]
 
 #Fix country name that was read in incorrectly
-all_data$country <- as.character(all_data$country)
+data$country <- as.character(data$country)
 
-write.csv(all_data, paste(intermediate_outputs,"revenue_preliminary.csv",sep=""))
+#Rename Tax Codes
+data$tax<-if_else(data$tax=="5000","5000 Consumption",data$tax)
+data$tax<-if_else(data$tax=="5111","5111 VAT",data$tax)
+data$tax<-if_else(data$tax=="5112","5112 Sales",data$tax)
+data$tax<-if_else(data$tax=="5121","5121 Excise",data$tax)
+
+#Rename Variable Codes
+data$variable<-if_else(data$variable=="TAXGDP","% of GDP",data$variable)
+data$variable<-if_else(data$variable=="TAXPER","% of Total Revenue",data$variable)
+
+write.csv(data, paste(intermediate_outputs,"revenue_preliminary.csv",sep=""), row.names = F)
+
+#Fix countries for which 2019 data is not available (unless otherwise noted, 2018 data is used for these cases)####
+
+#Australia: 2019 data not available -> use 2018 data
+missing_australia <- data
+missing_australia <- subset(missing_australia, subset = iso_3 == "AUS" & year == "2018")
+missing_australia[missing_australia$year == 2018, "year"] <- 2019
+
+#Greece: 2019 data not available for VAT and Excise -> use 2018 data for VAT and Excise
+missing_greece <- data
+missing_greece_vat <- subset(missing_greece, subset = iso_3 == "GRC" & year == "2018" & tax == "5111 VAT")
+missing_greece_excise <- subset(missing_greece, subset = iso_3 == "GRC" & year == "2018" & tax == "5121 Excise")
+
+missing_greece_vat[missing_greece_vat$year == 2018, "year"] <- 2019
+missing_greece_excise[missing_greece_excise$year == 2018, "year"] <- 2019
+
+#Japan: 2017, 2018, and 2019 data not available for Sales-> use 2016 data for Sales; 2019 % of revenue not available for excise, VAT, and consumption -> Use 2018
+missing_japan <- data
+missing_japan_sales <- subset(missing_japan, subset = iso_3 == "JPN" & year == "2016" & tax == "5112 Sales")
+missing_japan_sales_2017<-missing_japan_sales
+missing_japan_sales_2018<-missing_japan_sales
+missing_japan_sales_2019<-missing_japan_sales
+
+missing_japan_sales_2017[missing_japan_sales$year == 2016, "year"] <- 2017
+missing_japan_sales_2018[missing_japan_sales$year == 2016, "year"] <- 2018
+missing_japan_sales_2019[missing_japan_sales$year == 2016, "year"] <- 2019
+
+missing_japan_2019 <- subset(missing_japan, subset = iso_3 == "JPN" & year == "2018" & variable == "% of Total Revenue")
+missing_japan_2019[missing_japan_2019$year == 2018, "year"] <- 2019
 
 
 
-#Fix countries for which 2018 data is not available (unless otherwise noted, 2017 data is used for these cases)####
+#Mexico: 2019 data not available -> use 2018 data
+missing_mexico <- data
+missing_mexico <- subset(missing_mexico, subset = iso_3 == "MEX" & year == "2018")
+missing_mexico[missing_mexico$year == 2018, "year"] <- 2019
 
-#Greece: Greece doesn't have data for the categories 1100, 1200, and 1300 (only for 1000); so we take the average share of these categories of the three years prior (2015-2017) to weigh the current year
-missing_greece <- data.frame(iso_2 = c("GR", "GR", "GR"), iso_3 = c("GRC","GRC", "GRC"), country = c("Greece","Greece", "Greece"), continent = c("EU", "EU", "EU"), oecd = c(1, 1, 1), year = c(2018, 2018, 2018), category = c(1100, 1200, 1300), share = c(15.58660311, 5.765385917, 1.666333732))
+#Slovakia: 2018 data not available for Sales-> use 2017 data for Sales
+missing_slovakia <- data
+missing_slovakia <- subset(missing_slovakia, subset = iso_3 == "SVK" & year == "2017" & tax == "5112 Sales")
+missing_slovakia[missing_slovakia$year == 2017, "year"] <- 2018
 
-#Australia: 2018 data not available -> use 2017 data
-missing_australia <- all_data
-missing_australia <- subset(missing_australia, subset = iso_3 == "AUS" & year == "2017")
-missing_australia[missing_australia$year == 2017, "year"] <- 2018
-
-#Japan: 2018 data not available -> use 2017 data
-missing_japan <- all_data
-missing_japan <- subset(missing_japan, subset = iso_3 == "JPN" & year == "2017")
-missing_japan[missing_japan$year == 2017, "year"] <- 2018
-
-#Mexico: 2018 data not available -> use 2017 data
-missing_mexico <- all_data
-missing_mexico <- subset(missing_mexico, subset = iso_3 == "MEX" & year == "2017")
-missing_mexico[missing_mexico$year == 2017, "year"] <- 2018
 
 #Combine data
-all_data <- rbind(all_data, missing_greece, missing_australia, missing_japan, missing_mexico)
+data <- rbind(data, missing_australia,missing_greece_vat,missing_greece_excise,
+              missing_japan_sales_2017,missing_japan_sales_2018,missing_japan_sales_2019,
+              missing_japan_2019,missing_mexico,missing_slovakia)
 
 #Sort dataset
-all_data <- all_data[order(all_data$country, all_data$category, all_data$year),]
+data <- data[order(data$country, data$tax, data$year),]
 
+write.csv(data, paste(intermediate_outputs,"revenue_fixed.csv",sep=""), row.names = F)
 
 
 #Calculate average OECD tax revenue sources####
 
 #Limit data to OECD countries and 2018
-oecd_data_2018 <- all_data
+oecd_data_2018 <- data
 oecd_data_2018 <- subset(oecd_data_2018, subset = year == 2018)
 oecd_data_2018 <- subset(oecd_data_2018, subset = oecd == 1)
 
@@ -145,7 +167,7 @@ write.csv(oecd_averages, "final-outputs/oecd_averages.csv", row.names = FALSE)
 #Graph comparing OECD tax revenue shares in 1990 with 2018####
 
 #Limit data to OECD countries and 1990
-oecd_data_1990 <- all_data
+oecd_data_1990 <- data
 oecd_data_1990 <- subset(oecd_data_1990, subset = year == 1990)
 oecd_data_1990 <- subset(oecd_data_1990, subset = oecd == 1)
 
@@ -209,7 +231,7 @@ write.csv(oecd_averages_90, "final-outputs/oecd_averages_1990.csv")
 
 
 #Selected country comparison: Austria####
-aut_data_2018 <- all_data
+aut_data_2018 <- data
 aut_data_2018 <- subset(aut_data_2018, subset = iso_3 == "AUT")
 aut_data_2018 <- subset(aut_data_2018, subset = year == "2018")
 
@@ -244,7 +266,7 @@ write.csv(aut_oecd_averages, "final-outputs/aut_oecd_averages.csv")
 
 
 #Selected country comparison: Greece####
-grc_data_2018 <- all_data
+grc_data_2018 <- data
 grc_data_2018 <- subset(grc_data_2018, subset = iso_3 == "GRC")
 grc_data_2018 <- subset(grc_data_2018, subset = year == "2018")
 
@@ -279,7 +301,7 @@ write.csv(grc_oecd_averages, "final-outputs/grc_oecd_averages.csv")
 
 
 #Selected country comparison: United Kingdom####
-gbr_data_2018 <- all_data
+gbr_data_2018 <- data
 gbr_data_2018 <- subset(gbr_data_2018, subset = iso_3 == "GBR")
 gbr_data_2018 <- subset(gbr_data_2018, subset = year == "2018")
 
@@ -316,7 +338,7 @@ write.csv(gbr_oecd_averages, "final-outputs/gbr_oecd_averages.csv")
 #Graph comparing tax revenue shares by region####
 
 #Get non-OECD data for 2017 (2018 data not available for non-OECD countries as of February 2020)
-non_oecd_data <- subset(all_data, subset = oecd == 0)
+non_oecd_data <- subset(data, subset = oecd == 0)
 non_oecd_data <- subset(non_oecd_data, subset = year == "2017")
 
 #Fix non-OECD countries for which some 2017 data is missing
