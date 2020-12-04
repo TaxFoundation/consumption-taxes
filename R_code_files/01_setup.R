@@ -92,16 +92,5 @@ oecd_countries<-c("AUS",
 #Import and match country names with ISO-3 codes####
 
 #Read in country name file
-country_names <- read.csv(paste(source_data,"country-codes.csv",sep=""))
-
-#Keep and rename selected columns
-country_names <- subset(country_names, select = c(official_name_en, ISO3166.1.Alpha.2, ISO3166.1.Alpha.3, Continent))
-
-colnames(country_names)[colnames(country_names)=="official_name_en"] <- "country"
-colnames(country_names)[colnames(country_names)=="ISO3166.1.Alpha.2"] <- "iso_2"
-colnames(country_names)[colnames(country_names)=="ISO3166.1.Alpha.3"] <- "iso_3"
-colnames(country_names)[colnames(country_names)=="Continent"] <- "continent"
-
-#Replace continent abbreviation 'NA' (North America) to 'NO' (R does not recognize 'NA' as a character)
-country_names$continent <- as.character(country_names$continent)
-country_names$continent <- if_else(is.na(country_names$continent),"NO",country_names$continent)
+country_names <- read.csv(paste(source_data,"iso-country-codes.csv",sep=""))
+colnames(country_names)[colnames(country_names)=="ï..country"] <- "country"

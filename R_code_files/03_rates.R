@@ -40,7 +40,7 @@ write.csv(vat_rates, paste(rates,"vat_rates.csv",sep=""), row.names = F)
 
 #Average VAT rate by Year
 
-#Means for 2000-2019####
+#Means for 1975-2020####
 magic_for(silent = TRUE)
 years<-print(unique(vat_rates$year))
 
@@ -81,3 +81,84 @@ country<-c("Canada","Canada","Canada","Canada","Canada","Canada","Canada")
 canada <- data.frame(country,year, rate)
 
 write.csv(canada, paste(rates,"canada_vat_equivalent.csv",sep=""), row.names = F)
+
+#Database####
+vat_rates_database <- read_excel(paste(source_data,"vat-gst-rates-historical-tax-database.xlsx",sep=""), 
+                                 range = "A2:BC261")
+
+colnames(vat_rates_database)[colnames(vat_rates_database)=="X__1"] <- "category"
+
+#Adjust to a true spreadsheet
+
+#Combine Countries and Standard Rates
+countries<-print(unique(country_names$country))
+vat_rates_database_countries<-subset(vat_rates_database,vat_rates_database$category%in%countries)
+vat_rates_database_countries$row<-row.names(vat_rates_database_countries)
+vat_rates_database_countries<-vat_rates_database_countries[-c(2:55)]
+colnames(vat_rates_database_countries)[colnames(vat_rates_database_countries)=="category"] <- "country"
+
+vat_rates_database_standard<-vat_rates_database
+vat_rates_database_standard$reference<-row.names(vat_rates_database)
+
+vat_rates_database_standard<-subset(vat_rates_database_standard,vat_rates_database_standard$reference!=99)
+vat_rates_database_standard<-subset(vat_rates_database_standard,vat_rates_database_standard$reference!=195)
+vat_rates_database_standard<-subset(vat_rates_database_standard,vat_rates_database_standard$reference!=202)
+vat_rates_database_standard<-subset(vat_rates_database_standard,vat_rates_database_standard$reference!=227)
+vat_rates_database_standard<-subset(vat_rates_database_standard,vat_rates_database_standard$reference!=232)
+
+vat_rates_database_standard<-subset(vat_rates_database_standard,vat_rates_database_standard$category=="Standard rate")
+
+vat_rates_database_standard$row<-row.names(vat_rates_database_standard)
+
+vat_1967_2020<-merge(vat_rates_database_countries,vat_rates_database_standard,by="row")
+
+vat_1967_2020<-vat_1967_2020[-c(1,58)]
+
+vat_1967_2020_long <- melt(vat_1967_2020,id.vars=c("country","category"))
+
+colnames(vat_1967_2020_long)<-c("country","category","year","rate")
+vat_1967_2020_long$rate <- str_remove_all(vat_1967_2020_long$rate, "[-]")
+vat_1967_2020_long$rate <-as.numeric(vat_1967_2020_long$rate)
+
+write.csv(vat_1967_2020_long, paste(rates,"vat_1967_2020_long.csv",sep=""), row.names = F)
+
+#Means for 1967-2020####
+magic_for(silent = TRUE)
+years<-print(unique(vat_1967_2020_long$year))
+
+for(year in years){
+  vat_rate_avg<-mean(vat_1967_2020_long$rate[vat_1967_2020_long$year==year],na.rm = T)
+  put(vat_rate_avg)
+}
+vat_rate_avg_1967_2020<-magic_result_as_dataframe() 
+
+vat_1967_2020_long$key<-if_else(vat_1967_2020_long$rate!="NA",1,0)
+count<-vat_1967_2020_long%>%
+  count(key,year)
+
+count<-subset(count,count$key!="NA")
+
+vat_rate_avg_1967_2020<-merge(vat_rate_avg_1967_2020,count,by="year")
+vat_rate_avg_1967_2020<-vat_rate_avg_1967_2020[-c(3)]
+colnames(vat_rate_avg_1967_2020)[colnames(vat_rate_avg_1967_2020)=="n"] <- "observations"
+
+write.csv(vat_rate_avg_1967_2020, paste(rates,"vat_rate_avg_1967_2020.csv",sep=""), row.names = F)
+
+
+
+
+
+
+vat_rates_database_standard<-vat_rates_database_standard[-c(2:55)]
+colnames(vat_rates_database_standard)[colnames(vat_rates_database_standard)=="category"] <- "country"
+
+
+
+
+
+vat_rates_database<-subset(vat_rates_database,vat_rates_database$category!="Implementation date")
+vat_rates_database<-subset(vat_rates_database,vat_rates_database$category!="Reduced rates")
+vat_rates_database<-subset(vat_rates_database,vat_rates_database$category!="Higher rate")
+
+
+
