@@ -36,7 +36,7 @@ vat_rates<-rbind(vat_rates_historic,vat_rates_current)
 vat_rates$rate <- str_remove_all(vat_rates$rate, "[-]")
 vat_rates$rate <-as.numeric(vat_rates$rate)
 
-write.csv(vat_rates, paste(intermediate_outputs,"vat_rates.csv",sep=""), row.names = F)
+write.csv(vat_rates, paste(rates,"vat_rates.csv",sep=""), row.names = F)
 
 #Average VAT rate by Year
 
@@ -60,7 +60,7 @@ vat_rate_avg<-merge(vat_rate_avg,count,by="year")
 vat_rate_avg<-vat_rate_avg[-c(3)]
 colnames(vat_rate_avg)[colnames(vat_rate_avg)=="n"] <- "observations"
 
-write.csv(vat_rate_avg, paste(intermediate_outputs,"vat_rate_avg.csv",sep=""), row.names = F)
+write.csv(vat_rate_avg, paste(rates,"vat_rate_avg.csv",sep=""), row.names = F)
 
 #US VAT rate equivalent
 vat_rates<-vat_rates[-c(4)]
@@ -70,7 +70,7 @@ rate<- c("7.2","7.3","7.3","7.4","7.4","7.4","7.4")
 country<-c("United States","United States","United States","United States","United States","United States","United States")
 us <- data.frame(country,year, rate)
 
-write.csv(us, paste(intermediate_outputs,"us_vat_equivalent.csv",sep=""), row.names = F)
+write.csv(us, paste(rates,"us_vat_equivalent.csv",sep=""), row.names = F)
 
 
 #Canada VAT rate equivalent - https://www.retailcouncil.org/resources/quick-facts/sales-tax-rates-by-province/
@@ -80,4 +80,4 @@ rate<- c("15.6","10.6","10.6","12.4","12.4","12.4","12.4")
 country<-c("Canada","Canada","Canada","Canada","Canada","Canada","Canada")
 canada <- data.frame(country,year, rate)
 
-write.csv(canada, paste(intermediate_outputs,"canada_vat_equivalent.csv",sep=""), row.names = F)
+write.csv(canada, paste(rates,"canada_vat_equivalent.csv",sep=""), row.names = F)

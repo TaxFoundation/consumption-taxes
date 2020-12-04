@@ -44,7 +44,7 @@ data$tax<-if_else(data$tax=="5121","5121 Excise",data$tax)
 data$variable<-if_else(data$variable=="TAXGDP","% of GDP",data$variable)
 data$variable<-if_else(data$variable=="TAXPER","% of Total Revenue",data$variable)
 
-write.csv(data, paste(intermediate_outputs,"revenue_preliminary.csv",sep=""), row.names = F)
+write.csv(data, paste(revenue,"revenue_preliminary.csv",sep=""), row.names = F)
 
 #Fix countries for which 2019 data is not available (unless otherwise noted, 2018 data is used for these cases)####
 
@@ -96,7 +96,7 @@ data <- rbind(data, missing_australia,missing_greece_vat,missing_greece_excise,
 #Sort dataset
 data <- data[order(data$country, data$tax, data$year),]
 
-write.csv(data, paste(intermediate_outputs,"revenue_fixed.csv",sep=""), row.names = F)
+write.csv(data, paste(revenue,"revenue_fixed.csv",sep=""), row.names = F)
 
 
 #Means for 2000-2019####
@@ -121,7 +121,7 @@ for(year in years){
 }
 pct_rev<-magic_result_as_dataframe() 
 
-write.csv(pct_rev, paste(intermediate_outputs,"consumption_pct_rev.csv",sep=""), row.names = F)
+write.csv(pct_rev, paste(revenue,"consumption_pct_rev.csv",sep=""), row.names = F)
 
 
 for(year in years){
@@ -142,4 +142,4 @@ for(year in years){
 }
 pct_gdp<-magic_result_as_dataframe() 
 
-write.csv(pct_gdp, paste(intermediate_outputs,"consumption_pct_gdp.csv",sep=""), row.names = F)
+write.csv(pct_gdp, paste(revenue,"consumption_pct_gdp.csv",sep=""), row.names = F)
