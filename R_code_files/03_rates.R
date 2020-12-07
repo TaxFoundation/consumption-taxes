@@ -273,9 +273,10 @@ standard_reduced_higher<-merge(standard_reduced,higher,by=c("country","year","ca
 
 standard_reduced_higher$rate<-as.numeric(standard_reduced_higher$rate)
 
-#Spread out by variable####
+#Full rates dataset 1967-2020####
 data<-standard_reduced_higher%>%
   spread(category,rate)
 
+colnames(data)[colnames(data)=="Standard rate"] <- "standard"
 
-
+write.csv(data, paste(rates,"vat_rates_1967_2020.csv",sep=""), row.names = F)
