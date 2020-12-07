@@ -117,6 +117,12 @@ vat_1967_2020<-vat_1967_2020[-c(1,58)]
 vat_1967_2020_long <- melt(vat_1967_2020,id.vars=c("country","category"))
 
 colnames(vat_1967_2020_long)<-c("country","category","year","rate")
+
+#Fix Lithuania 2009 from "19.0 - 21.0" to "19.0" as in https://www.oecd.org/tax/consumption/vat-gst-rates-ctt-trends.xlsx
+vat_1967_2020_long$rate<-if_else(vat_1967_2020_long$rate=="19.0 - 21.0","19.0",vat_1967_2020_long$rate)
+
+
+#Finish cleaning data
 vat_1967_2020_long$rate <- str_remove_all(vat_1967_2020_long$rate, "[-]")
 vat_1967_2020_long$rate <-as.numeric(vat_1967_2020_long$rate)
 
@@ -191,9 +197,7 @@ colnames(reduced)<-c("country","year","category","rate")
 
 standard_reduced<-merge(standard,reduced,by=c("country","year","category","rate"),all=T)
 
-#Higher rates
-
-
+#Higher rates###
 vat_rates_database_standard<-vat_rates_database_standard[-c(2:55)]
 colnames(vat_rates_database_standard)[colnames(vat_rates_database_standard)=="category"] <- "country"
 
