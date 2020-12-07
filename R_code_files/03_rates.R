@@ -88,9 +88,8 @@ vat_rates_database <- read_excel(paste(source_data,"vat-gst-rates-historical-tax
 
 colnames(vat_rates_database)[colnames(vat_rates_database)=="X__1"] <- "category"
 
-#Adjust to a true spreadsheet
-
-#Combine Countries and Standard Rates####
+#Standard rates####
+#Combine Countries and Standard Rates
 countries<-print(unique(country_names$country))
 vat_rates_database_countries<-subset(vat_rates_database,vat_rates_database$category%in%countries)
 vat_rates_database_countries$row<-row.names(vat_rates_database_countries)
@@ -129,7 +128,7 @@ vat_1967_2020_long$rate <-as.numeric(vat_1967_2020_long$rate)
 
 write.csv(vat_1967_2020_long, paste(rates,"vat_1967_2020_long.csv",sep=""), row.names = F)
 
-#Standard Rate Means for 1967-2020####
+#Standard Rate Means for 1967-2020
 magic_for(silent = TRUE)
 years<-print(unique(vat_1967_2020_long$year))
 
@@ -214,17 +213,69 @@ colnames(reduced)<-c("country","year","category","rate")
 
 standard_reduced<-merge(standard,reduced,by=c("country","year","category","rate"),all=T)
 
-#Higher rates###
-vat_rates_database_standard<-vat_rates_database_standard[-c(2:55)]
-colnames(vat_rates_database_standard)[colnames(vat_rates_database_standard)=="category"] <- "country"
+#Higher rates####
+higher<-vat_rates_database
+higher$reference<-row.names(vat_rates_database)
+
+#Eliminate rows for subnational policies (in Greece and Portugal)
+higher<-subset(higher,higher$reference!=103)
+higher<-subset(higher,higher$reference!=199)
+higher<-subset(higher,higher$reference!=206)
 
 
+higher<-subset(higher,higher$category=="Higher rate")
+
+higher$row<-row.names(higher)
+
+#Remove countries without higher rates
+higher_rate_countries<-c("Austria",
+                         "Belgium",
+                         "Colombia",
+                         "France",
+                         "Greece",
+                         "Ireland",
+                         "Italy",
+                         "Mexico",
+                         "Portugal",
+                         "Spain",
+                         "Turkey",
+                         "United Kingdom")
+
+higher_countries<-subset(vat_rates_database_countries,vat_rates_database_countries$country%in%higher_rate_countries)
 
 
+higher_countries$row<-row.names(higher_countries)
 
-vat_rates_database<-subset(vat_rates_database,vat_rates_database$category!="Implementation date")
-vat_rates_database<-subset(vat_rates_database,vat_rates_database$category!="Reduced rates")
-vat_rates_database<-subset(vat_rates_database,vat_rates_database$category!="Higher rate")
+#Match higher rates with countries
+higher_1967_2020<-merge(higher_countries,higher,by="row")
+higher_1967_2020<-higher_1967_2020[-c(1,58)]
+higher_1967_2020_long <- melt(higher_1967_2020,id.vars=c("country","category"))
+
+colnames(higher_1967_2020_long)<-c("country","category","year","rate")
+
+higher_1967_2020_long$rate <- str_remove_all(higher_1967_2020_long$rate, "[-]")
+
+
+#Separate higher Rates into multiple variables
+higher_1967_2020_long<-higher_1967_2020_long%>%
+  separate(rate,c("higher_1","higher_2","higher_3"),"/")
+
+higher_1967_2020_long<-higher_1967_2020_long[-c(2)]
+
+higher_1967_2020_long <- melt(higher_1967_2020_long,id.vars=c("country","year"))
+higher_1967_2020_long$value<-as.numeric(higher_1967_2020_long$value)
+
+#Add higher rates to standard rates
+higher<-higher_1967_2020_long
+colnames(higher)<-c("country","year","category","rate")
+
+standard_reduced_higher<-merge(standard_reduced,higher,by=c("country","year","category","rate"),all=T)
+
+standard_reduced_higher$rate<-as.numeric(standard_reduced_higher$rate)
+
+#Spread out by variable####
+data<-standard_reduced_higher%>%
+  spread(category,rate)
 
 
 
