@@ -100,6 +100,7 @@ colnames(vat_rates_database_countries)[colnames(vat_rates_database_countries)=="
 standard<-vat_rates_database
 standard$reference<-row.names(vat_rates_database)
 
+#Eliminate rows for subnational policies (in Greece,Portugal, and Spain)
 standard<-subset(standard,standard$reference!=99)
 standard<-subset(standard,standard$reference!=195)
 standard<-subset(standard,standard$reference!=202)
@@ -154,6 +155,11 @@ write.csv(vat_rate_avg_1967_2020, paste(rates,"vat_rate_avg_1967_2020.csv",sep="
 reduced<-vat_rates_database
 reduced$reference<-row.names(vat_rates_database)
 
+#Consistent labeling of reduced variable
+reduced$category<-if_else(reduced$category=="Reduced rate","Reduced rates",reduced$category)
+
+
+#Eliminate rows for subnational policies (in Greece,Portugal, and Spain)
 reduced<-subset(reduced,reduced$reference!=101)
 reduced<-subset(reduced,reduced$reference!=197)
 reduced<-subset(reduced,reduced$reference!=204)
@@ -165,18 +171,29 @@ reduced<-subset(reduced,reduced$category=="Reduced rates")
 
 reduced$row<-row.names(reduced)
 
+#Remove countries without reduced rates
 reduced_countries<-subset(vat_rates_database_countries,vat_rates_database_countries$country!="Chile")
 reduced_countries<-subset(reduced_countries,reduced_countries$country!="New Zealand")
 
 reduced_countries$row<-row.names(reduced_countries)
 
+#Match reduced rates with countries
 reduced_1967_2020<-merge(reduced_countries,reduced,by="row")
-
 reduced_1967_2020<-reduced_1967_2020[-c(1,58)]
-
 reduced_1967_2020_long <- melt(reduced_1967_2020,id.vars=c("country","category"))
 
 colnames(reduced_1967_2020_long)<-c("country","category","year","rate")
+
+#Fix Italy 1993 and 1994 reduced rates from "4.0/9.012.0" and "4.0/9.013.0" to "4.0/9.0/12.0" and "4.0/9.0/13.0" before splitting to columns
+vat_1967_2020_long$rate<-as.character(vat_1967_2020_long$rate)
+
+
+#1993
+vat_1967_2020_long$rate<-if_else(vat_1967_2020_long$rate=="4.0/9.012.0","4.0/9.0/12.0",vat_1967_2020_long$rate)
+
+#1994
+vat_1967_2020_long$rate<-if_else(vat_1967_2020_long$rate=="4.0/9.013.0","4.0/9.0/13.0",vat_1967_2020_long$rate)
+
 reduced_1967_2020_long$rate <- str_remove_all(reduced_1967_2020_long$rate, "[-]")
 
 #Separate Reduced Rates into multiple variables
