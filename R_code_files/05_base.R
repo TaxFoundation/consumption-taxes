@@ -36,32 +36,53 @@ write.csv(vat_base,paste(base,"vat_base.csv",sep=""), row.names = FALSE)
 #VAT revenue####
 dataset <- ("REV")
 dstruc <- get_data_structure(dataset)
-str(dstruc, max.level = 1)
-dstruc$VAR
+#str(dstruc, max.level = 1)
+#dstruc$VAR
 #dstruc$TAX
 dstruc$GOV
-#dstruc$YEA
-taxes<-c("5111")
-vat_revenues <- get_dataset(dataset, filter= list(c("NES"),c(taxes),c("TAXNAT"),c(oecd_countries)),start_time = 1976)
+#dstruc$UNIT
+#taxes<-c("5111")
+vat_revenues <- get_dataset(dataset, filter= list(c("FED"),c(taxes),c("TAXNAT"),c(oecd_countries)),start_time = 1976)
 
 #Drop redundant columns
 vat_revenues <- subset(vat_revenues, select=-c(GOV, TAX, VAR, TIME_FORMAT, UNIT, POWERCODE))
 colnames(vat_revenues)<-c("iso_3","year","vat_revenue")
 
+#Convert revenues to millions
+vat_revenues$vat_revenue<-vat_revenues$vat_revenue*1000
+vat_revenues<-merge(vat_revenues,country_names,by="iso_3")
+
 #Final Consumption Expenditure####
 dataset <- ("SNA_Table1")
-dstruc <- get_data_structure(dataset)
-str(dstruc, max.level = 1)
-dstruc$CL_SNA_TABLE1_LOCATION
-dstruc$CL_SNA_TABLE1_TRANSACT
-dstruc$CL_SNA_TABLE1_MEASURE
-dstruc$CL_SNA_TABLE1_TIME
-dstruc$CL_SNA_TABLE1_OBS_STATUS
-dstruc$CL_SNA_TABLE1_UNIT
-dstruc$CL_SNA_TABLE1_POWERCODE
+#dstruc <- get_data_structure(dataset)
+#str(dstruc, max.level = 1)
+#dstruc$CL_SNA_TABLE1_LOCATION
+#dstruc$CL_SNA_TABLE1_TRANSACT
+#dstruc$CL_SNA_TABLE1_MEASURE
+#dstruc$CL_SNA_TABLE1_TIME
+#dstruc$CL_SNA_TABLE1_OBS_STATUS
+#dstruc$CL_SNA_TABLE1_UNIT
+#dstruc$CL_SNA_TABLE1_POWERCODE
 #dstruc$YEA
 consumption <- get_dataset(dataset,filter=list(c(oecd_countries),c("P3"),c("C")),start_time=1976)
 
 #Drop redundant columns
 consumption <- subset(consumption, select=-c(TRANSACT, MEASURE, TIME_FORMAT, UNIT, POWERCODE, OBS_STATUS))
 colnames(consumption)<-c("iso_3","year","consumption")
+consumption<-merge(consumption,country_names,by="iso_3")
+
+#Standard VAT Rate####
+vat_rates <- read.csv(paste(rates,"standard_vat_rates_1975_2020.csv",sep=""))
+vat_rates<-merge(vat_rates,country_names,by="country")
+
+#Combine variables####
+vat_revenue_ratio<-merge(vat_rates,vat_revenues,by=c("iso_2","iso_3","country","year"),all=T)
+vat_revenue_ratio<-merge(vat_revenue_ratio,consumption,by=c("iso_2","iso_3","country","year"),all=T)
+
+#Calculate VAT Revenue Ratio####
+vat_revenue_ratio$vrr<-vat_revenue_ratio$vat_revenue/((vat_revenue_ratio$consumption-vat_revenue_ratio$vat_revenue)*(vat_revenue_ratio$rate/100))
+
+#Remove Rows wher VRR==NA
+vat_revenue_ratio<-subset(vat_revenue_ratio,vat_revenue_ratio$vrr!="NA")
+
+write.csv(vat_revenue_ratio,paste(base,"vat_revenue_ratio_1985_2019.csv",sep=""), row.names = FALSE)
