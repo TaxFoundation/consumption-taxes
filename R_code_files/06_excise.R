@@ -175,22 +175,23 @@ unleaded_gas_2019$year<-2019
 unleaded_gas_2019$unleaded_excise_pct_price<-(unleaded_gas_2019$unleaded_excise_nat/unleaded_gas_2019$unleaded_total_price_nat)*100
 unleaded_gas_2019<-subset(unleaded_gas_2019,select=-c(unleaded_excise_nat,unleaded_total_price_nat))
 
-
 unleaded_gas<-rbind(unleaded_gas_2017,unleaded_gas_2019)
 unleaded_gas$country <- str_remove_all(unleaded_gas$country, "[*]")
 unleaded_gas<-merge(unleaded_gas,country_names,by=c("country"))
 
 #Diesel####
-#Unleaded Gas####
-diesel_2017<-read_excel(paste(source_data,"taxation-premium-diesel-gasoline-ctt-trends-2017.xlsx",sep=""), range = "a3:k39")
-diesel_2019<-read_excel(paste(source_data,"taxation-premium-diesel-gasoline-ctt-trends-2019.xlsx",sep=""), range = "a3:k40")
+diesel_2017<-read_excel(paste(source_data,"taxation-automotive-diesel-ctt-trends-2017.xlsx",sep=""), range = "a3:k39")
+diesel_2019<-read_excel(paste(source_data,"taxation-automotive-diesel-ctt-trends-2019.xlsx",sep=""), range = "a3:k40")
 
-colnames(diesel_2017)<-c("country","currency","diesel_ex_tax_price_nat","diesel_ex_tax_price_usd","diesel_excise_nat","diesel_vat_rate"
-                               ,"diesel_vat_nat","diesel_total_tax_nat","diesel_total_price_nat",
-                               "diesel_total_price_usd","diesel_total_tax_pct_price")
+colnames(diesel_2017)<-c("country","currency","diesel_ex_tax_price_nat","diesel_ex_tax_price_usd","diesel_excise_nat",
+                               "diesel_excise_usd","diesel_vat_rate","diesel_vat_usd",
+                               "diesel_total_tax_usd","diesel_total_price_usd","diesel_total_tax_pct_price")
 
-diesel_2017<-subset(diesel_2017,select=c(country,diesel_excise_nat,diesel_total_price_nat,diesel_total_tax_pct_price))
+diesel_2017<-subset(diesel_2017,select=c(country,diesel_excise_usd,diesel_total_price_usd,diesel_total_tax_pct_price))
 diesel_2017$year<-2017
+diesel_2017$diesel_excise_pct_price<-(diesel_2017$diesel_excise_usd/diesel_2017$diesel_total_price_usd)*100
+diesel_2017<-subset(diesel_2017,select=-c(diesel_excise_usd,diesel_total_price_usd))
+
 
 colnames(diesel_2019)<-c("country","currency","diesel_ex_tax_price_nat","diesel_ex_tax_price_usd","diesel_excise_nat","diesel_vat_rate"
                                ,"diesel_vat_nat","diesel_total_tax_nat","diesel_total_price_nat",
@@ -198,12 +199,38 @@ colnames(diesel_2019)<-c("country","currency","diesel_ex_tax_price_nat","diesel_
 
 diesel_2019<-subset(diesel_2019,select=c(country,diesel_excise_nat,diesel_total_price_nat,diesel_total_tax_pct_price))
 diesel_2019$year<-2019
+diesel_2019$diesel_excise_pct_price<-(diesel_2019$diesel_excise_nat/diesel_2019$diesel_total_price_nat)*100
+diesel_2019<-subset(diesel_2019,select=-c(diesel_excise_nat,diesel_total_price_nat))
 
 diesel<-rbind(diesel_2017,diesel_2019)
 diesel$country <- str_remove_all(diesel$country, "[*]")
 diesel<-merge(diesel,country_names,by=c("country"))
-#Light fuel####
+#Household fuel####
+household_fuel_2017<-read_excel(paste(source_data,"taxation-households-light-fuel-oil-ctt-trends-2017.xlsx",sep=""), range = "a3:k39")
+household_fuel_2019<-read_excel(paste(source_data,"taxation-households-light-fuel-oil-ctt-trends-2019.xlsx",sep=""), range = "a3:k40")
 
+colnames(household_fuel_2017)<-c("country","currency","household_fuel_ex_tax_price_nat","household_fuel_ex_tax_price_usd","household_fuel_excise_nat",
+                         "household_fuel_excise_usd","household_fuel_vat_rate","household_fuel_vat_usd",
+                         "household_fuel_total_tax_usd","household_fuel_total_price_usd","household_fuel_total_tax_pct_price")
+
+household_fuel_2017<-subset(household_fuel_2017,select=c(country,household_fuel_excise_usd,household_fuel_total_price_usd,household_fuel_total_tax_pct_price))
+household_fuel_2017$year<-2017
+household_fuel_2017$household_fuel_excise_pct_price<-(household_fuel_2017$household_fuel_excise_usd/household_fuel_2017$household_fuel_total_price_usd)*100
+household_fuel_2017<-subset(household_fuel_2017,select=-c(household_fuel_excise_usd,household_fuel_total_price_usd))
+
+
+colnames(household_fuel_2019)<-c("country","currency","household_fuel_ex_tax_price_nat","household_fuel_ex_tax_price_usd","household_fuel_excise_nat","household_fuel_vat_rate"
+                         ,"household_fuel_vat_nat","household_fuel_total_tax_nat","household_fuel_total_price_nat",
+                         "household_fuel_total_price_usd","household_fuel_total_tax_pct_price")
+
+household_fuel_2019<-subset(household_fuel_2019,select=c(country,household_fuel_excise_nat,household_fuel_total_price_nat,household_fuel_total_tax_pct_price))
+household_fuel_2019$year<-2019
+household_fuel_2019$household_fuel_excise_pct_price<-(household_fuel_2019$household_fuel_excise_nat/household_fuel_2019$household_fuel_total_price_nat)*100
+household_fuel_2019<-subset(household_fuel_2019,select=-c(household_fuel_excise_nat,household_fuel_total_price_nat))
+
+household_fuel<-rbind(household_fuel_2017,household_fuel_2019)
+household_fuel$country <- str_remove_all(household_fuel$country, "[*]")
+household_fuel<-merge(household_fuel,country_names,by=c("country"))
 #Combine####
 #beer
 #wine
