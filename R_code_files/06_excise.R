@@ -20,7 +20,47 @@ beer<-merge(beer,country_names,by=c("country"))
 beer$beer_excise_hl_usd<-as.numeric(beer$beer_excise_hl_usd)
 beer$beer_low_alc_usd<-as.numeric(beer$beer_low_alc_usd)
 
+#Lower excise for small independent breweries
+beer_2018<-read_excel(paste(source_data,"taxation-beer-ctt-trends-2018.xlsx",sep=""), range = "a3:g59")
+beer_2020<-read_excel(paste(source_data,"taxation-beer-ctt-trends-2020.xlsx",sep=""), range = "a3:g60")
 
+colnames(beer_2018)<-c("country","currency","beer_excise_hl_nat","beer_excise_hl_usd",
+                       "beer_production_hl","beer_lower_nat","beer_lower_usd")
+beer_2018<-subset(beer_2018,select = -c(currency,beer_excise_hl_nat,beer_excise_hl_usd,beer_lower_nat))
+beer_2018$year<-2018
+
+
+colnames(beer_2020)<-c("country","currency","beer_excise_hl_nat","beer_excise_hl_usd",
+                       "beer_production_hl","beer_lower_nat","beer_lower_usd")
+beer_2020<-subset(beer_2020,select = -c(currency,beer_excise_hl_nat,beer_excise_hl_usd,beer_lower_nat))
+beer_2020$year<-2020
+
+
+small_ind_beer<-rbind(beer_2018,beer_2020)
+small_ind_beer<-small_ind_beer %>% fill(country)
+#remove special characters and values
+small_ind_beer$beer_lower_usd<-as.numeric(small_ind_beer$beer_lower_usd)
+small_ind_beer$country <- str_remove_all(small_ind_beer$country, "[*]")
+small_ind_beer<-subset(small_ind_beer,small_ind_beer$beer_production_hl!="Country note")
+
+small_ind_beer$beer_production_hl<-if_else(small_ind_beer$country=="Hungary","< 200 000",small_ind_beer$beer_production_hl)
+small_ind_beer$beer_production_hl<-if_else(small_ind_beer$country=="Slovenia","< 20 000",small_ind_beer$beer_production_hl)
+
+small_ind_beer<-small_ind_beer%>%
+  separate(beer_production_hl,c("one","two","three")," ")
+
+small_ind_beer$beer_production_hl<-paste(small_ind_beer$two,small_ind_beer$three,sep="")
+
+#Fix US value
+small_ind_beer$beer_production_hl<-if_else(small_ind_beer$country=="United States","2347000",small_ind_beer$beer_production_hl)
+
+small_ind_beer$beer_production_hl<-as.numeric(small_ind_beer$beer_production_hl)
+
+#Drop unnecessary variables
+small_ind_beer<-subset(small_ind_beer,select = -c(one,two,three))
+
+
+print(small_ind_beer$beer_production_hl)
 #Wine####
 wine_2018<-read_excel(paste(source_data,"taxation-wine-ctt-trends-2018.xlsx",sep=""), range = "a4:j40")
 wine_2020<-read_excel(paste(source_data,"taxation-wine-ctt-trends-2020.xlsx",sep=""), range = "a4:j41")
@@ -47,9 +87,26 @@ wine$still_wine_excise_hl_usd<-as.numeric(wine$still_wine_excise_hl_usd)
 wine$sparkling_wine_excise_hl_usd<-as.numeric(wine$sparkling_wine_excise_hl_usd)
 wine$low_alc_excise_hl_usd<-as.numeric(wine$low_alc_excise_hl_usd)
 
-#Other####
+#Alcohol####
+alc_2018<-read_excel(paste(source_data,"taxation-alcoholic-beverages-ctt-trends-2018.xlsx",sep=""), range = "a4:f40")
+alc_2020<-read_excel(paste(source_data,"taxation-alcoholic-beverages-ctt-trends-2020.xlsx",sep=""), range = "a4:f41")
 
+colnames(alc_2018)<-c("country","currency","alc_excise_hl_nat","alc_excise_hl_usd",
+                          "alc_vat","small_dist_rate")
+alc_2018<-subset(alc_2018,select = -c(currency,alc_excise_hl_nat,alc_vat))
+alc_2018$year<-2018
 
+colnames(alc_2020)<-c("country","currency","alc_excise_hl_nat","alc_excise_hl_usd",
+                      "alc_vat","small_dist_rate")
+alc_2020<-subset(alc_2020,select = -c(currency,alc_excise_hl_nat,alc_vat))
+alc_2020$year<-2020
+
+alcohol<-rbind(alc_2018,alc_2020)
+alcohol$country <- str_remove_all(alcohol$country, "[*]")
+alcohol<-merge(alcohol,country_names,by=c("country"))
+
+alcohol$alc_excise_hl_usd<-as.numeric(alcohol$alc_excise_hl_usd)
+alcohol$small_dist_rate<-if_else(alcohol$small_dist_rate=="Yes",1,0)
 #Tobacco####
 
 #Fuel####
