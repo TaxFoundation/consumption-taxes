@@ -50,6 +50,7 @@ small_ind_beer<-small_ind_beer%>%
   separate(beer_production_hl,c("one","two","three")," ")
 
 small_ind_beer$beer_production_hl<-paste(small_ind_beer$two,small_ind_beer$three,sep="")
+small_ind_beer<-merge(small_ind_beer,country_names,by=c("country"))
 
 #Fix US value
 small_ind_beer$beer_production_hl<-if_else(small_ind_beer$country=="United States","2347000",small_ind_beer$beer_production_hl)
@@ -108,6 +109,31 @@ alcohol<-merge(alcohol,country_names,by=c("country"))
 alcohol$alc_excise_hl_usd<-as.numeric(alcohol$alc_excise_hl_usd)
 alcohol$small_dist_rate<-if_else(alcohol$small_dist_rate=="Yes",1,0)
 #Tobacco####
+tobacco_2018<-read_excel(paste(source_data,"taxation-tobacco-ctt-trends-2018.xlsx",sep=""), range = "a4:k40")
+tobacco_2020<-read_excel(paste(source_data,"taxation-tobacco-ctt-trends-2020.xlsx",sep=""), range = "a4:k41")
+
+colnames(tobacco_2018)<-c("country","currency","cigarette_excise_1k_nat","cigarette_excise_1k_usd","cigarette_excise_1k_pct_rsp",
+                          "cigar_excise_1k_nat","cigar_excise_1k_usd","cigar_excise_1k_pct_rsp",
+                          "roll_tob_excise_1kg_nat","roll_tob_excise_1kg_usd","roll_tob_excise_1kg_pct_rsp")
+tobacco_2018<-subset(tobacco_2018,select = -c(currency,cigarette_excise_1k_nat,cigar_excise_1k_nat,roll_tob_excise_1kg_nat))
+tobacco_2018$year<-2018
+
+colnames(tobacco_2020)<-c("country","currency","cigarette_excise_1k_nat","cigarette_excise_1k_usd","cigarette_excise_1k_pct_rsp",
+                          "cigar_excise_1k_nat","cigar_excise_1k_usd","cigar_excise_1k_pct_rsp",
+                          "roll_tob_excise_1kg_nat","roll_tob_excise_1kg_usd","roll_tob_excise_1kg_pct_rsp")
+tobacco_2020<-subset(tobacco_2020,select = -c(currency,cigarette_excise_1k_nat,cigar_excise_1k_nat,roll_tob_excise_1kg_nat))
+tobacco_2020$year<-2020
+
+tobacco<-rbind(tobacco_2018,tobacco_2020)
+tobacco$country <- str_remove_all(tobacco$country, "[*]")
+tobacco<-merge(tobacco,country_names,by=c("country"))
+
+tobacco$cigarette_excise_1k_usd<-as.numeric(tobacco$cigarette_excise_1k_usd)
+tobacco$cigarette_excise_1k_pct_rsp<-as.numeric(tobacco$cigarette_excise_1k_pct_rsp)
+tobacco$cigar_excise_1k_usd<-as.numeric(tobacco$cigar_excise_1k_usd)
+tobacco$cigar_excise_1k_pct_rsp<-as.numeric(tobacco$cigar_excise_1k_pct_rsp)
+tobacco$roll_tob_excise_1kg_usd<-as.numeric(tobacco$roll_tob_excise_1kg_usd)
+tobacco$roll_tob_excise_1kg_pct_rsp<-as.numeric(tobacco$roll_tob_excise_1kg_pct_rsp)
 
 #Fuel####
 
@@ -116,3 +142,10 @@ alcohol$small_dist_rate<-if_else(alcohol$small_dist_rate=="Yes",1,0)
 #Diesel####
 
 #Light fuel####
+
+#Combine####
+#beer
+#wine
+#alcohol
+#tobacco
+#fuel
