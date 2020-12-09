@@ -6,7 +6,7 @@ revenues<-"C:/Github/consumption-taxes/intermediate_outputs/revenue/"
 rates<-"C:/Github/consumption-taxes/intermediate_outputs/rates/"
 thresholds<-"C:/Github/consumption-taxes/intermediate_outputs/thresholds/"
 base<-"C:/Github/consumption-taxes/intermediate_outputs/base/"
-excise<-"C:/Github/consumption-taxes/intermediate_outputs/excise/"
+excises<-"C:/Github/consumption-taxes/intermediate_outputs/excise/"
 final_data<-"C:/Github/consumption-taxes/final_data/"
 final_outputs<-"C:/Github/consumption-taxes/final_outputs/"
 

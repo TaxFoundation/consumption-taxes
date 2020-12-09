@@ -232,9 +232,12 @@ household_fuel<-rbind(household_fuel_2017,household_fuel_2019)
 household_fuel$country <- str_remove_all(household_fuel$country, "[*]")
 household_fuel<-merge(household_fuel,country_names,by=c("country"))
 #Combine####
-#beer
-#wine
-#alcohol
-#tobacco
-#cigarettes
-#fuel
+excise<-merge(beer,wine,by=c("iso_2","iso_3","country","year"), all=T)
+excise<-merge(excise,alcohol,by=c("iso_2","iso_3","country","year"), all=T)
+excise<-merge(excise,tobacco,by=c("iso_2","iso_3","country","year"), all=T)
+excise<-merge(excise,cigarettes,by=c("iso_2","iso_3","country","year"), all=T)
+excise<-merge(excise,unleaded_gas,by=c("iso_2","iso_3","country","year"), all=T)
+excise<-merge(excise,diesel,by=c("iso_2","iso_3","country","year"), all=T)
+excise<-merge(excise,household_fuel,by=c("iso_2","iso_3","country","year"), all=T)
+
+write.csv(excise,paste(excises,"excise_taxes.csv",sep=""),row.names = F)
