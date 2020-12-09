@@ -85,5 +85,6 @@ year <- c("2014", "2016")
 LTU <- data.frame(country,threshold,year)
 
 vat_thresholds <- rbind(vat_thresholds, LVA, LTU)
+vat_thresholds <- merge(vat_thresholds,country_names,by=c("country"))
 
 write.csv(vat_thresholds,paste(thresholds,"vat_thresholds.csv",sep=""),row.names = FALSE)

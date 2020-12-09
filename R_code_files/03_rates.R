@@ -111,7 +111,7 @@ reduced_1967_2020_long$rate <- str_remove_all(reduced_1967_2020_long$rate, "[-]"
 
 #Separate Reduced Rates into multiple variables
 reduced_1967_2020_long<-reduced_1967_2020_long%>%
-  separate(rate,c("reduced_1","reduced_2","reduced_3","reduced_4","reduced_5","reduced_6"),"/")
+  separate(rate,c("reduced_rate_1","reduced_rate_2","reduced_rate_3","reduced_rate_4","reduced_rate_5","reduced_rate_6"),"/")
 
 reduced_1967_2020_long<-reduced_1967_2020_long[-c(2)]
 
@@ -172,7 +172,7 @@ higher_1967_2020_long$rate <- str_remove_all(higher_1967_2020_long$rate, "[-]")
 
 #Separate higher Rates into multiple variables
 higher_1967_2020_long<-higher_1967_2020_long%>%
-  separate(rate,c("higher_1","higher_2","higher_3"),"/")
+  separate(rate,c("higher_rate_1","higher_rate_2","higher_rate_3"),"/")
 
 higher_1967_2020_long<-higher_1967_2020_long[-c(2)]
 
@@ -191,7 +191,9 @@ standard_reduced_higher$rate<-as.numeric(standard_reduced_higher$rate)
 data<-standard_reduced_higher%>%
   spread(category,rate)
 
-colnames(data)[colnames(data)=="Standard rate"] <- "standard"
+colnames(data)[colnames(data)=="Standard rate"] <- "standard_vat_rate"
+
+data<-merge(data,country_names,by=c("country"))
 
 write.csv(data, paste(rates,"vat_rates_1967_2020.csv",sep=""), row.names = F)
 
