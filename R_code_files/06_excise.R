@@ -47,19 +47,18 @@ small_ind_beer$beer_production_hl<-if_else(small_ind_beer$country=="Slovenia","<
 small_ind_beer<-small_ind_beer%>%
   separate(beer_production_hl,c("one","two","three")," ")
 
-small_ind_beer$beer_production_hl<-paste(small_ind_beer$two,small_ind_beer$three,sep="")
+small_ind_beer$beer_production_threshold_hl<-paste(small_ind_beer$two,small_ind_beer$three,sep="")
 small_ind_beer<-merge(small_ind_beer,country_names,by=c("country"))
 
 #Fix US value
-small_ind_beer$beer_production_hl<-if_else(small_ind_beer$country=="United States","2347000",small_ind_beer$beer_production_hl)
+small_ind_beer$beer_production_threshold_hl<-if_else(small_ind_beer$country=="United States","2347000",small_ind_beer$beer_production_threshold_hl)
 
-small_ind_beer$beer_production_hl<-as.numeric(small_ind_beer$beer_production_hl)
+small_ind_beer$beer_production_threshold_hl<-as.numeric(small_ind_beer$beer_production_threshold_hl)
 
 #Drop unnecessary variables
 small_ind_beer<-subset(small_ind_beer,select = -c(one,two,three))
 
-
-print(small_ind_beer$beer_production_hl)
+write.csv(small_ind_beer,paste(excises,"small_ind_breweries.csv",sep = ""),row.names = F)
 #Wine####
 wine_2018<-read_excel(paste(source_data,"taxation-wine-ctt-trends-2018.xlsx",sep=""), range = "a4:j40")
 wine_2020<-read_excel(paste(source_data,"taxation-wine-ctt-trends-2020.xlsx",sep=""), range = "a4:j41")

@@ -3,11 +3,11 @@ consumption_revenue<-read_csv(paste(revenues,"revenue_final.csv",sep=""))
 vat_rates <- read_csv(paste(rates,"vat_rates_1967_2020.csv",sep=""))
 vat_thresholds<-read_csv(paste(thresholds,"vat_thresholds.csv",sep=""))
 vat_base <- read_csv(paste(base,"vat_base_1976_2019.csv",sep=""))
-
+excise <- read_csv(paste(excises,"excise_taxes.csv",sep=""))
 consumption_data <- merge(vat_rates, vat_thresholds, by=c("iso_2","iso_3","country","year"),all=T)
 consumption_data <- merge(consumption_data, vat_base, by=c("iso_2","iso_3","country","year"),all=T)
 consumption_data <- merge(consumption_data, consumption_revenue,by=c("iso_2","iso_3","country","year"),all=T)
-
+consumption_data <- merge(consumption_data, excise,by=c("iso_2","iso_3","country","year"),all=T)
 write.csv(consumption_data,file = paste(intermediate_outputs,"consumption_data.csv",sep=""),row.names=F)
 
 #Combine trend files####
