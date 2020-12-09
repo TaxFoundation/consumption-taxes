@@ -88,3 +88,30 @@ vat_thresholds <- rbind(vat_thresholds, LVA, LTU)
 vat_thresholds <- merge(vat_thresholds,country_names,by=c("country"))
 
 write.csv(vat_thresholds,paste(thresholds,"vat_thresholds.csv",sep=""),row.names = FALSE)
+
+#average by year
+#Means for 1975-2020####
+vat_thresholds$year<-as.numeric(vat_thresholds$year)
+vat_thresholds$threshold<-as.numeric(vat_thresholds$threshold)
+magic_for(silent = TRUE)
+years<-print(unique(vat_thresholds$year))
+
+
+for(year in years){
+  vat_threshold_avg<-mean(vat_thresholds$threshold[vat_thresholds$year==year],na.rm = T)
+  put(vat_threshold_avg)
+}
+vat_threshold_avg<-magic_result_as_dataframe() 
+
+#Add number of countries by year
+vat_thresholds$key<-if_else(vat_thresholds$country!="NA",1,0)
+count<-vat_thresholds%>%
+  count(key,year)
+
+count<-subset(count,count$key!="NA")
+
+vat_threshold_avg<-merge(vat_threshold_avg,count,by="year")
+vat_threshold_avg<-vat_threshold_avg[-c(3)]
+colnames(vat_threshold_avg)[colnames(vat_threshold_avg)=="n"] <- "threshold_observations"
+
+write.csv(vat_threshold_avg, paste(thresholds,"thresholds_2007_2020.csv",sep=""), row.names = F)

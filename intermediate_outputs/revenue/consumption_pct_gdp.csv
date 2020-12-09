@@ -1,4 +1,4 @@
-"year","consumption_pct_gdp","vat_pct_gdp","sales_pct_gdp","excise_pct_gdp","observations"
+"year","consumption_pct_gdp","vat_pct_gdp","sales_pct_gdp","excise_pct_gdp","pct_gdp_observations"
 "1975",9.12244,3.08552173913043,1.17086956521739,2.8524,25
 "1976",9.03933333333333,3.38895454545455,0.863090909090909,2.99283333333333,24
 "1977",9.129125,3.54154545454545,0.849045454545455,2.95875,24

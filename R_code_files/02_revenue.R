@@ -160,7 +160,7 @@ count<-subset(count,count$key!="NA")
 
 pct_rev<-merge(pct_rev,count,by="year")
 pct_rev<-pct_rev[-c(6)]
-colnames(pct_rev)[colnames(pct_rev)=="n"] <- "observations"
+colnames(pct_rev)[colnames(pct_rev)=="n"] <- "pct_rev_observations"
 
 write.csv(pct_rev, paste(revenues,"consumption_pct_rev.csv",sep=""), row.names = F)
 
@@ -186,6 +186,6 @@ pct_gdp<-magic_result_as_dataframe()
 #Add number of countries by year
 pct_gdp<-merge(pct_gdp,count,by="year")
 pct_gdp<-pct_gdp[-c(6)]
-colnames(pct_gdp)[colnames(pct_gdp)=="n"] <- "observations"
+colnames(pct_gdp)[colnames(pct_gdp)=="n"] <- "pct_gdp_observations"
 
 write.csv(pct_gdp, paste(revenues,"consumption_pct_gdp.csv",sep=""), row.names = F)

@@ -1,4 +1,4 @@
-"year","consumption_pct_rev","vat_pct_rev","sales_pct_rev","excise_pct_rev","observations"
+"year","consumption_pct_rev","vat_pct_rev","sales_pct_rev","excise_pct_rev","pct_rev_observations"
 "1975",32.81952,8.83217391304348,4.79026086956522,10.4952,25
 "1976",31.480375,9.37572727272727,3.67440909090909,10.5265416666667,24
 "1977",31.1120833333333,9.83390909090909,3.52218181818182,10.1296666666667,24

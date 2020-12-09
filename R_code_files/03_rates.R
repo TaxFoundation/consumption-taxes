@@ -260,7 +260,7 @@ count<-subset(count,count$key!="NA")
 
 vat_rate_avg<-merge(vat_rate_avg,count,by="year")
 vat_rate_avg<-vat_rate_avg[-c(3)]
-colnames(vat_rate_avg)[colnames(vat_rate_avg)=="n"] <- "observations"
+colnames(vat_rate_avg)[colnames(vat_rate_avg)=="n"] <- "rates_observations"
 
 write.csv(vat_rate_avg, paste(rates,"vat_rate_avg_1975_2020.csv",sep=""), row.names = F)
 

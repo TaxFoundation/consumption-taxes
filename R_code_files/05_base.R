@@ -155,6 +155,6 @@ count<-subset(count,count$key!="NA")
 
 vat_base_avg<-merge(vat_base_avg,count,by="year")
 vat_base_avg<-vat_base_avg[-c(3)]
-colnames(vat_base_avg)[colnames(vat_base_avg)=="n"] <- "observations"
+colnames(vat_base_avg)[colnames(vat_base_avg)=="n"] <- "base_observations"
 
 write.csv(vat_base_avg, paste(base,"vat_base_avg_1976_2019.csv",sep=""), row.names = F)
