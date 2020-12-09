@@ -1,5 +1,3 @@
-#Alcohol#####
-
 #Beer####
 beer_2018<-read_excel(paste(source_data,"taxation-beer-ctt-trends-2018.xlsx",sep=""), range = "a3:i59")
 beer_2020<-read_excel(paste(source_data,"taxation-beer-ctt-trends-2020.xlsx",sep=""), range = "a3:i60")
@@ -135,9 +133,27 @@ tobacco$cigar_excise_1k_pct_rsp<-as.numeric(tobacco$cigar_excise_1k_pct_rsp)
 tobacco$roll_tob_excise_1kg_usd<-as.numeric(tobacco$roll_tob_excise_1kg_usd)
 tobacco$roll_tob_excise_1kg_pct_rsp<-as.numeric(tobacco$roll_tob_excise_1kg_pct_rsp)
 
-#Fuel####
+#Cigarette Pack####
+cigarettes_2014<-read_excel(paste(source_data,"tax-burden-cigarettes-ctt-trends-2017.xlsx",sep=""),sheet="2014", range = "a3:i38")
+cigarettes_2016<-read_excel(paste(source_data,"tax-burden-cigarettes-ctt-trends-2017.xlsx",sep=""),sheet="2016", range = "a3:i39")
+
+colnames(cigarettes_2014)<-c("country","cig_pack_ex_tax_price_usd","cig_pack_specific_pct_rsp","cig_pack_ad_val_pct_rsp","cig_pack_sales_pct_rsp",
+                          "cig_pack_total_tax_pct_rsp","currency","cig_pack_price_nat",
+                          "cig_pack_price_usd")
+
+cigarettes_2014<-subset(cigarettes_2014,select=-c(currency,cig_pack_price_nat))
+
+colnames(cigarettes_2016)<-c("country","cig_pack_ex_tax_price_usd","cig_pack_specific_pct_rsp","cig_pack_ad_val_pct_rsp","cig_pack_sales_pct_rsp",
+                             "cig_pack_total_tax_pct_rsp","currency","cig_pack_price_nat",
+                             "cig_pack_price_usd")
+cigarettes_2016<-subset(cigarettes_2016,select=-c(currency,cig_pack_price_nat))
+
+cigarettes<-rbind(cigarettes_2014,cigarettes_2016)
+cigarettes$country <- str_remove_all(cigarettes$country, "[*]")
+cigarettes<-merge(cigarettes,country_names,by=c("country"))
 
 #Unleaded Gas####
+
 
 #Diesel####
 
@@ -148,4 +164,5 @@ tobacco$roll_tob_excise_1kg_pct_rsp<-as.numeric(tobacco$roll_tob_excise_1kg_pct_
 #wine
 #alcohol
 #tobacco
+#cigarettes
 #fuel
