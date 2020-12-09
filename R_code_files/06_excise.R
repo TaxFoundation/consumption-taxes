@@ -142,21 +142,66 @@ colnames(cigarettes_2014)<-c("country","cig_pack_ex_tax_price_usd","cig_pack_spe
                           "cig_pack_price_usd")
 
 cigarettes_2014<-subset(cigarettes_2014,select=-c(currency,cig_pack_price_nat))
-
+cigarettes_2014$year<-2014
 colnames(cigarettes_2016)<-c("country","cig_pack_ex_tax_price_usd","cig_pack_specific_pct_rsp","cig_pack_ad_val_pct_rsp","cig_pack_sales_pct_rsp",
                              "cig_pack_total_tax_pct_rsp","currency","cig_pack_price_nat",
                              "cig_pack_price_usd")
 cigarettes_2016<-subset(cigarettes_2016,select=-c(currency,cig_pack_price_nat))
-
+cigarettes_2016$year<-2016
 cigarettes<-rbind(cigarettes_2014,cigarettes_2016)
 cigarettes$country <- str_remove_all(cigarettes$country, "[*]")
 cigarettes<-merge(cigarettes,country_names,by=c("country"))
 
 #Unleaded Gas####
+unleaded_gas_2017<-read_excel(paste(source_data,"taxation-premium-unleaded-gasoline-ctt-trends-2017.xlsx",sep=""), range = "a3:k39")
+unleaded_gas_2019<-read_excel(paste(source_data,"taxation-premium-unleaded-gasoline-ctt-trends-2019.xlsx",sep=""), range = "a3:k40")
 
+colnames(unleaded_gas_2017)<-c("country","currency","unleaded_ex_tax_price_nat","unleaded_ex_tax_price_usd","unleaded_excise_nat",
+                               "unleaded_excise_usd","unleaded_vat_rate","unleaded_vat_usd",
+                               "unleaded_total_tax_usd","unleaded_total_price_usd","unleaded_total_tax_pct_price")
+
+unleaded_gas_2017<-subset(unleaded_gas_2017,select=c(country,unleaded_excise_usd,unleaded_total_price_usd,unleaded_total_tax_pct_price))
+unleaded_gas_2017$year<-2017
+unleaded_gas_2017$unleaded_excise_pct_price<-(unleaded_gas_2017$unleaded_excise_usd/unleaded_gas_2017$unleaded_total_price_usd)*100
+unleaded_gas_2017<-subset(unleaded_gas_2017,select=-c(unleaded_excise_usd,unleaded_total_price_usd))
+
+
+colnames(unleaded_gas_2019)<-c("country","currency","unleaded_ex_tax_price_nat","unleaded_ex_tax_price_usd","unleaded_excise_nat","unleaded_vat_rate"
+                               ,"unleaded_vat_nat","unleaded_total_tax_nat","unleaded_total_price_nat",
+                               "unleaded_total_price_usd","unleaded_total_tax_pct_price")
+
+unleaded_gas_2019<-subset(unleaded_gas_2019,select=c(country,unleaded_excise_nat,unleaded_total_price_nat,unleaded_total_tax_pct_price))
+unleaded_gas_2019$year<-2019
+unleaded_gas_2019$unleaded_excise_pct_price<-(unleaded_gas_2019$unleaded_excise_nat/unleaded_gas_2019$unleaded_total_price_nat)*100
+unleaded_gas_2019<-subset(unleaded_gas_2019,select=-c(unleaded_excise_nat,unleaded_total_price_nat))
+
+
+unleaded_gas<-rbind(unleaded_gas_2017,unleaded_gas_2019)
+unleaded_gas$country <- str_remove_all(unleaded_gas$country, "[*]")
+unleaded_gas<-merge(unleaded_gas,country_names,by=c("country"))
 
 #Diesel####
+#Unleaded Gas####
+diesel_2017<-read_excel(paste(source_data,"taxation-premium-diesel-gasoline-ctt-trends-2017.xlsx",sep=""), range = "a3:k39")
+diesel_2019<-read_excel(paste(source_data,"taxation-premium-diesel-gasoline-ctt-trends-2019.xlsx",sep=""), range = "a3:k40")
 
+colnames(diesel_2017)<-c("country","currency","diesel_ex_tax_price_nat","diesel_ex_tax_price_usd","diesel_excise_nat","diesel_vat_rate"
+                               ,"diesel_vat_nat","diesel_total_tax_nat","diesel_total_price_nat",
+                               "diesel_total_price_usd","diesel_total_tax_pct_price")
+
+diesel_2017<-subset(diesel_2017,select=c(country,diesel_excise_nat,diesel_total_price_nat,diesel_total_tax_pct_price))
+diesel_2017$year<-2017
+
+colnames(diesel_2019)<-c("country","currency","diesel_ex_tax_price_nat","diesel_ex_tax_price_usd","diesel_excise_nat","diesel_vat_rate"
+                               ,"diesel_vat_nat","diesel_total_tax_nat","diesel_total_price_nat",
+                               "diesel_total_price_usd","diesel_total_tax_pct_price")
+
+diesel_2019<-subset(diesel_2019,select=c(country,diesel_excise_nat,diesel_total_price_nat,diesel_total_tax_pct_price))
+diesel_2019$year<-2019
+
+diesel<-rbind(diesel_2017,diesel_2019)
+diesel$country <- str_remove_all(diesel$country, "[*]")
+diesel<-merge(diesel,country_names,by=c("country"))
 #Light fuel####
 
 #Combine####
