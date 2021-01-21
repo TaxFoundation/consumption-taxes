@@ -1,4 +1,4 @@
-#Combine files####
+#Combine country files####
 consumption_revenue<-read_csv(paste(revenues,"revenue_final.csv",sep=""))
 vat_rates <- read_csv(paste(rates,"vat_rates_1967_2020.csv",sep=""))
 vat_thresholds<-read_csv(paste(thresholds,"vat_thresholds.csv",sep=""))
