@@ -2,7 +2,7 @@
 consumption_revenue<-read_csv(paste(revenues,"revenue_final.csv",sep=""))
 write.csv(consumption_revenue,file = paste(final_outputs,"revenue.csv",sep=""),row.names=F)
 
-#####Reduced Rates Output Table
+###Reduced Rates Output Table
 reduced_rates<-read_csv(paste(intermediate_outputs,"consumption_data.csv",sep=""))
 #keep latest year
 reduced_rates<-subset(reduced_rates,reduced_rates$year==2020)
@@ -19,7 +19,7 @@ reduced_rates<-subset(reduced_rates,reduced_rates$value!="NA")
 
 #merge with reduced rates base
 
-####Excise Tables
+#####Excise Tables
 #Alcohol
 alcohol<-read_csv(paste(intermediate_outputs,"consumption_data.csv",sep=""))
 #keep latest year
@@ -54,12 +54,46 @@ average<-magic_result_as_dataframe()
 #merge average with alcohol
 alcohol<-merge(alcohol,average, by="variable", all=T)
 
-names(alcohol)
-#reorder
+#reorder and rename
 col_order <- c("iso_2", "iso_3", "country",
                "variable", "value", "average")
 alcohol <- alcohol[, col_order]
+colnames(alcohol)<-c("iso_2","iso_3","country","alcohol_type","excise_liter_usd","oecd_avg_liter_usd")
 
 #write
 write.csv(alcohol,file = paste(final_outputs,"alcohol.csv",sep=""),row.names=F)
 
+
+#Fuel
+fuel<-read_csv(paste(intermediate_outputs,"consumption_data.csv",sep=""))
+#keep latest year
+fuel<-subset(fuel,fuel$year==2019)
+
+#drop unnecessary variables
+fuel<-fuel[-c(4:43)]
+fuel<-fuel[-c(5,7,9)]
+
+#melt
+fuel <- melt(fuel,id.vars=c("iso_2","iso_3","country"))
+
+#average
+magic_for(silent = TRUE)
+variables<-print(unique(fuel$variable))
+
+for(variable in variables){
+  average<-mean(fuel$value[fuel$variable==variable],na.rm = T)
+  put(average)
+}
+average<-magic_result_as_dataframe() 
+
+#merge average with fuel
+fuel<-merge(fuel,average, by="variable", all=T)
+
+#reorder and rename
+col_order <- c("iso_2", "iso_3", "country",
+               "variable", "value", "average")
+fuel <- fuel[, col_order]
+colnames(fuel)<-c("iso_2","iso_3","country","fuel_type","total_tax_pct","oecd_avg_total_tax_pct")
+
+#write
+write.csv(fuel,file = paste(final_outputs,"fuel.csv",sep=""),row.names=F)
