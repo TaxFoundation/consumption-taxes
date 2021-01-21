@@ -97,3 +97,55 @@ colnames(fuel)<-c("iso_2","iso_3","country","fuel_type","total_tax_pct","oecd_av
 
 #write
 write.csv(fuel,file = paste(final_outputs,"fuel.csv",sep=""),row.names=F)
+
+#tobacco
+tobacco<-read_csv(paste(intermediate_outputs,"consumption_data.csv",sep=""))
+#keep latest year
+tobacco<-subset(tobacco,tobacco$year==2020)
+
+#drop unnecessary variables
+tobacco<-tobacco[-c(4,5:31,38:49)]
+tobacco_ad_valorem<-tobacco[-c(4,6,8)]
+tobacco_excise<-tobacco[-c(5,7,9)]
+
+#melt
+tobacco_excise <- melt(tobacco_excise,id.vars=c("iso_2","iso_3","country"))
+tobacco_ad_valorem <- melt(tobacco_ad_valorem,id.vars=c("iso_2","iso_3","country"))
+
+#average excise
+magic_for(silent = TRUE)
+variables<-print(unique(tobacco_excise$variable))
+
+for(variable in variables){
+  average<-mean(tobacco_excise$value[tobacco_excise$variable==variable],na.rm = T)
+  put(average)
+}
+average_excise<-magic_result_as_dataframe() 
+
+#merge average with tobacco_excise
+tobacco_excise<-merge(tobacco_excise,average_excise, by="variable", all=T)
+
+#average ad valorem
+magic_for(silent = TRUE)
+variables<-print(unique(tobacco_ad_valorem$variable))
+
+for(variable in variables){
+  average<-mean(tobacco_ad_valorem$value[tobacco_ad_valorem$variable==variable],na.rm = T)
+  put(average)
+}
+average_ad_valorem<-magic_result_as_dataframe() 
+
+#merge average with tobacco_ad_valorem
+tobacco_ad_valorem<-merge(tobacco_ad_valorem,average_ad_valorem, by="variable", all=T)
+
+#rbind all tobacco
+tobacco<-rbind(tobacco_excise,tobacco_ad_valorem)
+
+#reorder and rename
+col_order <- c("iso_2", "iso_3", "country",
+               "variable", "value", "average")
+tobacco <- tobacco[, col_order]
+colnames(tobacco)<-c("iso_2","iso_3","country","tobacco_excise_type","tobacco_excise","oecd_avg_excise")
+
+#write
+write.csv(tobacco,file = paste(final_outputs,"tobacco.csv",sep=""),row.names=F)

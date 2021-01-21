@@ -1,0 +1,223 @@
+"iso_2","iso_3","country","tobacco_excise_type","tobacco_excise","oecd_avg_excise"
+"AT","AUT","Austria","cigar_excise_1k_usd",0,63.1316581567486
+"AU","AUS","Australia","cigar_excise_1k_usd",NA,63.1316581567486
+"BE","BEL","Belgium","cigar_excise_1k_usd",0,63.1316581567486
+"CA","CAN","Canada","cigar_excise_1k_usd",NA,63.1316581567486
+"CH","CHE","Switzerland","cigar_excise_1k_usd",5.65656565656566,63.1316581567486
+"CL","CHL","Chile","cigar_excise_1k_usd",0,63.1316581567486
+"CO","COL","Colombia","cigar_excise_1k_usd",37.0333116924681,63.1316581567486
+"CZ","CZE","Czech Republic","cigar_excise_1k_usd",81.9886611426079,63.1316581567486
+"DE","DEU","Germany","cigar_excise_1k_usd",15.7303370786517,63.1316581567486
+"DK","DNK","Denmark","cigar_excise_1k_usd",74.9625187406297,63.1316581567486
+"EE","EST","Estonia","cigar_excise_1k_usd",169.662921348315,63.1316581567486
+"ES","ESP","Spain","cigar_excise_1k_usd",0,63.1316581567486
+"FI","FIN","Finland","cigar_excise_1k_usd",33.7078651685393,63.1316581567486
+"FR","FRA","France","cigar_excise_1k_usd",39.6629213483146,63.1316581567486
+"GB","GBR","United Kingdom","cigar_excise_1k_usd",365.076923076923,63.1316581567486
+"GR","GRC","Greece","cigar_excise_1k_usd",0,63.1316581567486
+"HU","HUN","Hungary","cigar_excise_1k_usd",0,63.1316581567486
+"IE","IRL","Ireland","cigar_excise_1k_usd",NA,63.1316581567486
+"IL","ISR","Israel","cigar_excise_1k_usd",0,63.1316581567486
+"IS","ISL","Iceland","cigar_excise_1k_usd",NA,63.1316581567486
+"IT","ITA","Italy","cigar_excise_1k_usd",0,63.1316581567486
+"JP","JPN","Japan","cigar_excise_1k_usd",112.319970644895,63.1316581567486
+"KR","KOR","Korea","cigar_excise_1k_usd",NA,63.1316581567486
+"LT","LTU","Lithuania","cigar_excise_1k_usd",47.1910112359551,63.1316581567486
+"LU","LUX","Luxembourg","cigar_excise_1k_usd",0,63.1316581567486
+"LV","LVA","Latvia","cigar_excise_1k_usd",106.966292134831,63.1316581567486
+"MX","MEX","Mexico","cigar_excise_1k_usd",NA,63.1316581567486
+"NL","NLD","Netherlands","cigar_excise_1k_usd",0,63.1316581567486
+"NO","NOR","Norway","cigar_excise_1k_usd",304.545454545455,63.1316581567486
+"NZ","NZL","New Zealand","cigar_excise_1k_usd",NA,63.1316581567486
+"PL","POL","Poland","cigar_excise_1k_usd",112.760416666667,63.1316581567486
+"PT","PRT","Portugal","cigar_excise_1k_usd",0,63.1316581567486
+"SE","SWE","Sweden","cigar_excise_1k_usd",149.048625792812,63.1316581567486
+"SI","SVN","Slovenia","cigar_excise_1k_usd",0,63.1316581567486
+"SK","SVK","Slovak Republic","cigar_excise_1k_usd",86.1797752808989,63.1316581567486
+"TR","TUR","Turkey","cigar_excise_1k_usd",88.3245149911817,63.1316581567486
+"US","USA","United States","cigar_excise_1k_usd",NA,63.1316581567486
+"AT","AUT","Austria","cigarette_excise_1k_usd",65.1685393258427,131.144915096729
+"AU","AUS","Australia","cigarette_excise_1k_usd",650.368055555556,131.144915096729
+"BE","BEL","Belgium","cigarette_excise_1k_usd",72.5842696629213,131.144915096729
+"CA","CAN","Canada","cigarette_excise_1k_usd",91.6466165413534,131.144915096729
+"CH","CHE","Switzerland","cigarette_excise_1k_usd",119.515151515152,131.144915096729
+"CL","CHL","Chile","cigarette_excise_1k_usd",65.9026888604353,131.144915096729
+"CO","COL","Colombia","cigarette_excise_1k_usd",37.0333116924681,131.144915096729
+"CZ","CZE","Czech Republic","cigarette_excise_1k_usd",70.2136938508504,131.144915096729
+"DE","DEU","Germany","cigarette_excise_1k_usd",110.337078651685,131.144915096729
+"DK","DNK","Denmark","cigarette_excise_1k_usd",260.554722638681,131.144915096729
+"EE","EST","Estonia","cigarette_excise_1k_usd",92.0786516853933,131.144915096729
+"ES","ESP","Spain","cigarette_excise_1k_usd",27.752808988764,131.144915096729
+"FI","FIN","Finland","cigarette_excise_1k_usd",78.3707865168539,131.144915096729
+"FR","FRA","France","cigarette_excise_1k_usd",69.6629213483146,131.144915096729
+"GB","GBR","United Kingdom","cigarette_excise_1k_usd",292.679487179487,131.144915096729
+"GR","GRC","Greece","cigarette_excise_1k_usd",92.6966292134831,131.144915096729
+"HU","HUN","Hungary","cigarette_excise_1k_usd",70.5291405766187,131.144915096729
+"IE","IRL","Ireland","cigarette_excise_1k_usd",388.808988764045,131.144915096729
+"IL","ISR","Israel","cigarette_excise_1k_usd",112.623595505618,131.144915096729
+"IS","ISL","Iceland","cigarette_excise_1k_usd",210.402903515211,131.144915096729
+"IT","ITA","Italy","cigarette_excise_1k_usd",21.7491573033708,131.144915096729
+"JP","JPN","Japan","cigarette_excise_1k_usd",121.493440968718,131.144915096729
+"KR","KOR","Korea","cigarette_excise_1k_usd",125.027885027885,131.144915096729
+"LT","LTU","Lithuania","cigarette_excise_1k_usd",69.9438202247191,131.144915096729
+"LU","LUX","Luxembourg","cigarette_excise_1k_usd",21.2247191011236,131.144915096729
+"LV","LVA","Latvia","cigarette_excise_1k_usd",88.4269662921348,131.144915096729
+"MX","MEX","Mexico","cigarette_excise_1k_usd",25.6697819314642,131.144915096729
+"NL","NLD","Netherlands","cigarette_excise_1k_usd",246.348314606742,131.144915096729
+"NO","NOR","Norway","cigarette_excise_1k_usd",304.545454545455,131.144915096729
+"NZ","NZL","New Zealand","cigarette_excise_1k_usd",NA,131.144915096729
+"PL","POL","Poland","cigarette_excise_1k_usd",59.4010416666667,131.144915096729
+"PT","PRT","Portugal","cigarette_excise_1k_usd",108,131.144915096729
+"SE","SWE","Sweden","cigarette_excise_1k_usd",169.133192389006,131.144915096729
+"SI","SVN","Slovenia","cigarette_excise_1k_usd",82.7415730337079,131.144915096729
+"SK","SVK","Slovak Republic","cigarette_excise_1k_usd",72.0224719101124,131.144915096729
+"TR","TUR","Turkey","cigarette_excise_1k_usd",85.5590828924162,131.144915096729
+"US","USA","United States","cigarette_excise_1k_usd",141,131.144915096729
+"AT","AUT","Austria","roll_tob_excise_1kg_usd",0,139.545409874224
+"AU","AUS","Australia","roll_tob_excise_1kg_usd",897.0625,139.545409874224
+"BE","BEL","Belgium","roll_tob_excise_1kg_usd",47.5842696629214,139.545409874224
+"CA","CAN","Canada","roll_tob_excise_1kg_usd",114.556390977444,139.545409874224
+"CH","CHE","Switzerland","roll_tob_excise_1kg_usd",38.3838383838384,139.545409874224
+"CL","CHL","Chile","roll_tob_excise_1kg_usd",0,139.545409874224
+"CO","COL","Colombia","roll_tob_excise_1kg_usd",58.8265774209575,139.545409874224
+"CZ","CZE","Czech Republic","roll_tob_excise_1kg_usd",107.283035324902,139.545409874224
+"DE","DEU","Germany","roll_tob_excise_1kg_usd",54.4831460674157,139.545409874224
+"DK","DNK","Denmark","roll_tob_excise_1kg_usd",202.533733133433,139.545409874224
+"EE","EST","Estonia","roll_tob_excise_1kg_usd",100.707865168539,139.545409874224
+"ES","ESP","Spain","roll_tob_excise_1kg_usd",26.4044943820225,139.545409874224
+"FI","FIN","Finland","roll_tob_excise_1kg_usd",52.247191011236,139.545409874224
+"FR","FRA","France","roll_tob_excise_1kg_usd",85.6179775280899,139.545409874224
+"GB","GBR","United Kingdom","roll_tob_excise_1kg_usd",300.833333333333,139.545409874224
+"GR","GRC","Greece","roll_tob_excise_1kg_usd",191.011235955056,139.545409874224
+"HU","HUN","Hungary","roll_tob_excise_1kg_usd",69.1529622239042,139.545409874224
+"IE","IRL","Ireland","roll_tob_excise_1kg_usd",426.775280898876,139.545409874224
+"IL","ISR","Israel","roll_tob_excise_1kg_usd",319.674157303371,139.545409874224
+"IS","ISL","Iceland","roll_tob_excise_1kg_usd",234.075524019248,139.545409874224
+"IT","ITA","Italy","roll_tob_excise_1kg_usd",0,139.545409874224
+"JP","JPN","Japan","roll_tob_excise_1kg_usd",112.319970644895,139.545409874224
+"KR","KOR","Korea","roll_tob_excise_1kg_usd",88.5456885456885,139.545409874224
+"LT","LTU","Lithuania","roll_tob_excise_1kg_usd",77.0786516853933,139.545409874224
+"LU","LUX","Luxembourg","roll_tob_excise_1kg_usd",18.5393258426966,139.545409874224
+"LV","LVA","Latvia","roll_tob_excise_1kg_usd",84.2696629213483,139.545409874224
+"MX","MEX","Mexico","roll_tob_excise_1kg_usd",NA,139.545409874224
+"NL","NLD","Netherlands","roll_tob_excise_1kg_usd",175.247191011236,139.545409874224
+"NO","NOR","Norway","roll_tob_excise_1kg_usd",304.545454545455,139.545409874224
+"NZ","NZL","New Zealand","roll_tob_excise_1kg_usd",NA,139.545409874224
+"PL","POL","Poland","roll_tob_excise_1kg_usd",40.546875,139.545409874224
+"PT","PRT","Portugal","roll_tob_excise_1kg_usd",91.0112359550562,139.545409874224
+"SE","SWE","Sweden","roll_tob_excise_1kg_usd",206.871035940803,139.545409874224
+"SI","SVN","Slovenia","roll_tob_excise_1kg_usd",46.62,139.545409874224
+"SK","SVK","Slovak Republic","roll_tob_excise_1kg_usd",86.1797752808989,139.545409874224
+"TR","TUR","Turkey","roll_tob_excise_1kg_usd",85.5555555555556,139.545409874224
+"US","USA","United States","roll_tob_excise_1kg_usd",NA,139.545409874224
+"AT","AUT","Austria","cigar_excise_1k_pct_rsp",13,13.9810714285714
+"AU","AUS","Australia","cigar_excise_1k_pct_rsp",0,13.9810714285714
+"BE","BEL","Belgium","cigar_excise_1k_pct_rsp",10,13.9810714285714
+"CA","CAN","Canada","cigar_excise_1k_pct_rsp",NA,13.9810714285714
+"CH","CHE","Switzerland","cigar_excise_1k_pct_rsp",1,13.9810714285714
+"CL","CHL","Chile","cigar_excise_1k_pct_rsp",52.6,13.9810714285714
+"CO","COL","Colombia","cigar_excise_1k_pct_rsp",10,13.9810714285714
+"CZ","CZE","Czech Republic","cigar_excise_1k_pct_rsp",NA,13.9810714285714
+"DE","DEU","Germany","cigar_excise_1k_pct_rsp",1.47,13.9810714285714
+"DK","DNK","Denmark","cigar_excise_1k_pct_rsp",10,13.9810714285714
+"EE","EST","Estonia","cigar_excise_1k_pct_rsp",10,13.9810714285714
+"ES","ESP","Spain","cigar_excise_1k_pct_rsp",15.8,13.9810714285714
+"FI","FIN","Finland","cigar_excise_1k_pct_rsp",34,13.9810714285714
+"FR","FRA","France","cigar_excise_1k_pct_rsp",32.3,13.9810714285714
+"GB","GBR","United Kingdom","cigar_excise_1k_pct_rsp",0,13.9810714285714
+"GR","GRC","Greece","cigar_excise_1k_pct_rsp",35,13.9810714285714
+"HU","HUN","Hungary","cigar_excise_1k_pct_rsp",14,13.9810714285714
+"IE","IRL","Ireland","cigar_excise_1k_pct_rsp",0,13.9810714285714
+"IL","ISR","Israel","cigar_excise_1k_pct_rsp",NA,13.9810714285714
+"IS","ISL","Iceland","cigar_excise_1k_pct_rsp",0,13.9810714285714
+"IT","ITA","Italy","cigar_excise_1k_pct_rsp",23,13.9810714285714
+"JP","JPN","Japan","cigar_excise_1k_pct_rsp",0,13.9810714285714
+"KR","KOR","Korea","cigar_excise_1k_pct_rsp",0,13.9810714285714
+"LT","LTU","Lithuania","cigar_excise_1k_pct_rsp",NA,13.9810714285714
+"LU","LUX","Luxembourg","cigar_excise_1k_pct_rsp",10,13.9810714285714
+"LV","LVA","Latvia","cigar_excise_1k_pct_rsp",NA,13.9810714285714
+"MX","MEX","Mexico","cigar_excise_1k_pct_rsp",NA,13.9810714285714
+"NL","NLD","Netherlands","cigar_excise_1k_pct_rsp",8,13.9810714285714
+"NO","NOR","Norway","cigar_excise_1k_pct_rsp",0,13.9810714285714
+"NZ","NZL","New Zealand","cigar_excise_1k_pct_rsp",0,13.9810714285714
+"PL","POL","Poland","cigar_excise_1k_pct_rsp",NA,13.9810714285714
+"PT","PRT","Portugal","cigar_excise_1k_pct_rsp",25,13.9810714285714
+"SE","SWE","Sweden","cigar_excise_1k_pct_rsp",0,13.9810714285714
+"SI","SVN","Slovenia","cigar_excise_1k_pct_rsp",6.3,13.9810714285714
+"SK","SVK","Slovak Republic","cigar_excise_1k_pct_rsp",NA,13.9810714285714
+"TR","TUR","Turkey","cigar_excise_1k_pct_rsp",80,13.9810714285714
+"US","USA","United States","cigar_excise_1k_pct_rsp",NA,13.9810714285714
+"AT","AUT","Austria","cigarette_excise_1k_pct_rsp",37.5,24.9994285714286
+"AU","AUS","Australia","cigarette_excise_1k_pct_rsp",0,24.9994285714286
+"BE","BEL","Belgium","cigarette_excise_1k_pct_rsp",40.04,24.9994285714286
+"CA","CAN","Canada","cigarette_excise_1k_pct_rsp",0,24.9994285714286
+"CH","CHE","Switzerland","cigarette_excise_1k_pct_rsp",25,24.9994285714286
+"CL","CHL","Chile","cigarette_excise_1k_pct_rsp",30,24.9994285714286
+"CO","COL","Colombia","cigarette_excise_1k_pct_rsp",10,24.9994285714286
+"CZ","CZE","Czech Republic","cigarette_excise_1k_pct_rsp",30,24.9994285714286
+"DE","DEU","Germany","cigarette_excise_1k_pct_rsp",21.69,24.9994285714286
+"DK","DNK","Denmark","cigarette_excise_1k_pct_rsp",1,24.9994285714286
+"EE","EST","Estonia","cigarette_excise_1k_pct_rsp",30,24.9994285714286
+"ES","ESP","Spain","cigarette_excise_1k_pct_rsp",51,24.9994285714286
+"FI","FIN","Finland","cigarette_excise_1k_pct_rsp",52,24.9994285714286
+"FR","FRA","France","cigarette_excise_1k_pct_rsp",52.7,24.9994285714286
+"GB","GBR","United Kingdom","cigarette_excise_1k_pct_rsp",16.5,24.9994285714286
+"GR","GRC","Greece","cigarette_excise_1k_pct_rsp",26,24.9994285714286
+"HU","HUN","Hungary","cigarette_excise_1k_pct_rsp",23,24.9994285714286
+"IE","IRL","Ireland","cigarette_excise_1k_pct_rsp",9.04,24.9994285714286
+"IL","ISR","Israel","cigarette_excise_1k_pct_rsp",NA,24.9994285714286
+"IS","ISL","Iceland","cigarette_excise_1k_pct_rsp",0,24.9994285714286
+"IT","ITA","Italy","cigarette_excise_1k_pct_rsp",59.1,24.9994285714286
+"JP","JPN","Japan","cigarette_excise_1k_pct_rsp",0,24.9994285714286
+"KR","KOR","Korea","cigarette_excise_1k_pct_rsp",64.76,24.9994285714286
+"LT","LTU","Lithuania","cigarette_excise_1k_pct_rsp",25,24.9994285714286
+"LU","LUX","Luxembourg","cigarette_excise_1k_pct_rsp",46.65,24.9994285714286
+"LV","LVA","Latvia","cigarette_excise_1k_pct_rsp",20,24.9994285714286
+"MX","MEX","Mexico","cigarette_excise_1k_pct_rsp",39.07,24.9994285714286
+"NL","NLD","Netherlands","cigarette_excise_1k_pct_rsp",5,24.9994285714286
+"NO","NOR","Norway","cigarette_excise_1k_pct_rsp",0,24.9994285714286
+"NZ","NZL","New Zealand","cigarette_excise_1k_pct_rsp",0,24.9994285714286
+"PL","POL","Poland","cigarette_excise_1k_pct_rsp",32.05,24.9994285714286
+"PT","PRT","Portugal","cigarette_excise_1k_pct_rsp",15,24.9994285714286
+"SE","SWE","Sweden","cigarette_excise_1k_pct_rsp",1,24.9994285714286
+"SI","SVN","Slovenia","cigarette_excise_1k_pct_rsp",21.88,24.9994285714286
+"SK","SVK","Slovak Republic","cigarette_excise_1k_pct_rsp",23,24.9994285714286
+"TR","TUR","Turkey","cigarette_excise_1k_pct_rsp",67,24.9994285714286
+"US","USA","United States","cigarette_excise_1k_pct_rsp",NA,24.9994285714286
+"AT","AUT","Austria","roll_tob_excise_1kg_pct_rsp",56,17.276875
+"AU","AUS","Australia","roll_tob_excise_1kg_pct_rsp",0,17.276875
+"BE","BEL","Belgium","roll_tob_excise_1kg_pct_rsp",31.5,17.276875
+"CA","CAN","Canada","roll_tob_excise_1kg_pct_rsp",0,17.276875
+"CH","CHE","Switzerland","roll_tob_excise_1kg_pct_rsp",25,17.276875
+"CL","CHL","Chile","roll_tob_excise_1kg_pct_rsp",59.7,17.276875
+"CO","COL","Colombia","roll_tob_excise_1kg_pct_rsp",10,17.276875
+"CZ","CZE","Czech Republic","roll_tob_excise_1kg_pct_rsp",NA,17.276875
+"DE","DEU","Germany","roll_tob_excise_1kg_pct_rsp",14.76,17.276875
+"DK","DNK","Denmark","roll_tob_excise_1kg_pct_rsp",0,17.276875
+"EE","EST","Estonia","roll_tob_excise_1kg_pct_rsp",0,17.276875
+"ES","ESP","Spain","roll_tob_excise_1kg_pct_rsp",41.5,17.276875
+"FI","FIN","Finland","roll_tob_excise_1kg_pct_rsp",52,17.276875
+"FR","FRA","France","roll_tob_excise_1kg_pct_rsp",46.7,17.276875
+"GB","GBR","United Kingdom","roll_tob_excise_1kg_pct_rsp",0,17.276875
+"GR","GRC","Greece","roll_tob_excise_1kg_pct_rsp",0,17.276875
+"HU","HUN","Hungary","roll_tob_excise_1kg_pct_rsp",0,17.276875
+"IE","IRL","Ireland","roll_tob_excise_1kg_pct_rsp",0,17.276875
+"IL","ISR","Israel","roll_tob_excise_1kg_pct_rsp",0,17.276875
+"IS","ISL","Iceland","roll_tob_excise_1kg_pct_rsp",0,17.276875
+"IT","ITA","Italy","roll_tob_excise_1kg_pct_rsp",58.5,17.276875
+"JP","JPN","Japan","roll_tob_excise_1kg_pct_rsp",0,17.276875
+"KR","KOR","Korea","roll_tob_excise_1kg_pct_rsp",0,17.276875
+"LT","LTU","Lithuania","roll_tob_excise_1kg_pct_rsp",NA,17.276875
+"LU","LUX","Luxembourg","roll_tob_excise_1kg_pct_rsp",33.15,17.276875
+"LV","LVA","Latvia","roll_tob_excise_1kg_pct_rsp",NA,17.276875
+"MX","MEX","Mexico","roll_tob_excise_1kg_pct_rsp",NA,17.276875
+"NL","NLD","Netherlands","roll_tob_excise_1kg_pct_rsp",0,17.276875
+"NO","NOR","Norway","roll_tob_excise_1kg_pct_rsp",0,17.276875
+"NZ","NZL","New Zealand","roll_tob_excise_1kg_pct_rsp",0,17.276875
+"PL","POL","Poland","roll_tob_excise_1kg_pct_rsp",32.05,17.276875
+"PT","PRT","Portugal","roll_tob_excise_1kg_pct_rsp",15,17.276875
+"SE","SWE","Sweden","roll_tob_excise_1kg_pct_rsp",0,17.276875
+"SI","SVN","Slovenia","roll_tob_excise_1kg_pct_rsp",37,17.276875
+"SK","SVK","Slovak Republic","roll_tob_excise_1kg_pct_rsp",0,17.276875
+"TR","TUR","Turkey","roll_tob_excise_1kg_pct_rsp",40,17.276875
+"US","USA","United States","roll_tob_excise_1kg_pct_rsp",NA,17.276875

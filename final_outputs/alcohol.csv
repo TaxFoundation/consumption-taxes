@@ -1,4 +1,4 @@
-"iso_2","iso_3","country","variable","value","average"
+"iso_2","iso_3","country","alcohol_type","excise_liter_usd","oecd_avg_liter_usd"
 "AT","AUT","Austria","beer",0.0561797752808989,0.138073583165394
 "AU","AUS","Australia","beer",NA,0.138073583165394
 "BE","BEL","Belgium","beer",0.0562921348314607,0.138073583165394
