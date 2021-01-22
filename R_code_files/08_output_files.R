@@ -15,7 +15,7 @@ reduced_rates <- melt(reduced_rates,id.vars=c("iso_2","iso_3","country"))
 colnames(reduced_rates)[colnames(reduced_rates)=="value"] <- "reduced_rate"
 
 #drop NA values
-reduced_rates<-subset(reduced_rates,reduced_rates$value!="NA")
+reduced_rates<-subset(reduced_rates,reduced_rates$reduced_rate!="NA")
 
 write.csv(reduced_rates,file = paste(final_outputs,"reduced_rates.csv",sep=""),row.names=F)
 
