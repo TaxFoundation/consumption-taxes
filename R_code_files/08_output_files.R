@@ -17,6 +17,8 @@ colnames(reduced_rates)[colnames(reduced_rates)=="value"] <- "reduced_rate"
 #drop NA values
 reduced_rates<-subset(reduced_rates,reduced_rates$value!="NA")
 
+write.csv(reduced_rates,file = paste(final_outputs,"reduced_rates.csv",sep=""),row.names=F)
+
 #merge with reduced rates base
 
 #####Excise Tables
