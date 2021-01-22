@@ -20,7 +20,7 @@ reduced_rates<-subset(reduced_rates,reduced_rates$reduced_rate!="NA")
 write.csv(reduced_rates,file = paste(final_outputs,"reduced_rates.csv",sep=""),row.names=F)
 
 #merge with reduced rates base
-
+#USE CONSUMPTION TAX TRENDS ANNEX TABLE 2.A.2
 #####Excise Tables
 #Alcohol
 alcohol<-read_csv(paste(intermediate_outputs,"consumption_data.csv",sep=""))
