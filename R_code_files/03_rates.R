@@ -123,6 +123,7 @@ reduced_1967_2020_long<-reduced_1967_2020_long[-c(2)]
 
 reduced_1967_2020_long <- melt(reduced_1967_2020_long,id.vars=c("country","year"))
 
+standard_reduced<-merge(standard,reduced,by=c("country","year","category","rate"),all=T)
 
 #Add reduced rates to standard rates
 standard<-vat_1967_2020_long
@@ -131,7 +132,13 @@ standard<-standard[-c(5)]
 reduced<-reduced_1967_2020_long
 colnames(reduced)<-c("country","year","category","rate")
 
-standard_reduced<-merge(standard,reduced,by=c("country","year","category","rate"),all=T)
+#Reduced rates for latest year
+reduced_2020<-subset(reduced,reduced$year==2020)
+
+#drop NA values
+reduced_2020<-subset(reduced_2020,reduced_2020$rate!="NA")
+
+write.csv(reduced_2020,file = paste(intermediate_outputs,"reduced_rates_2020.csv",sep=""),row.names=F)
 
 #Higher rates####
 higher<-vat_rates_database
