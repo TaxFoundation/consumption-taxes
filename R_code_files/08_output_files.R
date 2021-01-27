@@ -2,23 +2,6 @@
 consumption_revenue<-read_csv(paste(revenues,"revenue_final.csv",sep=""))
 write.csv(consumption_revenue,file = paste(final_outputs,"revenue.csv",sep=""),row.names=F)
 
-###Reduced Rates Output Table
-reduced_rates<-read_csv(paste(intermediate_outputs,"consumption_data.csv",sep=""))
-#keep latest year
-reduced_rates<-subset(reduced_rates,reduced_rates$year==2020)
-
-#drop unnecessary variables
-reduced_rates<-reduced_rates[-c(4:7,14:49)]
-
-#melt and rename
-reduced_rates <- melt(reduced_rates,id.vars=c("iso_2","iso_3","country"))
-colnames(reduced_rates)[colnames(reduced_rates)=="value"] <- "reduced_rate"
-
-#drop NA values
-reduced_rates<-subset(reduced_rates,reduced_rates$reduced_rate!="NA")
-
-write.csv(reduced_rates,file = paste(final_outputs,"reduced_rates.csv",sep=""),row.names=F)
-
 #merge with reduced rates base
 #USE CONSUMPTION TAX TRENDS ANNEX TABLE 2.A.2
 #####Excise Tables

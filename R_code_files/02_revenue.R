@@ -153,14 +153,19 @@ pct_rev<-magic_result_as_dataframe()
 
 #Add number of countries by year
 revenue_wide$key<-if_else(revenue_wide$country!="NA",1,0)
-count<-revenue_wide%>%
-  count(key,year)
 
-count<-subset(count,count$key!="NA")
+magic_for(silent = TRUE)
+years<-print(unique(revenue_wide$year))
 
-pct_rev<-merge(pct_rev,count,by="year")
-pct_rev<-pct_rev[-c(6)]
-colnames(pct_rev)[colnames(pct_rev)=="n"] <- "pct_rev_observations"
+for(year in years){
+  revenue_count<-sum(revenue_wide$key[revenue_wide$year==year])
+  
+  put(revenue_count)
+}
+revenue_count<-magic_result_as_dataframe() 
+
+pct_rev<-merge(pct_rev,revenue_count,by="year")
+colnames(pct_rev)[colnames(pct_rev)=="revenue_count"] <- "pct_rev_observations"
 
 write.csv(pct_rev, paste(revenues,"consumption_pct_rev.csv",sep=""), row.names = F)
 
