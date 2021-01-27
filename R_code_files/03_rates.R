@@ -52,15 +52,21 @@ for(year in years){
 }
 vat_rate_avg_1967_2020<-magic_result_as_dataframe() 
 
-vat_1967_2020_long$key<-if_else(vat_1967_2020_long$rate!="NA",1,0)
-count<-vat_1967_2020_long%>%
-  count(key,year)
+vat_1967_2020_long$key_for_rate<-if_else(vat_1967_2020_long$rate!="NA",1,0)
 
-count<-subset(count,count$key!="NA")
+magic_for(silent = TRUE)
+years<-print(unique(vat_1967_2020_long$year))
 
-vat_rate_avg_1967_2020<-merge(vat_rate_avg_1967_2020,count,by="year")
-vat_rate_avg_1967_2020<-vat_rate_avg_1967_2020[-c(3)]
-colnames(vat_rate_avg_1967_2020)[colnames(vat_rate_avg_1967_2020)=="n"] <- "observations"
+for(year in years){
+  vat_rate_count<-sum(vat_1967_2020_long$key_for_rate[vat_1967_2020_long$year==year],na.rm = T)
+  put(vat_rate_count)
+}
+vat_rate_count_1967_2020<-magic_result_as_dataframe() 
+
+
+
+vat_rate_avg_1967_2020<-merge(vat_rate_avg_1967_2020,vat_rate_count_1967_2020,by="year")
+colnames(vat_rate_avg_1967_2020)[colnames(vat_rate_avg_1967_2020)=="vat_rate_count"] <- "observations"
 
 write.csv(vat_rate_avg_1967_2020, paste(rates,"vat_rate_avg_1967_2020.csv",sep=""), row.names = F)
 
@@ -284,3 +290,5 @@ country<-c("Canada","Canada","Canada","Canada","Canada","Canada","Canada")
 canada <- data.frame(country,year, rate)
 
 write.csv(canada, paste(rates,"canada_vat_equivalent.csv",sep=""), row.names = F)
+
+#Reduced Rates####
