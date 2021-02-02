@@ -21,13 +21,26 @@ The OECD's  Revenue Statistics Database provides various categories for the diff
 
 ### /main directory
 
-Location of the R code, the source documentation, and this README.
+Location of the source documentation and this README.
 
 The R code reads in and downloads the necessary data, cleans the data, adds missing data manually (except for `reduced_rates_base.csv`), merges datasets, and produces intermediate and final output datasets and tables.
 
 The source documentation cites all the sources used.
 
-### /source-data
+### /R_code_files
+Location of the R code used to read and manipulate the source data into intermediate and final output files.
+
+-  `00_master_file.R` runs the other R code files in the repository.
+-  `01_setup.R` sets universal variables and loads relevant packages.
+-  `02_revenue.R` downloads and cleans consumption tax revenue data.
+-  `03_rates.R` cleans and structures data on consumption tax rates.
+-  `04_thresholds.R` cleans and structures data on VAT thresholds.
+-  `05_base.R` cleans and structures data on VAT revenue ratios.
+-  `06_excise.R` cleans and structures data on excise taxes.
+-  `07_combine_files.R` combines files for intermediate outputs.
+-  `08_output_files.R` structures files for final outputs.
+
+### /source_data
 
 Location of **input** files to .R code file including:
 
@@ -35,7 +48,7 @@ Location of **input** files to .R code file including:
 
 - **Various OECD Tables** Data tables from the different vintages of the Consumption Tax Policies in OECD Countries that include yearly or trend data on VAT and GST rates and turnover thresholds; VAT revenue ratios (one table covering 1976 to 2016 and one covering 1992-2018); excise rates on alcoholic beverages (2018 and 2020), automotive diesel (2017 and 2019), beer (2018 and 2020), household light fuel (2017 and 2019), premium unleaded gasoline (2017 and 2019), tobacco (2018 and 2020), wine (2018 and 2020), and cigarettes (2017).
 
-### /intermediate-outputs
+### /intermediate_outputs
 
 Location of **intermediate output** files of .R code file including files concerning:
 
@@ -48,7 +61,7 @@ Location of **intermediate output** files of .R code file including files concer
 -  `consumption_trends.csv` - OECD average trends for all trend variables
 -  `reduced_rates_2020.csv` - a table of reduced VAT rates by country for 2020.
 
-### /final-outputs
+### /final_outputs
 Location of **output tables** that are included in the country profile pages at taxfoundation.org for example: https://taxfoundation.org/country/austria/.
 
 - `alcohol.csv` Table of alcohol excise rates.
