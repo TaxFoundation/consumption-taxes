@@ -4,37 +4,41 @@
 
 ### **SOURCE:**
 
-OECD, "Global Revenue Statistics Database," https://stats.oecd.org/Index.aspx?DataSetCode=RS_GBL.
+ OECD, “Revenue Statistics - OECD countries: Comparative tables,” https://stats.oecd.org/Index.aspx?DataSetCode=REV.
 
 ### **COUNTRY NOTES:**
 
-* **All non-OECD countries:** Revenue data is from 2017 (2018 data not available as of February 2020).
+* **Australia:** Revenue data is from 2018 (2019 data not available as of February 2021).
 
-* **Australia:** Revenue data is from 2017 (2018 data not available as of February 2020).
+* **Greece:** Revenue data is from 2018 (2019 data not available as of February 2021).
 
-* **Ecuador:** The OECD dataset provides the tax revenue shares for the categories 1100, 1200, and 1300 only in currency values (as opposed to as a share of total revenue). Thus, shares had to be calculated based on the currency values.
+* **Japan:** Revenue data is from 2018 (2019 data not available as of February 2021).
 
-* **Greece:** Only the aggregate of taxes on income, profits, and capital gains (category 1000) was available for the year 2018. To split this aggregate into the three categories of individual income taxes (1100), corporate income taxes (1200), and other income taxes (1300), the average of the distribution of these categories in the three prior years (2015-2017) was used.
+* **Mexico:** Revenue data is from 2018 (2019 data not available as of February 2021).
 
-* **Jamaica:** The OECD dataset does not provide data for the category 1300. It was calculated as a residual (total revenue minus all other shares).
+____________________________________________________
+## **VAT DATA**
 
-* **Japan:** Revenue data is from 2017 (2018 data not available as of February 2020).
+### **SOURCES:**
 
-* **Mexico:** Revenue data is from 2017 (2018 data not available as of February 2020).
+ OECD, “Tax Database: Value Added Tax/Goods and Services Tax (VAT/GST) (1976-2020),” https://www.oecd.org/tax/tax-policy/tax-database/ and OECD, Consumption Tax Trends 2020: VAT/GST and Excise Rates, Trends and Policy Issues (Paris: OECD Publishing, 2020),
+https://doi.org/10.1787/152def2d-en. The tax base for the reduced rates table comes from Consumption Tax Trends Annex Table 2.A.2.
 
-* **Nicaragua:** The OECD dataset provides the tax revenue shares for the categories 1100, 1200, and 1300 only in currency values (as opposed to as a share of total revenue). Thus, shares had to be calculated based on the currency values.
+### **COUNTRY NOTES:**
+See Consumption Tax Trends for country cotes.
+____________________________________________________
+## **EXCISE DATA**
 
-For the following countries, the OECD does not provide data for some tax categories. However, the sum of the categories that do contain data equals the total amount of taxes raised. As a result, the categories with missing data are set to zero.
+### **SOURCE:**
 
- * Botswana (missing categories: 1100, 1200)
- * Congo (missing category: 2000)
- * Democratic Republic of the Congo (missing category: 1300)
- * Equatorial Guinea (missing category: 2000)
- * Ghana (missing category: 4000)
- * Nigeria (missing category: 4000)
- * Togo (missing category: 2000)
- * Uganda (missing categories: 2000, 4000)
- * Vanuatu (missing categories: 1100, 1200, 1300)
+ OECD, “Tax Database: Selected Excise Duties,” https://www.oecd.org/tax/tax-policy/tax-database/ and OECD, Consumption Tax Trends 2020: VAT/GST and Excise Rates, Trends and Policy Issues (Paris: OECD Publishing, 2020),
+https://doi.org/10.1787/152def2d-en.
+
+### **COUNTRY NOTES:**
+See Consumption Tax Trends for country cotes.
+
+
+
 
 
 ____________________________________________________
