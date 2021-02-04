@@ -23,10 +23,10 @@ ____________________________________________________
 
  OECD, “Tax Database: Value Added Tax/Goods and Services Tax (VAT/GST) (1976-2020),” https://www.oecd.org/tax/tax-policy/tax-database/ and OECD, _Consumption Tax Trends 2020: VAT/GST and Excise Rates, Trends and Policy Issues_ (Paris: OECD Publishing, 2020), https://doi.org/10.1787/152def2d-en. 
  
-The following files were downloaded in December 2020:
+The following files were downloaded from https://www.oecd.org/tax/tax-policy/tax-database/ in December 2020:
 - `vat-gst-rates-ctt-trends.xlsx`
 - `vat-gst-rates-historical-tax-database.xlsx`
-- `vat-gst-annual-turnover-concessions-ctt-trends`
+- `vat-gst-annual-turnover-concessions-ctt-trends.xlsx`
 
 VAT revenue ratio data for many years between 1976 and 2016 is from OECD, _Consumption Tax Trends 2018: VAT/GST and Excise Rates, Trends and Policy Issues_ (Paris: OECD Publishing, 2018), https://doi.org/10.1787/ctt-2018-en in Annex Table 2.A.7. It can be accessed at https://doi.org/10.1787/888933890122.
 
@@ -43,7 +43,17 @@ ____________________________________________________
 
  OECD, “Tax Database: Selected Excise Duties,” https://www.oecd.org/tax/tax-policy/tax-database/ and OECD, Consumption Tax Trends 2020: VAT/GST and Excise Rates, Trends and Policy Issues (Paris: OECD Publishing, 2020), https://doi.org/10.1787/152def2d-en.
 
-The following files were accessed using the Internet Archive at https://web.archive.org/web/20190801000000*/https://www.oecd.org/tax/tax-policy/tax-database/.
+The following files were downloaded from https://www.oecd.org/tax/tax-policy/tax-database/ in December 2020:
+- `taxation-beer-ctt-trends.xlsx`
+- `taxation-wine-ctt-trends.xlsx`
+- `taxation-alcoholic-beverages-ctt-trends.xlsx`
+- `taxation-tobacco-ctt-trends.xlsx`
+- `tax-burden-cigarettes-ctt-trends.xlsx`
+- `taxation-premium-unleaded-gasoline-ctt-trends.xlsx`
+- `taxation-automotive-diesel-ctt-trends.xlsx`
+- `taxation-households-light-fuel-oil-ctt-trends.xlsx`
+
+The following files were accessed using the Internet Archive's June 28, 2019, vintage of  OECD, "Tax Database: Selected Excise Duties," at https://web.archive.org/web/20190801000000*/https://www.oecd.org/tax/tax-policy/tax-database/.
 - `blah`
 - `blah`
 - `blah`
