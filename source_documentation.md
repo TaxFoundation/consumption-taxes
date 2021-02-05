@@ -54,16 +54,17 @@ The following files were downloaded from https://www.oecd.org/tax/tax-policy/tax
 - `taxation-households-light-fuel-oil-ctt-trends.xlsx`
 
 The following files were accessed using the Internet Archive's June 28, 2019, vintage of  OECD, "Tax Database: Selected Excise Duties," at https://web.archive.org/web/20190801000000*/https://www.oecd.org/tax/tax-policy/tax-database/.
-- `blah`
-- `blah`
-- `blah`
+- `taxation-beer-ctt-trends.xlsx`
+- `taxation-wine-ctt-trends.xlsx`
+- `taxation-alcoholic-beverages-ctt-trends.xlsx`
+- `taxation-tobacco-ctt-trends.xlsx`
+- `tax-burden-cigarettes-ctt-trends.xlsx`
+- `taxation-premium-unleaded-gasoline-ctt-trends.xlsx`
+- `taxation-automotive-diesel-ctt-trends.xlsx`
+- `taxation-households-light-fuel-oil-ctt-trends.xlsx`
 
 ### **COUNTRY NOTES:**
 See _Consumption Tax Trends 2020_ for country cotes.
-
-
-
-
 
 ____________________________________________________
 ## **COUNTRY CODES**
