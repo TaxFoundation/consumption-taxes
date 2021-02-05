@@ -83,21 +83,21 @@ Location of **output tables** that are included in the country profile pages at 
 - `higher_rate_3` : Third higher rate for VAT available for VAT countries with three higher rates from 1980-2012 (2012 is the last year an OECD country [Colombia] had three higher rates for VAT); `higher_rate_1` < `higher_rate_2` < `higher_rate_3`
 - `reduced_rate_1`: First reduced rate for VAT available for VAT countries with reduced rates from 1967-2020
 - `reduced_rate_2`: Second reduced rate for VAT available for VAT countries with reduced rates from 1968-2020; `reduced_rate_1` < `reduced_rate_2`
-- `reduced_rate_3`: First reduced rate for VAT available for VAT countries with reduced rates from 1967-2020
-- `reduced_rate_4`: First reduced rate for VAT available for VAT countries with reduced rates VAT from 1967-2020
-- `reduced_rate_5`: First reduced rate for VAT available for VAT countries with reduced rates VAT from 1967-2020
-- `reduced_rate_6`: First reduced rate for VAT available for VAT countries with reduced rates VAT from 1967-2020
-- `standard_vat_rate`
-- `threshold`
-- `vrr`
-- `5000_consumption_pct_total`
-- `5111_vat_pct_total`
-- `5112_sales_pct_total`
-- `5121_excise_pct_total`
-- `5000_consumption_pct_gdp`
-- `5111_vat_pct_gdp`
-- `5112_sales_pct_gdp`
-- `5121_excise_pct_gdp`
+- `reduced_rate_3`: Third reduced rate for VAT available for VAT countries with reduced rates from 1971-2020; `reduced_rate_1` < `reduced_rate_2` < `reduced_rate_3`
+- `reduced_rate_4`: Fourth reduced rate for VAT available for VAT countries with reduced rates from 1976-2020; `reduced_rate_1` < `reduced_rate_2` < `reduced_rate_3` < `reduced_rate_4`
+- `reduced_rate_5`: Fifth reduced rate for VAT available for VAT countries with reduced rates from 1977-1988 (only applies to Italy and France); `reduced_rate_1` < `reduced_rate_2` < `reduced_rate_3` < `reduced_rate_4` < `reduced_rate_5`
+- `reduced_rate_6`: Sixth reduced rate for Italy in 1980; `reduced_rate_1` < `reduced_rate_2` < `reduced_rate_3` < `reduced_rate_4` < `reduced_rate_5` < `reduced_rate_6`
+- `standard_vat_rate`: Standard VAT rates for countries with VAT from 1967-2020
+- `threshold`: General threshold for registration or collection of VAT in US dollars. Years included are 2007, 2010, 2011, 2012, 2013, 2014, 2016, 2018, 2020.
+- `vrr`: Vat Revenue Ratio calculated as VRR = VAT Revenue/[(Consumption - VAT revenue) x standard VAT rate]. Consumption = Final Consumption Expenditure (Heading P3) in national accounts. VAT rates used are standard rates applicable as at 1 January of each year. Applicable for VAT countries from 1976-2019.
+- `5000_consumption_pct_total`: Percent of total tax revenue for code 5000 Taxes on goods and services in https://stats.oecd.org/Index.aspx?DataSetCode=REV; available for years 1975-2019
+- `5111_vat_pct_total`: Percent of total tax revenue for code 5111 Value added taxes in https://stats.oecd.org/Index.aspx?DataSetCode=REV; available for years 1975-2019
+- `5112_sales_pct_total`: Percent of total tax revenue for code 5112 Sales tax in https://stats.oecd.org/Index.aspx?DataSetCode=REV; available for years 1975-2019
+- `5121_excise_pct_total`: Percent of total tax revenue for code 5121 Excises in https://stats.oecd.org/Index.aspx?DataSetCode=REV; available for years 1975-2019
+- `5000_consumption_pct_gdp`: Percent of GDP for code 5000 Taxes on goods and services in https://stats.oecd.org/Index.aspx?DataSetCode=REV; available for years 1975-2019
+- `5111_vat_pct_gdp`: Percent of GDP for code 5111 Value added taxes in https://stats.oecd.org/Index.aspx?DataSetCode=REV; available for years 1975-2019
+- `5112_sales_pct_gdp`: Percent of GDP for code 5112 Sales tax in https://stats.oecd.org/Index.aspx?DataSetCode=REV; available for years 1975-2019
+- `5121_excise_pct_gdp`: Percent of GDP for code 5121 Excises in https://stats.oecd.org/Index.aspx?DataSetCode=REV; available for years 1975-2019
 - `beer_excise_hl_usd`
 - `beer_low_alc_usd`
 - `still_wine_excise_hl_usd`
