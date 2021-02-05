@@ -98,50 +98,54 @@ Location of **output tables** that are included in the country profile pages at 
 - `5111_vat_pct_gdp`: Percent of GDP for code 5111 Value added taxes in https://stats.oecd.org/Index.aspx?DataSetCode=REV; available for years 1975-2019
 - `5112_sales_pct_gdp`: Percent of GDP for code 5112 Sales tax in https://stats.oecd.org/Index.aspx?DataSetCode=REV; available for years 1975-2019
 - `5121_excise_pct_gdp`: Percent of GDP for code 5121 Excises in https://stats.oecd.org/Index.aspx?DataSetCode=REV; available for years 1975-2019
-- `beer_excise_hl_usd`
-- `beer_low_alc_usd`
-- `still_wine_excise_hl_usd`
-- `sparkling_wine_excise_hl_usd`
-- `low_alc_excise_hl_usd`
-- `alc_excise_hl_usd`
-- `small_dist_rate`
-- `cigarette_excise_1k_usd`
-- `cigarette_excise_1k_pct_rsp`
-- `cigar_excise_1k_usd`
-- `cigar_excise_1k_pct_rsp`
-- `roll_tob_excise_1kg_usd`
-- `roll_tob_excise_1kg_pct_rsp`
-- `cig_pack_ex_tax_price_usd`
-- `cig_pack_specific_pct_rsp`
-- `cig_pack_ad_val_pct_rsp`
-- `cig_pack_sales_pct_rsp`
-- `cig_pack_total_tax_pct_rsp`
-- `cig_pack_price_usd`
-- `unleaded_total_tax_pct_price`
-- `unleaded_excise_pct_price`
-- `diesel_total_tax_pct_price`
-- `diesel_excise_pct_price`
-- `household_fuel_total_tax_pct_price`
-- `household_fuel_excise_pct_price`
+- `beer_excise_hl_usd`: specific excise per hectoliter per & abv in US Dollars for years 2018 and 2020
+- `beer_low_alc_usd`: Excise duty on low alcohol beer (not exceeding 2.8% abv), excise per hectoliter of product in US dollars. Applicable for Denmark, Finland, France, and the United Kingdom; for years 2018 and 2020.
+- `still_wine_excise_hl_usd`: Still wine excise per hectoliter in US dollars for years 2018 and 2020
+- `sparkling_wine_excise_hl_usd`: Sparkling wine excise per hectoliter in US dollars for years 2018 and 2020
+- `low_alc_excise_hl_usd`: Low-alcohol still wine (<8.5% abv) excise per hectoliter in US dollars for years 2018 and 2020
+- `alc_excise_hl_usd`: Excise tax per hectoliter of absolute alcohol in US dollars for years 2018 and 2020
+- `small_dist_rate`: Dummy variable (1,0) for whether a country has a special rate for small distilleries, for years 2018 and 2020
+- `cigarette_excise_1k_usd`: Specific excise per 1,000 cigarettes in US dollars for years 2018 and 2020
+- `cigarette_excise_1k_pct_rsp`: _Ad valorem_ excise on cigarettes as percent of retail sales price for years 2018 and 2020
+- `cigar_excise_1k_usd`: Specific excise per 1,000 cigars in US dollars for years 2018 and 2020
+- `cigar_excise_1k_pct_rsp`: _Ad valorem_ excise on cigars as percent of retail sales price for years 2018 and 2020
+- `roll_tob_excise_1kg_usd`: Specific excise per 1,000 grams of rolling tobacco for cigarettes in US dollars for years 2018 and 2020
+- `roll_tob_excise_1kg_pct_rsp`: _Ad valorem_ excise on rolling tobacco as percent of retail sales price for years 2018 and 2020
+- `cig_pack_ex_tax_price_usd`: Ex-tax price for a pack of 20 cigarettes in U.S. dollars for years 2014 and 2016
+- `cig_pack_specific_pct_rsp`: Specific excise on a pack of 20 cigarettes as a percent of retail sales price for years 2014 and 2016
+- `cig_pack_ad_val_pct_rsp`: _Ad valorem_ excise on a pack of 20 cigarettes as a percent of retail sales price for years 2014 and 2016
+- `cig_pack_sales_pct_rsp`: VAT/GST/RST on a pack of 20 cigarettes as a percent of retail sales price for years 2014 and 2016
+- `cig_pack_total_tax_pct_rsp`: Total tax on a pack of 20 cigarettes as a percent of retail sales price for years 2014 and 2016
+- `cig_pack_price_usd`: Retail sales price in US dollars for a pack of 20 cigarettes for years 2014 and 2016
+- `unleaded_total_tax_pct_price`: Total tax as % of total price for premium unleaded gasoline (per liter) for years 2017 and 2019
+- `unleaded_excise_pct_price`: Excise tax as % of total price for premium unleaded gasoline (per liter) for years 2017 and 2019
+- `diesel_total_tax_pct_price`: Total tax as % of total price for automotive diesel (per liter) for years 2017 and 2019
+- `diesel_excise_pct_price`: Excise tax as % of total price for automotive diesel (per liter) for years 2017 and 2019
+- `household_fuel_total_tax_pct_price`: Total tax as % of total price for light fuel oil for households (per liter) for years 2017 and 2019
+- `household_fuel_excise_pct_price`: Excise tax as % of total price for light fuel oil for households (per liter) for years 2017 and 2019
 
 ### `consumption_trends.csv`
-Variable descriptions
-- `year`
-- `consumption_pct_gdp`
-- `vat_pct_gdp`
-- `sales_pct_gdp`
-- `excise_pct_gdp`
-- `pct_gdp_observations`
-- `consumption_pct_rev`
-- `vat_pct_rev`
-- `sales_pct_rev`
-- `excise_pct_rev`
-- `pct_rev_observations`
-- `vat_rate_avg`
-- `rates_observations`
-- `vat_threshold_avg`
-- `threshold_observations`
-- `vat_base_avg`
-- `base_observations`
+Variable descriptions (see above for variable descriptions of variables used in annual averages)
+- `year`: Year; 1975-2019 for revenue variables
+- `consumption_pct_gdp`: Annual average for `5000_consumption_pct_gdp`
+- `vat_pct_gdp`: Annual average for `5111_vat_pct_gdp`
+- `sales_pct_gdp`: Annual average for `5112_sales_pct_gdp`
+- `excise_pct_gdp`: Annual average for `5121_excise_pct_gdp`
+- `pct_gdp_observations`: Number of countries included in average for each year for % of GDP variables
+- `consumption_pct_rev`: Annual average for `5000_consumption_pct_total`
+- `vat_pct_rev`: Annual average for `5111_vat_pct_total`
+- `sales_pct_rev`: Annual average for `5112_sales_pct_total`
+- `excise_pct_rev`: Annual average for `5121_excise_pct_total`
+- `pct_rev_observations`: Number of countries included in average for each year for % of total revenue variables
+- `vat_rate_avg`: Annual average for `standard_vat_rate`; for years 1975, 1985, 1995, 2005, 2007, 2009-2020
+- `rates_observations`: Number of countries included in average for each year for `vat_rate_avg`; for years 1975, 1985, 1995, 2005, 2007, 2009-2020
+- `vat_threshold_avg`: Annual average for `threshold`; for years 2007, 2010-2014, 2016, 2018, 2020 
+- `threshold_observations`: Number of countries included in average for each year for `vat_threshold_avg`; for years 2007, 2010-2014, 2016, 2018, 2020 
+- `vat_base_avg`: Annual average for `vrr`; for years 1976, 1980, 1984, 1988, 1992, 1996, 2000, 2005, 2007-2019
+- `base_observations`: Number of countries included in average for each year for `vat_base_avg`; for years 1976, 1980, 1984, 1988, 1992, 1996, 2000, 2005, 2007-2019
 
 ### `reduced_rates_2020.csv`
+- `country`: country name
+- `year`: year (2020)
+- `category`: level of reduced rate
+- `rate`: reduced rate of VAT
