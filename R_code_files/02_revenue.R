@@ -105,8 +105,8 @@ revenue_per_tax_wide<-revenue_per_tax%>%
 names(revenue_per_tax_wide)
 
 colnames(revenue_per_tax_wide)<-c("iso_3" ,"variable" ,"year",
-                                  "country"  ,"iso_2","5000_consumption_pct_total",
-                                  "5111_vat_pct_total","5112_sales_pct_total","5121_excise_pct_total")
+                                  "country"  ,"iso_2","consumption_pct_total_5000",
+                                  "vat_pct_total_5111","sales_pct_total_5112","excise_pct_total_5121")
 
 revenue_per_tax_wide<-subset(revenue_per_tax_wide,select=-c(variable))
 
@@ -119,8 +119,8 @@ revenue_per_gdp_wide<-revenue_per_gdp%>%
 names(revenue_per_gdp_wide)
 
 colnames(revenue_per_gdp_wide)<-c("iso_3" ,"variable" ,"year",
-                                  "country"  ,"iso_2","5000_consumption_pct_gdp",
-                                  "5111_vat_pct_gdp","5112_sales_pct_gdp","5121_excise_pct_gdp")
+                                  "country"  ,"iso_2","consumption_pct_gdp_5000",
+                                  "vat_pct_gdp_5111","sales_pct_gdp_5112","excise_pct_gdp_5121")
 
 revenue_per_gdp_wide<-subset(revenue_per_gdp_wide,select=-c(variable))
 
