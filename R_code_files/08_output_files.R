@@ -1,5 +1,7 @@
 #Revenue Output Table####
 consumption_revenue<-read_csv(paste(revenues,"revenue_final.csv",sep=""))
+
+consumption_revenue<-consumption_revenue%>%replace_na(list(""))
 write.csv(consumption_revenue,file = paste(final_outputs,"revenue.csv",sep=""),row.names=F)
 
 #merge with reduced rates base
@@ -45,6 +47,9 @@ col_order <- c("iso_2", "iso_3", "country","year",
 alcohol <- alcohol[, col_order]
 colnames(alcohol)<-c("iso_2","iso_3","country","year","alcohol_type","excise_liter_usd","oecd_avg_liter_usd")
 
+alcohol<-alcohol%>%replace_na(list(excise_liter_usd=""))
+
+
 #write
 write.csv(alcohol,file = paste(final_outputs,"alcohol.csv",sep=""),row.names=F)
 
@@ -79,6 +84,8 @@ col_order <- c("iso_2", "iso_3", "country","year",
                "variable", "value", "average")
 fuel <- fuel[, col_order]
 colnames(fuel)<-c("iso_2","iso_3","country","year","fuel_type","total_tax_pct","oecd_avg_total_tax_pct")
+
+fuel<-fuel%>%replace_na(list(total_tax_pct=""))
 
 #write
 write.csv(fuel,file = paste(final_outputs,"fuel.csv",sep=""),row.names=F)
@@ -131,6 +138,8 @@ col_order <- c("iso_2", "iso_3", "country","year",
                "variable", "value", "average")
 tobacco <- tobacco[, col_order]
 colnames(tobacco)<-c("iso_2","iso_3","country","year","tobacco_excise_type","tobacco_excise","oecd_avg_excise")
+
+tobacco<-tobacco%>%replace_na(list(tobacco_excise=""))
 
 #write
 write.csv(tobacco,file = paste(final_outputs,"tobacco.csv",sep=""),row.names=F)

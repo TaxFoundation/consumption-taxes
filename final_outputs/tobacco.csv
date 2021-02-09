@@ -1,223 +1,223 @@
 "iso_2","iso_3","country","year","tobacco_excise_type","tobacco_excise","oecd_avg_excise"
-"NZ","NZL","New Zealand",2020,"cigar_excise_1k_usd",NA,63.131658153
-"JP","JPN","Japan",2020,"cigar_excise_1k_usd",112.3199706,63.131658153
-"CL","CHL","Chile",2020,"cigar_excise_1k_usd",0,63.131658153
-"CO","COL","Colombia",2020,"cigar_excise_1k_usd",37.03331169,63.131658153
-"KR","KOR","Korea",2020,"cigar_excise_1k_usd",NA,63.131658153
-"MX","MEX","Mexico",2020,"cigar_excise_1k_usd",NA,63.131658153
-"AU","AUS","Australia",2020,"cigar_excise_1k_usd",NA,63.131658153
-"NL","NLD","Netherlands",2020,"cigar_excise_1k_usd",0,63.131658153
-"PT","PRT","Portugal",2020,"cigar_excise_1k_usd",0,63.131658153
-"ES","ESP","Spain",2020,"cigar_excise_1k_usd",0,63.131658153
-"CH","CHE","Switzerland",2020,"cigar_excise_1k_usd",5.656565657,63.131658153
-"AT","AUT","Austria",2020,"cigar_excise_1k_usd",0,63.131658153
-"BE","BEL","Belgium",2020,"cigar_excise_1k_usd",0,63.131658153
-"CZ","CZE","Czech Republic",2020,"cigar_excise_1k_usd",81.98866114,63.131658153
-"DK","DNK","Denmark",2020,"cigar_excise_1k_usd",74.96251874,63.131658153
-"IS","ISL","Iceland",2020,"cigar_excise_1k_usd",NA,63.131658153
-"EE","EST","Estonia",2020,"cigar_excise_1k_usd",169.6629213,63.131658153
-"FR","FRA","France",2020,"cigar_excise_1k_usd",39.66292135,63.131658153
-"DE","DEU","Germany",2020,"cigar_excise_1k_usd",15.73033708,63.131658153
-"GR","GRC","Greece",2020,"cigar_excise_1k_usd",0,63.131658153
-"HU","HUN","Hungary",2020,"cigar_excise_1k_usd",0,63.131658153
-"IE","IRL","Ireland",2020,"cigar_excise_1k_usd",NA,63.131658153
-"IT","ITA","Italy",2020,"cigar_excise_1k_usd",0,63.131658153
-"LT","LTU","Lithuania",2020,"cigar_excise_1k_usd",47.19101124,63.131658153
-"LU","LUX","Luxembourg",2020,"cigar_excise_1k_usd",0,63.131658153
-"PL","POL","Poland",2020,"cigar_excise_1k_usd",112.7604167,63.131658153
-"SK","SVK","Slovak Republic",2020,"cigar_excise_1k_usd",86.17977528,63.131658153
-"SI","SVN","Slovenia",2020,"cigar_excise_1k_usd",0,63.131658153
-"TR","TUR","Turkey",2020,"cigar_excise_1k_usd",88.32451499,63.131658153
-"CA","CAN","Canada",2020,"cigar_excise_1k_usd",NA,63.131658153
-"GB","GBR","United Kingdom",2020,"cigar_excise_1k_usd",365.0769231,63.131658153
-"NO","NOR","Norway",2020,"cigar_excise_1k_usd",304.5454545,63.131658153
-"FI","FIN","Finland",2020,"cigar_excise_1k_usd",33.70786517,63.131658153
-"LV","LVA","Latvia",2020,"cigar_excise_1k_usd",106.9662921,63.131658153
-"SE","SWE","Sweden",2020,"cigar_excise_1k_usd",149.0486258,63.131658153
-"IL","ISR","Israel",2020,"cigar_excise_1k_usd",0,63.131658153
-"US","USA","United States",2020,"cigar_excise_1k_usd",NA,63.131658153
-"NZ","NZL","New Zealand",2020,"cigarette_excise_1k_usd",NA,131.1449150975
-"JP","JPN","Japan",2020,"cigarette_excise_1k_usd",121.493441,131.1449150975
-"CL","CHL","Chile",2020,"cigarette_excise_1k_usd",65.90268886,131.1449150975
-"CO","COL","Colombia",2020,"cigarette_excise_1k_usd",37.03331169,131.1449150975
-"KR","KOR","Korea",2020,"cigarette_excise_1k_usd",125.027885,131.1449150975
-"MX","MEX","Mexico",2020,"cigarette_excise_1k_usd",25.66978193,131.1449150975
-"AU","AUS","Australia",2020,"cigarette_excise_1k_usd",650.3680556,131.1449150975
-"NL","NLD","Netherlands",2020,"cigarette_excise_1k_usd",246.3483146,131.1449150975
-"PT","PRT","Portugal",2020,"cigarette_excise_1k_usd",108,131.1449150975
-"ES","ESP","Spain",2020,"cigarette_excise_1k_usd",27.75280899,131.1449150975
-"CH","CHE","Switzerland",2020,"cigarette_excise_1k_usd",119.5151515,131.1449150975
-"AT","AUT","Austria",2020,"cigarette_excise_1k_usd",65.16853933,131.1449150975
-"BE","BEL","Belgium",2020,"cigarette_excise_1k_usd",72.58426966,131.1449150975
-"CZ","CZE","Czech Republic",2020,"cigarette_excise_1k_usd",70.21369385,131.1449150975
-"DK","DNK","Denmark",2020,"cigarette_excise_1k_usd",260.5547226,131.1449150975
-"IS","ISL","Iceland",2020,"cigarette_excise_1k_usd",210.4029035,131.1449150975
-"EE","EST","Estonia",2020,"cigarette_excise_1k_usd",92.07865169,131.1449150975
-"FR","FRA","France",2020,"cigarette_excise_1k_usd",69.66292135,131.1449150975
-"DE","DEU","Germany",2020,"cigarette_excise_1k_usd",110.3370787,131.1449150975
-"GR","GRC","Greece",2020,"cigarette_excise_1k_usd",92.69662921,131.1449150975
-"HU","HUN","Hungary",2020,"cigarette_excise_1k_usd",70.52914058,131.1449150975
-"IE","IRL","Ireland",2020,"cigarette_excise_1k_usd",388.8089888,131.1449150975
-"IT","ITA","Italy",2020,"cigarette_excise_1k_usd",21.7491573,131.1449150975
-"LT","LTU","Lithuania",2020,"cigarette_excise_1k_usd",69.94382022,131.1449150975
-"LU","LUX","Luxembourg",2020,"cigarette_excise_1k_usd",21.2247191,131.1449150975
-"PL","POL","Poland",2020,"cigarette_excise_1k_usd",59.40104167,131.1449150975
-"SK","SVK","Slovak Republic",2020,"cigarette_excise_1k_usd",72.02247191,131.1449150975
-"SI","SVN","Slovenia",2020,"cigarette_excise_1k_usd",82.74157303,131.1449150975
-"TR","TUR","Turkey",2020,"cigarette_excise_1k_usd",85.55908289,131.1449150975
-"CA","CAN","Canada",2020,"cigarette_excise_1k_usd",91.64661654,131.1449150975
-"GB","GBR","United Kingdom",2020,"cigarette_excise_1k_usd",292.6794872,131.1449150975
-"NO","NOR","Norway",2020,"cigarette_excise_1k_usd",304.5454545,131.1449150975
-"FI","FIN","Finland",2020,"cigarette_excise_1k_usd",78.37078652,131.1449150975
-"LV","LVA","Latvia",2020,"cigarette_excise_1k_usd",88.42696629,131.1449150975
-"SE","SWE","Sweden",2020,"cigarette_excise_1k_usd",169.1331924,131.1449150975
-"IL","ISR","Israel",2020,"cigarette_excise_1k_usd",112.6235955,131.1449150975
-"US","USA","United States",2020,"cigarette_excise_1k_usd",141,131.1449150975
-"NZ","NZL","New Zealand",2020,"roll_tob_excise_1kg_usd",NA,139.545409869706
-"JP","JPN","Japan",2020,"roll_tob_excise_1kg_usd",112.3199706,139.545409869706
-"CL","CHL","Chile",2020,"roll_tob_excise_1kg_usd",0,139.545409869706
-"CO","COL","Colombia",2020,"roll_tob_excise_1kg_usd",58.82657742,139.545409869706
-"KR","KOR","Korea",2020,"roll_tob_excise_1kg_usd",88.54568855,139.545409869706
-"MX","MEX","Mexico",2020,"roll_tob_excise_1kg_usd",NA,139.545409869706
-"AU","AUS","Australia",2020,"roll_tob_excise_1kg_usd",897.0625,139.545409869706
-"NL","NLD","Netherlands",2020,"roll_tob_excise_1kg_usd",175.247191,139.545409869706
-"PT","PRT","Portugal",2020,"roll_tob_excise_1kg_usd",91.01123596,139.545409869706
-"ES","ESP","Spain",2020,"roll_tob_excise_1kg_usd",26.40449438,139.545409869706
-"CH","CHE","Switzerland",2020,"roll_tob_excise_1kg_usd",38.38383838,139.545409869706
-"AT","AUT","Austria",2020,"roll_tob_excise_1kg_usd",0,139.545409869706
-"BE","BEL","Belgium",2020,"roll_tob_excise_1kg_usd",47.58426966,139.545409869706
-"CZ","CZE","Czech Republic",2020,"roll_tob_excise_1kg_usd",107.2830353,139.545409869706
-"DK","DNK","Denmark",2020,"roll_tob_excise_1kg_usd",202.5337331,139.545409869706
-"IS","ISL","Iceland",2020,"roll_tob_excise_1kg_usd",234.075524,139.545409869706
-"EE","EST","Estonia",2020,"roll_tob_excise_1kg_usd",100.7078652,139.545409869706
-"FR","FRA","France",2020,"roll_tob_excise_1kg_usd",85.61797753,139.545409869706
-"DE","DEU","Germany",2020,"roll_tob_excise_1kg_usd",54.48314607,139.545409869706
-"GR","GRC","Greece",2020,"roll_tob_excise_1kg_usd",191.011236,139.545409869706
-"HU","HUN","Hungary",2020,"roll_tob_excise_1kg_usd",69.15296222,139.545409869706
-"IE","IRL","Ireland",2020,"roll_tob_excise_1kg_usd",426.7752809,139.545409869706
-"IT","ITA","Italy",2020,"roll_tob_excise_1kg_usd",0,139.545409869706
-"LT","LTU","Lithuania",2020,"roll_tob_excise_1kg_usd",77.07865169,139.545409869706
-"LU","LUX","Luxembourg",2020,"roll_tob_excise_1kg_usd",18.53932584,139.545409869706
-"PL","POL","Poland",2020,"roll_tob_excise_1kg_usd",40.546875,139.545409869706
-"SK","SVK","Slovak Republic",2020,"roll_tob_excise_1kg_usd",86.17977528,139.545409869706
-"SI","SVN","Slovenia",2020,"roll_tob_excise_1kg_usd",46.62,139.545409869706
-"TR","TUR","Turkey",2020,"roll_tob_excise_1kg_usd",85.55555556,139.545409869706
-"CA","CAN","Canada",2020,"roll_tob_excise_1kg_usd",114.556391,139.545409869706
-"GB","GBR","United Kingdom",2020,"roll_tob_excise_1kg_usd",300.8333333,139.545409869706
-"NO","NOR","Norway",2020,"roll_tob_excise_1kg_usd",304.5454545,139.545409869706
-"FI","FIN","Finland",2020,"roll_tob_excise_1kg_usd",52.24719101,139.545409869706
-"LV","LVA","Latvia",2020,"roll_tob_excise_1kg_usd",84.26966292,139.545409869706
-"SE","SWE","Sweden",2020,"roll_tob_excise_1kg_usd",206.8710359,139.545409869706
-"IL","ISR","Israel",2020,"roll_tob_excise_1kg_usd",319.6741573,139.545409869706
-"US","USA","United States",2020,"roll_tob_excise_1kg_usd",NA,139.545409869706
-"NZ","NZL","New Zealand",2020,"cigar_excise_1k_pct_rsp",0,13.9810714285714
-"JP","JPN","Japan",2020,"cigar_excise_1k_pct_rsp",0,13.9810714285714
-"CL","CHL","Chile",2020,"cigar_excise_1k_pct_rsp",52.6,13.9810714285714
-"CO","COL","Colombia",2020,"cigar_excise_1k_pct_rsp",10,13.9810714285714
-"KR","KOR","Korea",2020,"cigar_excise_1k_pct_rsp",0,13.9810714285714
-"MX","MEX","Mexico",2020,"cigar_excise_1k_pct_rsp",NA,13.9810714285714
-"AU","AUS","Australia",2020,"cigar_excise_1k_pct_rsp",0,13.9810714285714
-"NL","NLD","Netherlands",2020,"cigar_excise_1k_pct_rsp",8,13.9810714285714
-"PT","PRT","Portugal",2020,"cigar_excise_1k_pct_rsp",25,13.9810714285714
-"ES","ESP","Spain",2020,"cigar_excise_1k_pct_rsp",15.8,13.9810714285714
-"CH","CHE","Switzerland",2020,"cigar_excise_1k_pct_rsp",1,13.9810714285714
-"AT","AUT","Austria",2020,"cigar_excise_1k_pct_rsp",13,13.9810714285714
-"BE","BEL","Belgium",2020,"cigar_excise_1k_pct_rsp",10,13.9810714285714
-"CZ","CZE","Czech Republic",2020,"cigar_excise_1k_pct_rsp",NA,13.9810714285714
-"DK","DNK","Denmark",2020,"cigar_excise_1k_pct_rsp",10,13.9810714285714
-"IS","ISL","Iceland",2020,"cigar_excise_1k_pct_rsp",0,13.9810714285714
-"EE","EST","Estonia",2020,"cigar_excise_1k_pct_rsp",10,13.9810714285714
-"FR","FRA","France",2020,"cigar_excise_1k_pct_rsp",32.3,13.9810714285714
-"DE","DEU","Germany",2020,"cigar_excise_1k_pct_rsp",1.47,13.9810714285714
-"GR","GRC","Greece",2020,"cigar_excise_1k_pct_rsp",35,13.9810714285714
-"HU","HUN","Hungary",2020,"cigar_excise_1k_pct_rsp",14,13.9810714285714
-"IE","IRL","Ireland",2020,"cigar_excise_1k_pct_rsp",0,13.9810714285714
-"IT","ITA","Italy",2020,"cigar_excise_1k_pct_rsp",23,13.9810714285714
-"LT","LTU","Lithuania",2020,"cigar_excise_1k_pct_rsp",NA,13.9810714285714
-"LU","LUX","Luxembourg",2020,"cigar_excise_1k_pct_rsp",10,13.9810714285714
-"PL","POL","Poland",2020,"cigar_excise_1k_pct_rsp",NA,13.9810714285714
-"SK","SVK","Slovak Republic",2020,"cigar_excise_1k_pct_rsp",NA,13.9810714285714
-"SI","SVN","Slovenia",2020,"cigar_excise_1k_pct_rsp",6.3,13.9810714285714
-"TR","TUR","Turkey",2020,"cigar_excise_1k_pct_rsp",80,13.9810714285714
-"CA","CAN","Canada",2020,"cigar_excise_1k_pct_rsp",NA,13.9810714285714
-"GB","GBR","United Kingdom",2020,"cigar_excise_1k_pct_rsp",0,13.9810714285714
-"NO","NOR","Norway",2020,"cigar_excise_1k_pct_rsp",0,13.9810714285714
-"FI","FIN","Finland",2020,"cigar_excise_1k_pct_rsp",34,13.9810714285714
-"LV","LVA","Latvia",2020,"cigar_excise_1k_pct_rsp",NA,13.9810714285714
-"SE","SWE","Sweden",2020,"cigar_excise_1k_pct_rsp",0,13.9810714285714
-"IL","ISR","Israel",2020,"cigar_excise_1k_pct_rsp",NA,13.9810714285714
-"US","USA","United States",2020,"cigar_excise_1k_pct_rsp",NA,13.9810714285714
-"NZ","NZL","New Zealand",2020,"cigarette_excise_1k_pct_rsp",0,24.9994285714286
-"JP","JPN","Japan",2020,"cigarette_excise_1k_pct_rsp",0,24.9994285714286
-"CL","CHL","Chile",2020,"cigarette_excise_1k_pct_rsp",30,24.9994285714286
-"CO","COL","Colombia",2020,"cigarette_excise_1k_pct_rsp",10,24.9994285714286
-"KR","KOR","Korea",2020,"cigarette_excise_1k_pct_rsp",64.76,24.9994285714286
-"MX","MEX","Mexico",2020,"cigarette_excise_1k_pct_rsp",39.07,24.9994285714286
-"AU","AUS","Australia",2020,"cigarette_excise_1k_pct_rsp",0,24.9994285714286
-"NL","NLD","Netherlands",2020,"cigarette_excise_1k_pct_rsp",5,24.9994285714286
-"PT","PRT","Portugal",2020,"cigarette_excise_1k_pct_rsp",15,24.9994285714286
-"ES","ESP","Spain",2020,"cigarette_excise_1k_pct_rsp",51,24.9994285714286
-"CH","CHE","Switzerland",2020,"cigarette_excise_1k_pct_rsp",25,24.9994285714286
-"AT","AUT","Austria",2020,"cigarette_excise_1k_pct_rsp",37.5,24.9994285714286
-"BE","BEL","Belgium",2020,"cigarette_excise_1k_pct_rsp",40.04,24.9994285714286
-"CZ","CZE","Czech Republic",2020,"cigarette_excise_1k_pct_rsp",30,24.9994285714286
-"DK","DNK","Denmark",2020,"cigarette_excise_1k_pct_rsp",1,24.9994285714286
-"IS","ISL","Iceland",2020,"cigarette_excise_1k_pct_rsp",0,24.9994285714286
-"EE","EST","Estonia",2020,"cigarette_excise_1k_pct_rsp",30,24.9994285714286
-"FR","FRA","France",2020,"cigarette_excise_1k_pct_rsp",52.7,24.9994285714286
-"DE","DEU","Germany",2020,"cigarette_excise_1k_pct_rsp",21.69,24.9994285714286
-"GR","GRC","Greece",2020,"cigarette_excise_1k_pct_rsp",26,24.9994285714286
-"HU","HUN","Hungary",2020,"cigarette_excise_1k_pct_rsp",23,24.9994285714286
-"IE","IRL","Ireland",2020,"cigarette_excise_1k_pct_rsp",9.04,24.9994285714286
-"IT","ITA","Italy",2020,"cigarette_excise_1k_pct_rsp",59.1,24.9994285714286
-"LT","LTU","Lithuania",2020,"cigarette_excise_1k_pct_rsp",25,24.9994285714286
-"LU","LUX","Luxembourg",2020,"cigarette_excise_1k_pct_rsp",46.65,24.9994285714286
-"PL","POL","Poland",2020,"cigarette_excise_1k_pct_rsp",32.05,24.9994285714286
-"SK","SVK","Slovak Republic",2020,"cigarette_excise_1k_pct_rsp",23,24.9994285714286
-"SI","SVN","Slovenia",2020,"cigarette_excise_1k_pct_rsp",21.88,24.9994285714286
-"TR","TUR","Turkey",2020,"cigarette_excise_1k_pct_rsp",67,24.9994285714286
-"CA","CAN","Canada",2020,"cigarette_excise_1k_pct_rsp",0,24.9994285714286
-"GB","GBR","United Kingdom",2020,"cigarette_excise_1k_pct_rsp",16.5,24.9994285714286
-"NO","NOR","Norway",2020,"cigarette_excise_1k_pct_rsp",0,24.9994285714286
-"FI","FIN","Finland",2020,"cigarette_excise_1k_pct_rsp",52,24.9994285714286
-"LV","LVA","Latvia",2020,"cigarette_excise_1k_pct_rsp",20,24.9994285714286
-"SE","SWE","Sweden",2020,"cigarette_excise_1k_pct_rsp",1,24.9994285714286
-"IL","ISR","Israel",2020,"cigarette_excise_1k_pct_rsp",NA,24.9994285714286
-"US","USA","United States",2020,"cigarette_excise_1k_pct_rsp",NA,24.9994285714286
-"NZ","NZL","New Zealand",2020,"roll_tob_excise_1kg_pct_rsp",0,17.276875
-"JP","JPN","Japan",2020,"roll_tob_excise_1kg_pct_rsp",0,17.276875
-"CL","CHL","Chile",2020,"roll_tob_excise_1kg_pct_rsp",59.7,17.276875
-"CO","COL","Colombia",2020,"roll_tob_excise_1kg_pct_rsp",10,17.276875
-"KR","KOR","Korea",2020,"roll_tob_excise_1kg_pct_rsp",0,17.276875
-"MX","MEX","Mexico",2020,"roll_tob_excise_1kg_pct_rsp",NA,17.276875
-"AU","AUS","Australia",2020,"roll_tob_excise_1kg_pct_rsp",0,17.276875
-"NL","NLD","Netherlands",2020,"roll_tob_excise_1kg_pct_rsp",0,17.276875
-"PT","PRT","Portugal",2020,"roll_tob_excise_1kg_pct_rsp",15,17.276875
-"ES","ESP","Spain",2020,"roll_tob_excise_1kg_pct_rsp",41.5,17.276875
-"CH","CHE","Switzerland",2020,"roll_tob_excise_1kg_pct_rsp",25,17.276875
-"AT","AUT","Austria",2020,"roll_tob_excise_1kg_pct_rsp",56,17.276875
-"BE","BEL","Belgium",2020,"roll_tob_excise_1kg_pct_rsp",31.5,17.276875
-"CZ","CZE","Czech Republic",2020,"roll_tob_excise_1kg_pct_rsp",NA,17.276875
-"DK","DNK","Denmark",2020,"roll_tob_excise_1kg_pct_rsp",0,17.276875
-"IS","ISL","Iceland",2020,"roll_tob_excise_1kg_pct_rsp",0,17.276875
-"EE","EST","Estonia",2020,"roll_tob_excise_1kg_pct_rsp",0,17.276875
-"FR","FRA","France",2020,"roll_tob_excise_1kg_pct_rsp",46.7,17.276875
-"DE","DEU","Germany",2020,"roll_tob_excise_1kg_pct_rsp",14.76,17.276875
-"GR","GRC","Greece",2020,"roll_tob_excise_1kg_pct_rsp",0,17.276875
-"HU","HUN","Hungary",2020,"roll_tob_excise_1kg_pct_rsp",0,17.276875
-"IE","IRL","Ireland",2020,"roll_tob_excise_1kg_pct_rsp",0,17.276875
-"IT","ITA","Italy",2020,"roll_tob_excise_1kg_pct_rsp",58.5,17.276875
-"LT","LTU","Lithuania",2020,"roll_tob_excise_1kg_pct_rsp",NA,17.276875
-"LU","LUX","Luxembourg",2020,"roll_tob_excise_1kg_pct_rsp",33.15,17.276875
-"PL","POL","Poland",2020,"roll_tob_excise_1kg_pct_rsp",32.05,17.276875
-"SK","SVK","Slovak Republic",2020,"roll_tob_excise_1kg_pct_rsp",0,17.276875
-"SI","SVN","Slovenia",2020,"roll_tob_excise_1kg_pct_rsp",37,17.276875
-"TR","TUR","Turkey",2020,"roll_tob_excise_1kg_pct_rsp",40,17.276875
-"CA","CAN","Canada",2020,"roll_tob_excise_1kg_pct_rsp",0,17.276875
-"GB","GBR","United Kingdom",2020,"roll_tob_excise_1kg_pct_rsp",0,17.276875
-"NO","NOR","Norway",2020,"roll_tob_excise_1kg_pct_rsp",0,17.276875
-"FI","FIN","Finland",2020,"roll_tob_excise_1kg_pct_rsp",52,17.276875
-"LV","LVA","Latvia",2020,"roll_tob_excise_1kg_pct_rsp",NA,17.276875
-"SE","SWE","Sweden",2020,"roll_tob_excise_1kg_pct_rsp",0,17.276875
-"IL","ISR","Israel",2020,"roll_tob_excise_1kg_pct_rsp",0,17.276875
-"US","USA","United States",2020,"roll_tob_excise_1kg_pct_rsp",NA,17.276875
+"NZ","NZL","New Zealand",2020,"cigar_excise_1k_usd","",63.131658153
+"JP","JPN","Japan",2020,"cigar_excise_1k_usd","112.3199706",63.131658153
+"CL","CHL","Chile",2020,"cigar_excise_1k_usd","0",63.131658153
+"CO","COL","Colombia",2020,"cigar_excise_1k_usd","37.03331169",63.131658153
+"KR","KOR","Korea",2020,"cigar_excise_1k_usd","",63.131658153
+"MX","MEX","Mexico",2020,"cigar_excise_1k_usd","",63.131658153
+"AU","AUS","Australia",2020,"cigar_excise_1k_usd","",63.131658153
+"NL","NLD","Netherlands",2020,"cigar_excise_1k_usd","0",63.131658153
+"PT","PRT","Portugal",2020,"cigar_excise_1k_usd","0",63.131658153
+"ES","ESP","Spain",2020,"cigar_excise_1k_usd","0",63.131658153
+"CH","CHE","Switzerland",2020,"cigar_excise_1k_usd","5.656565657",63.131658153
+"AT","AUT","Austria",2020,"cigar_excise_1k_usd","0",63.131658153
+"BE","BEL","Belgium",2020,"cigar_excise_1k_usd","0",63.131658153
+"CZ","CZE","Czech Republic",2020,"cigar_excise_1k_usd","81.98866114",63.131658153
+"DK","DNK","Denmark",2020,"cigar_excise_1k_usd","74.96251874",63.131658153
+"IS","ISL","Iceland",2020,"cigar_excise_1k_usd","",63.131658153
+"EE","EST","Estonia",2020,"cigar_excise_1k_usd","169.6629213",63.131658153
+"FR","FRA","France",2020,"cigar_excise_1k_usd","39.66292135",63.131658153
+"DE","DEU","Germany",2020,"cigar_excise_1k_usd","15.73033708",63.131658153
+"GR","GRC","Greece",2020,"cigar_excise_1k_usd","0",63.131658153
+"HU","HUN","Hungary",2020,"cigar_excise_1k_usd","0",63.131658153
+"IE","IRL","Ireland",2020,"cigar_excise_1k_usd","",63.131658153
+"IT","ITA","Italy",2020,"cigar_excise_1k_usd","0",63.131658153
+"LT","LTU","Lithuania",2020,"cigar_excise_1k_usd","47.19101124",63.131658153
+"LU","LUX","Luxembourg",2020,"cigar_excise_1k_usd","0",63.131658153
+"PL","POL","Poland",2020,"cigar_excise_1k_usd","112.7604167",63.131658153
+"SK","SVK","Slovak Republic",2020,"cigar_excise_1k_usd","86.17977528",63.131658153
+"SI","SVN","Slovenia",2020,"cigar_excise_1k_usd","0",63.131658153
+"TR","TUR","Turkey",2020,"cigar_excise_1k_usd","88.32451499",63.131658153
+"CA","CAN","Canada",2020,"cigar_excise_1k_usd","",63.131658153
+"GB","GBR","United Kingdom",2020,"cigar_excise_1k_usd","365.0769231",63.131658153
+"NO","NOR","Norway",2020,"cigar_excise_1k_usd","304.5454545",63.131658153
+"FI","FIN","Finland",2020,"cigar_excise_1k_usd","33.70786517",63.131658153
+"LV","LVA","Latvia",2020,"cigar_excise_1k_usd","106.9662921",63.131658153
+"SE","SWE","Sweden",2020,"cigar_excise_1k_usd","149.0486258",63.131658153
+"IL","ISR","Israel",2020,"cigar_excise_1k_usd","0",63.131658153
+"US","USA","United States",2020,"cigar_excise_1k_usd","",63.131658153
+"NZ","NZL","New Zealand",2020,"cigarette_excise_1k_usd","",131.1449150975
+"JP","JPN","Japan",2020,"cigarette_excise_1k_usd","121.493441",131.1449150975
+"CL","CHL","Chile",2020,"cigarette_excise_1k_usd","65.90268886",131.1449150975
+"CO","COL","Colombia",2020,"cigarette_excise_1k_usd","37.03331169",131.1449150975
+"KR","KOR","Korea",2020,"cigarette_excise_1k_usd","125.027885",131.1449150975
+"MX","MEX","Mexico",2020,"cigarette_excise_1k_usd","25.66978193",131.1449150975
+"AU","AUS","Australia",2020,"cigarette_excise_1k_usd","650.3680556",131.1449150975
+"NL","NLD","Netherlands",2020,"cigarette_excise_1k_usd","246.3483146",131.1449150975
+"PT","PRT","Portugal",2020,"cigarette_excise_1k_usd","108",131.1449150975
+"ES","ESP","Spain",2020,"cigarette_excise_1k_usd","27.75280899",131.1449150975
+"CH","CHE","Switzerland",2020,"cigarette_excise_1k_usd","119.5151515",131.1449150975
+"AT","AUT","Austria",2020,"cigarette_excise_1k_usd","65.16853933",131.1449150975
+"BE","BEL","Belgium",2020,"cigarette_excise_1k_usd","72.58426966",131.1449150975
+"CZ","CZE","Czech Republic",2020,"cigarette_excise_1k_usd","70.21369385",131.1449150975
+"DK","DNK","Denmark",2020,"cigarette_excise_1k_usd","260.5547226",131.1449150975
+"IS","ISL","Iceland",2020,"cigarette_excise_1k_usd","210.4029035",131.1449150975
+"EE","EST","Estonia",2020,"cigarette_excise_1k_usd","92.07865169",131.1449150975
+"FR","FRA","France",2020,"cigarette_excise_1k_usd","69.66292135",131.1449150975
+"DE","DEU","Germany",2020,"cigarette_excise_1k_usd","110.3370787",131.1449150975
+"GR","GRC","Greece",2020,"cigarette_excise_1k_usd","92.69662921",131.1449150975
+"HU","HUN","Hungary",2020,"cigarette_excise_1k_usd","70.52914058",131.1449150975
+"IE","IRL","Ireland",2020,"cigarette_excise_1k_usd","388.8089888",131.1449150975
+"IT","ITA","Italy",2020,"cigarette_excise_1k_usd","21.7491573",131.1449150975
+"LT","LTU","Lithuania",2020,"cigarette_excise_1k_usd","69.94382022",131.1449150975
+"LU","LUX","Luxembourg",2020,"cigarette_excise_1k_usd","21.2247191",131.1449150975
+"PL","POL","Poland",2020,"cigarette_excise_1k_usd","59.40104167",131.1449150975
+"SK","SVK","Slovak Republic",2020,"cigarette_excise_1k_usd","72.02247191",131.1449150975
+"SI","SVN","Slovenia",2020,"cigarette_excise_1k_usd","82.74157303",131.1449150975
+"TR","TUR","Turkey",2020,"cigarette_excise_1k_usd","85.55908289",131.1449150975
+"CA","CAN","Canada",2020,"cigarette_excise_1k_usd","91.64661654",131.1449150975
+"GB","GBR","United Kingdom",2020,"cigarette_excise_1k_usd","292.6794872",131.1449150975
+"NO","NOR","Norway",2020,"cigarette_excise_1k_usd","304.5454545",131.1449150975
+"FI","FIN","Finland",2020,"cigarette_excise_1k_usd","78.37078652",131.1449150975
+"LV","LVA","Latvia",2020,"cigarette_excise_1k_usd","88.42696629",131.1449150975
+"SE","SWE","Sweden",2020,"cigarette_excise_1k_usd","169.1331924",131.1449150975
+"IL","ISR","Israel",2020,"cigarette_excise_1k_usd","112.6235955",131.1449150975
+"US","USA","United States",2020,"cigarette_excise_1k_usd","141",131.1449150975
+"NZ","NZL","New Zealand",2020,"roll_tob_excise_1kg_usd","",139.545409869706
+"JP","JPN","Japan",2020,"roll_tob_excise_1kg_usd","112.3199706",139.545409869706
+"CL","CHL","Chile",2020,"roll_tob_excise_1kg_usd","0",139.545409869706
+"CO","COL","Colombia",2020,"roll_tob_excise_1kg_usd","58.82657742",139.545409869706
+"KR","KOR","Korea",2020,"roll_tob_excise_1kg_usd","88.54568855",139.545409869706
+"MX","MEX","Mexico",2020,"roll_tob_excise_1kg_usd","",139.545409869706
+"AU","AUS","Australia",2020,"roll_tob_excise_1kg_usd","897.0625",139.545409869706
+"NL","NLD","Netherlands",2020,"roll_tob_excise_1kg_usd","175.247191",139.545409869706
+"PT","PRT","Portugal",2020,"roll_tob_excise_1kg_usd","91.01123596",139.545409869706
+"ES","ESP","Spain",2020,"roll_tob_excise_1kg_usd","26.40449438",139.545409869706
+"CH","CHE","Switzerland",2020,"roll_tob_excise_1kg_usd","38.38383838",139.545409869706
+"AT","AUT","Austria",2020,"roll_tob_excise_1kg_usd","0",139.545409869706
+"BE","BEL","Belgium",2020,"roll_tob_excise_1kg_usd","47.58426966",139.545409869706
+"CZ","CZE","Czech Republic",2020,"roll_tob_excise_1kg_usd","107.2830353",139.545409869706
+"DK","DNK","Denmark",2020,"roll_tob_excise_1kg_usd","202.5337331",139.545409869706
+"IS","ISL","Iceland",2020,"roll_tob_excise_1kg_usd","234.075524",139.545409869706
+"EE","EST","Estonia",2020,"roll_tob_excise_1kg_usd","100.7078652",139.545409869706
+"FR","FRA","France",2020,"roll_tob_excise_1kg_usd","85.61797753",139.545409869706
+"DE","DEU","Germany",2020,"roll_tob_excise_1kg_usd","54.48314607",139.545409869706
+"GR","GRC","Greece",2020,"roll_tob_excise_1kg_usd","191.011236",139.545409869706
+"HU","HUN","Hungary",2020,"roll_tob_excise_1kg_usd","69.15296222",139.545409869706
+"IE","IRL","Ireland",2020,"roll_tob_excise_1kg_usd","426.7752809",139.545409869706
+"IT","ITA","Italy",2020,"roll_tob_excise_1kg_usd","0",139.545409869706
+"LT","LTU","Lithuania",2020,"roll_tob_excise_1kg_usd","77.07865169",139.545409869706
+"LU","LUX","Luxembourg",2020,"roll_tob_excise_1kg_usd","18.53932584",139.545409869706
+"PL","POL","Poland",2020,"roll_tob_excise_1kg_usd","40.546875",139.545409869706
+"SK","SVK","Slovak Republic",2020,"roll_tob_excise_1kg_usd","86.17977528",139.545409869706
+"SI","SVN","Slovenia",2020,"roll_tob_excise_1kg_usd","46.62",139.545409869706
+"TR","TUR","Turkey",2020,"roll_tob_excise_1kg_usd","85.55555556",139.545409869706
+"CA","CAN","Canada",2020,"roll_tob_excise_1kg_usd","114.556391",139.545409869706
+"GB","GBR","United Kingdom",2020,"roll_tob_excise_1kg_usd","300.8333333",139.545409869706
+"NO","NOR","Norway",2020,"roll_tob_excise_1kg_usd","304.5454545",139.545409869706
+"FI","FIN","Finland",2020,"roll_tob_excise_1kg_usd","52.24719101",139.545409869706
+"LV","LVA","Latvia",2020,"roll_tob_excise_1kg_usd","84.26966292",139.545409869706
+"SE","SWE","Sweden",2020,"roll_tob_excise_1kg_usd","206.8710359",139.545409869706
+"IL","ISR","Israel",2020,"roll_tob_excise_1kg_usd","319.6741573",139.545409869706
+"US","USA","United States",2020,"roll_tob_excise_1kg_usd","",139.545409869706
+"NZ","NZL","New Zealand",2020,"cigar_excise_1k_pct_rsp","0",13.9810714285714
+"JP","JPN","Japan",2020,"cigar_excise_1k_pct_rsp","0",13.9810714285714
+"CL","CHL","Chile",2020,"cigar_excise_1k_pct_rsp","52.6",13.9810714285714
+"CO","COL","Colombia",2020,"cigar_excise_1k_pct_rsp","10",13.9810714285714
+"KR","KOR","Korea",2020,"cigar_excise_1k_pct_rsp","0",13.9810714285714
+"MX","MEX","Mexico",2020,"cigar_excise_1k_pct_rsp","",13.9810714285714
+"AU","AUS","Australia",2020,"cigar_excise_1k_pct_rsp","0",13.9810714285714
+"NL","NLD","Netherlands",2020,"cigar_excise_1k_pct_rsp","8",13.9810714285714
+"PT","PRT","Portugal",2020,"cigar_excise_1k_pct_rsp","25",13.9810714285714
+"ES","ESP","Spain",2020,"cigar_excise_1k_pct_rsp","15.8",13.9810714285714
+"CH","CHE","Switzerland",2020,"cigar_excise_1k_pct_rsp","1",13.9810714285714
+"AT","AUT","Austria",2020,"cigar_excise_1k_pct_rsp","13",13.9810714285714
+"BE","BEL","Belgium",2020,"cigar_excise_1k_pct_rsp","10",13.9810714285714
+"CZ","CZE","Czech Republic",2020,"cigar_excise_1k_pct_rsp","",13.9810714285714
+"DK","DNK","Denmark",2020,"cigar_excise_1k_pct_rsp","10",13.9810714285714
+"IS","ISL","Iceland",2020,"cigar_excise_1k_pct_rsp","0",13.9810714285714
+"EE","EST","Estonia",2020,"cigar_excise_1k_pct_rsp","10",13.9810714285714
+"FR","FRA","France",2020,"cigar_excise_1k_pct_rsp","32.3",13.9810714285714
+"DE","DEU","Germany",2020,"cigar_excise_1k_pct_rsp","1.47",13.9810714285714
+"GR","GRC","Greece",2020,"cigar_excise_1k_pct_rsp","35",13.9810714285714
+"HU","HUN","Hungary",2020,"cigar_excise_1k_pct_rsp","14",13.9810714285714
+"IE","IRL","Ireland",2020,"cigar_excise_1k_pct_rsp","0",13.9810714285714
+"IT","ITA","Italy",2020,"cigar_excise_1k_pct_rsp","23",13.9810714285714
+"LT","LTU","Lithuania",2020,"cigar_excise_1k_pct_rsp","",13.9810714285714
+"LU","LUX","Luxembourg",2020,"cigar_excise_1k_pct_rsp","10",13.9810714285714
+"PL","POL","Poland",2020,"cigar_excise_1k_pct_rsp","",13.9810714285714
+"SK","SVK","Slovak Republic",2020,"cigar_excise_1k_pct_rsp","",13.9810714285714
+"SI","SVN","Slovenia",2020,"cigar_excise_1k_pct_rsp","6.3",13.9810714285714
+"TR","TUR","Turkey",2020,"cigar_excise_1k_pct_rsp","80",13.9810714285714
+"CA","CAN","Canada",2020,"cigar_excise_1k_pct_rsp","",13.9810714285714
+"GB","GBR","United Kingdom",2020,"cigar_excise_1k_pct_rsp","0",13.9810714285714
+"NO","NOR","Norway",2020,"cigar_excise_1k_pct_rsp","0",13.9810714285714
+"FI","FIN","Finland",2020,"cigar_excise_1k_pct_rsp","34",13.9810714285714
+"LV","LVA","Latvia",2020,"cigar_excise_1k_pct_rsp","",13.9810714285714
+"SE","SWE","Sweden",2020,"cigar_excise_1k_pct_rsp","0",13.9810714285714
+"IL","ISR","Israel",2020,"cigar_excise_1k_pct_rsp","",13.9810714285714
+"US","USA","United States",2020,"cigar_excise_1k_pct_rsp","",13.9810714285714
+"NZ","NZL","New Zealand",2020,"cigarette_excise_1k_pct_rsp","0",24.9994285714286
+"JP","JPN","Japan",2020,"cigarette_excise_1k_pct_rsp","0",24.9994285714286
+"CL","CHL","Chile",2020,"cigarette_excise_1k_pct_rsp","30",24.9994285714286
+"CO","COL","Colombia",2020,"cigarette_excise_1k_pct_rsp","10",24.9994285714286
+"KR","KOR","Korea",2020,"cigarette_excise_1k_pct_rsp","64.76",24.9994285714286
+"MX","MEX","Mexico",2020,"cigarette_excise_1k_pct_rsp","39.07",24.9994285714286
+"AU","AUS","Australia",2020,"cigarette_excise_1k_pct_rsp","0",24.9994285714286
+"NL","NLD","Netherlands",2020,"cigarette_excise_1k_pct_rsp","5",24.9994285714286
+"PT","PRT","Portugal",2020,"cigarette_excise_1k_pct_rsp","15",24.9994285714286
+"ES","ESP","Spain",2020,"cigarette_excise_1k_pct_rsp","51",24.9994285714286
+"CH","CHE","Switzerland",2020,"cigarette_excise_1k_pct_rsp","25",24.9994285714286
+"AT","AUT","Austria",2020,"cigarette_excise_1k_pct_rsp","37.5",24.9994285714286
+"BE","BEL","Belgium",2020,"cigarette_excise_1k_pct_rsp","40.04",24.9994285714286
+"CZ","CZE","Czech Republic",2020,"cigarette_excise_1k_pct_rsp","30",24.9994285714286
+"DK","DNK","Denmark",2020,"cigarette_excise_1k_pct_rsp","1",24.9994285714286
+"IS","ISL","Iceland",2020,"cigarette_excise_1k_pct_rsp","0",24.9994285714286
+"EE","EST","Estonia",2020,"cigarette_excise_1k_pct_rsp","30",24.9994285714286
+"FR","FRA","France",2020,"cigarette_excise_1k_pct_rsp","52.7",24.9994285714286
+"DE","DEU","Germany",2020,"cigarette_excise_1k_pct_rsp","21.69",24.9994285714286
+"GR","GRC","Greece",2020,"cigarette_excise_1k_pct_rsp","26",24.9994285714286
+"HU","HUN","Hungary",2020,"cigarette_excise_1k_pct_rsp","23",24.9994285714286
+"IE","IRL","Ireland",2020,"cigarette_excise_1k_pct_rsp","9.04",24.9994285714286
+"IT","ITA","Italy",2020,"cigarette_excise_1k_pct_rsp","59.1",24.9994285714286
+"LT","LTU","Lithuania",2020,"cigarette_excise_1k_pct_rsp","25",24.9994285714286
+"LU","LUX","Luxembourg",2020,"cigarette_excise_1k_pct_rsp","46.65",24.9994285714286
+"PL","POL","Poland",2020,"cigarette_excise_1k_pct_rsp","32.05",24.9994285714286
+"SK","SVK","Slovak Republic",2020,"cigarette_excise_1k_pct_rsp","23",24.9994285714286
+"SI","SVN","Slovenia",2020,"cigarette_excise_1k_pct_rsp","21.88",24.9994285714286
+"TR","TUR","Turkey",2020,"cigarette_excise_1k_pct_rsp","67",24.9994285714286
+"CA","CAN","Canada",2020,"cigarette_excise_1k_pct_rsp","0",24.9994285714286
+"GB","GBR","United Kingdom",2020,"cigarette_excise_1k_pct_rsp","16.5",24.9994285714286
+"NO","NOR","Norway",2020,"cigarette_excise_1k_pct_rsp","0",24.9994285714286
+"FI","FIN","Finland",2020,"cigarette_excise_1k_pct_rsp","52",24.9994285714286
+"LV","LVA","Latvia",2020,"cigarette_excise_1k_pct_rsp","20",24.9994285714286
+"SE","SWE","Sweden",2020,"cigarette_excise_1k_pct_rsp","1",24.9994285714286
+"IL","ISR","Israel",2020,"cigarette_excise_1k_pct_rsp","",24.9994285714286
+"US","USA","United States",2020,"cigarette_excise_1k_pct_rsp","",24.9994285714286
+"NZ","NZL","New Zealand",2020,"roll_tob_excise_1kg_pct_rsp","0",17.276875
+"JP","JPN","Japan",2020,"roll_tob_excise_1kg_pct_rsp","0",17.276875
+"CL","CHL","Chile",2020,"roll_tob_excise_1kg_pct_rsp","59.7",17.276875
+"CO","COL","Colombia",2020,"roll_tob_excise_1kg_pct_rsp","10",17.276875
+"KR","KOR","Korea",2020,"roll_tob_excise_1kg_pct_rsp","0",17.276875
+"MX","MEX","Mexico",2020,"roll_tob_excise_1kg_pct_rsp","",17.276875
+"AU","AUS","Australia",2020,"roll_tob_excise_1kg_pct_rsp","0",17.276875
+"NL","NLD","Netherlands",2020,"roll_tob_excise_1kg_pct_rsp","0",17.276875
+"PT","PRT","Portugal",2020,"roll_tob_excise_1kg_pct_rsp","15",17.276875
+"ES","ESP","Spain",2020,"roll_tob_excise_1kg_pct_rsp","41.5",17.276875
+"CH","CHE","Switzerland",2020,"roll_tob_excise_1kg_pct_rsp","25",17.276875
+"AT","AUT","Austria",2020,"roll_tob_excise_1kg_pct_rsp","56",17.276875
+"BE","BEL","Belgium",2020,"roll_tob_excise_1kg_pct_rsp","31.5",17.276875
+"CZ","CZE","Czech Republic",2020,"roll_tob_excise_1kg_pct_rsp","",17.276875
+"DK","DNK","Denmark",2020,"roll_tob_excise_1kg_pct_rsp","0",17.276875
+"IS","ISL","Iceland",2020,"roll_tob_excise_1kg_pct_rsp","0",17.276875
+"EE","EST","Estonia",2020,"roll_tob_excise_1kg_pct_rsp","0",17.276875
+"FR","FRA","France",2020,"roll_tob_excise_1kg_pct_rsp","46.7",17.276875
+"DE","DEU","Germany",2020,"roll_tob_excise_1kg_pct_rsp","14.76",17.276875
+"GR","GRC","Greece",2020,"roll_tob_excise_1kg_pct_rsp","0",17.276875
+"HU","HUN","Hungary",2020,"roll_tob_excise_1kg_pct_rsp","0",17.276875
+"IE","IRL","Ireland",2020,"roll_tob_excise_1kg_pct_rsp","0",17.276875
+"IT","ITA","Italy",2020,"roll_tob_excise_1kg_pct_rsp","58.5",17.276875
+"LT","LTU","Lithuania",2020,"roll_tob_excise_1kg_pct_rsp","",17.276875
+"LU","LUX","Luxembourg",2020,"roll_tob_excise_1kg_pct_rsp","33.15",17.276875
+"PL","POL","Poland",2020,"roll_tob_excise_1kg_pct_rsp","32.05",17.276875
+"SK","SVK","Slovak Republic",2020,"roll_tob_excise_1kg_pct_rsp","0",17.276875
+"SI","SVN","Slovenia",2020,"roll_tob_excise_1kg_pct_rsp","37",17.276875
+"TR","TUR","Turkey",2020,"roll_tob_excise_1kg_pct_rsp","40",17.276875
+"CA","CAN","Canada",2020,"roll_tob_excise_1kg_pct_rsp","0",17.276875
+"GB","GBR","United Kingdom",2020,"roll_tob_excise_1kg_pct_rsp","0",17.276875
+"NO","NOR","Norway",2020,"roll_tob_excise_1kg_pct_rsp","0",17.276875
+"FI","FIN","Finland",2020,"roll_tob_excise_1kg_pct_rsp","52",17.276875
+"LV","LVA","Latvia",2020,"roll_tob_excise_1kg_pct_rsp","",17.276875
+"SE","SWE","Sweden",2020,"roll_tob_excise_1kg_pct_rsp","0",17.276875
+"IL","ISR","Israel",2020,"roll_tob_excise_1kg_pct_rsp","0",17.276875
+"US","USA","United States",2020,"roll_tob_excise_1kg_pct_rsp","",17.276875

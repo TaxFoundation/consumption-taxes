@@ -1,149 +1,149 @@
 "iso_2","iso_3","country","year","alcohol_type","excise_liter_usd","oecd_avg_liter_usd"
-"NZ","NZL","New Zealand",2020,"beer",0.1911447368,0.138073583166957
-"JP","JPN","Japan",2020,"beer",NA,0.138073583166957
-"CL","CHL","Chile",2020,"beer",NA,0.138073583166957
-"CO","COL","Colombia",2020,"beer",NA,0.138073583166957
-"KR","KOR","Korea",2020,"beer",NA,0.138073583166957
-"MX","MEX","Mexico",2020,"beer",NA,0.138073583166957
-"AU","AUS","Australia",2020,"beer",NA,0.138073583166957
-"NL","NLD","Netherlands",2020,"beer",NA,0.138073583166957
-"PT","PRT","Portugal",2020,"beer",NA,0.138073583166957
-"ES","ESP","Spain",2020,"beer",NA,0.138073583166957
-"CH","CHE","Switzerland",2020,"beer",NA,0.138073583166957
-"AT","AUT","Austria",2020,"beer",0.05617977528,0.138073583166957
-"BE","BEL","Belgium",2020,"beer",0.05629213483,0.138073583166957
-"CZ","CZE","Czech Republic",2020,"beer",0.03488879198,0.138073583166957
-"DK","DNK","Denmark",2020,"beer",0.07307346327,0.138073583166957
-"IS","ISL","Iceland",2020,"beer",NA,0.138073583166957
-"EE","EST","Estonia",2020,"beer",0.1426966292,0.138073583166957
-"FR","FRA","France",2020,"beer",0.08415730337,0.138073583166957
-"DE","DEU","Germany",2020,"beer",0.02213483146,0.138073583166957
-"GR","GRC","Greece",2020,"beer",0.1404494382,0.138073583166957
-"HU","HUN","Hungary",2020,"beer",0.05573522328,0.138073583166957
-"IE","IRL","Ireland",2020,"beer",0.2533707865,0.138073583166957
-"IT","ITA","Italy",2020,"beer",0.08398876404,0.138073583166957
-"LT","LTU","Lithuania",2020,"beer",0.07988764045,0.138073583166957
-"LU","LUX","Luxembourg",2020,"beer",0.02224719101,0.138073583166957
-"PL","POL","Poland",2020,"beer",0.05580729167,0.138073583166957
-"SK","SVK","Slovak Republic",2020,"beer",0.04030337079,0.138073583166957
-"SI","SVN","Slovenia",2020,"beer",0.1359550562,0.138073583166957
-"TR","TUR","Turkey",2020,"beer",0.03586315789,0.138073583166957
-"CA","CAN","Canada",2020,"beer",NA,0.138073583166957
-"GB","GBR","United Kingdom",2020,"beer",0.2446153846,0.138073583166957
-"NO","NOR","Norway",2020,"beer",NA,0.138073583166957
-"FI","FIN","Finland",2020,"beer",0.4101123596,0.138073583166957
-"LV","LVA","Latvia",2020,"beer",0.08314606742,0.138073583166957
-"SE","SWE","Sweden",2020,"beer",0.2135306554,0.138073583166957
-"IL","ISR","Israel",2020,"beer",0.6601123596,0.138073583166957
-"US","USA","United States",2020,"beer",NA,0.138073583166957
-"NZ","NZL","New Zealand",2020,"spirits",NA,29.5148178444516
-"JP","JPN","Japan",2020,"spirits",NA,29.5148178444516
-"CL","CHL","Chile",2020,"spirits",NA,29.5148178444516
-"CO","COL","Colombia",2020,"spirits",NA,29.5148178444516
-"KR","KOR","Korea",2020,"spirits",NA,29.5148178444516
-"MX","MEX","Mexico",2020,"spirits",NA,29.5148178444516
-"AU","AUS","Australia",2020,"spirits",56.28472222,29.5148178444516
-"NL","NLD","Netherlands",2020,"spirits",18.94382022,29.5148178444516
-"PT","PRT","Portugal",2020,"spirits",15.58348315,29.5148178444516
-"ES","ESP","Spain",2020,"spirits",10.77460674,29.5148178444516
-"CH","CHE","Switzerland",2020,"spirits",29.29292929,29.5148178444516
-"AT","AUT","Austria",2020,"spirits",13.48314607,29.5148178444516
-"BE","BEL","Belgium",2020,"spirits",33.62685393,29.5148178444516
-"CZ","CZE","Czech Republic",2020,"spirits",14.06454427,29.5148178444516
-"DK","DNK","Denmark",2020,"spirits",22.48875562,29.5148178444516
-"IS","ISL","Iceland",2020,"spirits",126.3355354,29.5148178444516
-"EE","EST","Estonia",2020,"spirits",21.13483146,29.5148178444516
-"FR","FRA","France",2020,"spirits",19.7588764,29.5148178444516
-"DE","DEU","Germany",2020,"spirits",14.64044944,29.5148178444516
-"GR","GRC","Greece",2020,"spirits",27.52808989,29.5148178444516
-"HU","HUN","Hungary",2020,"spirits",11.4699305,29.5148178444516
-"IE","IRL","Ireland",2020,"spirits",47.83146067,29.5148178444516
-"IT","ITA","Italy",2020,"spirits",11.60134831,29.5148178444516
-"LT","LTU","Lithuania",2020,"spirits",20.58426966,29.5148178444516
-"LU","LUX","Luxembourg",2020,"spirits",11.69831461,29.5148178444516
-"PL","POL","Poland",2020,"spirits",16.34114583,29.5148178444516
-"SK","SVK","Slovak Republic",2020,"spirits",12.13483146,29.5148178444516
-"SI","SVN","Slovenia",2020,"spirits",14.83146067,29.5148178444516
-"TR","TUR","Turkey",2020,"spirits",49.25753086,29.5148178444516
-"CA","CAN","Canada",2020,"spirits",9.304511278,29.5148178444516
-"GB","GBR","United Kingdom",2020,"spirits",36.84615385,29.5148178444516
-"NO","NOR","Norway",2020,"spirits",89.09090909,29.5148178444516
-"FI","FIN","Finland",2020,"spirits",54.83146067,29.5148178444516
-"LV","LVA","Latvia",2020,"spirits",17.57303371,29.5148178444516
-"SE","SWE","Sweden",2020,"spirits",54.51268499,29.5148178444516
-"IL","ISR","Israel",2020,"spirits",24.01966292,29.5148178444516
-"US","USA","United States",2020,"spirits",9.09,29.5148178444516
-"NZ","NZL","New Zealand",2020,"wine_sparkling",1.911447368,2.01066118297931
-"JP","JPN","Japan",2020,"wine_sparkling",0.7332722273,2.01066118297931
-"CL","CHL","Chile",2020,"wine_sparkling",NA,2.01066118297931
-"CO","COL","Colombia",2020,"wine_sparkling",NA,2.01066118297931
-"KR","KOR","Korea",2020,"wine_sparkling",NA,2.01066118297931
-"MX","MEX","Mexico",2020,"wine_sparkling",NA,2.01066118297931
-"AU","AUS","Australia",2020,"wine_sparkling",NA,2.01066118297931
-"NL","NLD","Netherlands",2020,"wine_sparkling",0.9921348315,2.01066118297931
-"PT","PRT","Portugal",2020,"wine_sparkling",0,2.01066118297931
-"ES","ESP","Spain",2020,"wine_sparkling",0,2.01066118297931
-"CH","CHE","Switzerland",2020,"wine_sparkling",0,2.01066118297931
-"AT","AUT","Austria",2020,"wine_sparkling",1.123595506,2.01066118297931
-"BE","BEL","Belgium",2020,"wine_sparkling",2.88,2.01066118297931
-"CZ","CZE","Czech Republic",2020,"wine_sparkling",1.000427533,2.01066118297931
-"DK","DNK","Denmark",2020,"wine_sparkling",2.190404798,2.01066118297931
-"IS","ISL","Iceland",2020,"wine_sparkling",NA,2.01066118297931
-"EE","EST","Estonia",2020,"wine_sparkling",1.660898876,2.01066118297931
-"FR","FRA","France",2020,"wine_sparkling",0.1060674157,2.01066118297931
-"DE","DEU","Germany",2020,"wine_sparkling",1.528089888,2.01066118297931
-"GR","GRC","Greece",2020,"wine_sparkling",0,2.01066118297931
-"HU","HUN","Hungary",2020,"wine_sparkling",0.5662973921,2.01066118297931
-"IE","IRL","Ireland",2020,"wine_sparkling",9.546966292,2.01066118297931
-"IT","ITA","Italy",2020,"wine_sparkling",0,2.01066118297931
-"LT","LTU","Lithuania",2020,"wine_sparkling",1.850224719,2.01066118297931
-"LU","LUX","Luxembourg",2020,"wine_sparkling",0,2.01066118297931
-"PL","POL","Poland",2020,"wine_sparkling",0.453125,2.01066118297931
-"SK","SVK","Slovak Republic",2020,"wine_sparkling",0.8949438202,2.01066118297931
-"SI","SVN","Slovenia",2020,"wine_sparkling",0,2.01066118297931
-"TR","TUR","Turkey",2020,"wine_sparkling",11.97661376,2.01066118297931
-"CA","CAN","Canada",2020,"wine_sparkling",0.4909774436,2.01066118297931
-"GB","GBR","United Kingdom",2020,"wine_sparkling",4.74,2.01066118297931
-"NO","NOR","Norway",2020,"wine_sparkling",6.968181818,2.01066118297931
-"FI","FIN","Finland",2020,"wine_sparkling",4.460674157,2.01066118297931
-"LV","LVA","Latvia",2020,"wine_sparkling",1.134831461,2.01066118297931
-"SE","SWE","Sweden",2020,"wine_sparkling",NA,2.01066118297931
-"IL","ISR","Israel",2020,"wine_sparkling",NA,2.01066118297931
-"US","USA","United States",2020,"wine_sparkling",1.1,2.01066118297931
-"NZ","NZL","New Zealand",2020,"wine_still",1.911447368,1.12817785043367
-"JP","JPN","Japan",2020,"wine_still",0.7332722273,1.12817785043367
-"CL","CHL","Chile",2020,"wine_still",NA,1.12817785043367
-"CO","COL","Colombia",2020,"wine_still",NA,1.12817785043367
-"KR","KOR","Korea",2020,"wine_still",NA,1.12817785043367
-"MX","MEX","Mexico",2020,"wine_still",NA,1.12817785043367
-"AU","AUS","Australia",2020,"wine_still",NA,1.12817785043367
-"NL","NLD","Netherlands",2020,"wine_still",0.9921348315,1.12817785043367
-"PT","PRT","Portugal",2020,"wine_still",0,1.12817785043367
-"ES","ESP","Spain",2020,"wine_still",0,1.12817785043367
-"CH","CHE","Switzerland",2020,"wine_still",0,1.12817785043367
-"AT","AUT","Austria",2020,"wine_still",0,1.12817785043367
-"BE","BEL","Belgium",2020,"wine_still",0.8416853933,1.12817785043367
-"CZ","CZE","Czech Republic",2020,"wine_still",0,1.12817785043367
-"DK","DNK","Denmark",2020,"wine_still",1.688155922,1.12817785043367
-"IS","ISL","Iceland",2020,"wine_still",NA,1.12817785043367
-"EE","EST","Estonia",2020,"wine_still",1.660898876,1.12817785043367
-"FR","FRA","France",2020,"wine_still",0.04292134831,1.12817785043367
-"DE","DEU","Germany",2020,"wine_still",0,1.12817785043367
-"GR","GRC","Greece",2020,"wine_still",0,1.12817785043367
-"HU","HUN","Hungary",2020,"wine_still",0,1.12817785043367
-"IE","IRL","Ireland",2020,"wine_still",4.773483146,1.12817785043367
-"IT","ITA","Italy",2020,"wine_still",0,1.12817785043367
-"LT","LTU","Lithuania",2020,"wine_still",1.850224719,1.12817785043367
-"LU","LUX","Luxembourg",2020,"wine_still",0,1.12817785043367
-"PL","POL","Poland",2020,"wine_still",0.453125,1.12817785043367
-"SK","SVK","Slovak Republic",2020,"wine_still",0,1.12817785043367
-"SI","SVN","Slovenia",2020,"wine_still",0,1.12817785043367
-"TR","TUR","Turkey",2020,"wine_still",1.772680776,1.12817785043367
-"CA","CAN","Canada",2020,"wine_still",0.4909774436,1.12817785043367
-"GB","GBR","United Kingdom",2020,"wine_still",3.700641026,1.12817785043367
-"NO","NOR","Norway",2020,"wine_still",6.968181818,1.12817785043367
-"FI","FIN","Finland",2020,"wine_still",4.460674157,1.12817785043367
-"LV","LVA","Latvia",2020,"wine_still",1.134831461,1.12817785043367
-"SE","SWE","Sweden",2020,"wine_still",NA,1.12817785043367
-"IL","ISR","Israel",2020,"wine_still",0,1.12817785043367
-"US","USA","United States",2020,"wine_still",0.37,1.12817785043367
+"NZ","NZL","New Zealand",2020,"beer","0.1911447368",0.138073583166957
+"JP","JPN","Japan",2020,"beer","",0.138073583166957
+"CL","CHL","Chile",2020,"beer","",0.138073583166957
+"CO","COL","Colombia",2020,"beer","",0.138073583166957
+"KR","KOR","Korea",2020,"beer","",0.138073583166957
+"MX","MEX","Mexico",2020,"beer","",0.138073583166957
+"AU","AUS","Australia",2020,"beer","",0.138073583166957
+"NL","NLD","Netherlands",2020,"beer","",0.138073583166957
+"PT","PRT","Portugal",2020,"beer","",0.138073583166957
+"ES","ESP","Spain",2020,"beer","",0.138073583166957
+"CH","CHE","Switzerland",2020,"beer","",0.138073583166957
+"AT","AUT","Austria",2020,"beer","0.05617977528",0.138073583166957
+"BE","BEL","Belgium",2020,"beer","0.05629213483",0.138073583166957
+"CZ","CZE","Czech Republic",2020,"beer","0.03488879198",0.138073583166957
+"DK","DNK","Denmark",2020,"beer","0.07307346327",0.138073583166957
+"IS","ISL","Iceland",2020,"beer","",0.138073583166957
+"EE","EST","Estonia",2020,"beer","0.1426966292",0.138073583166957
+"FR","FRA","France",2020,"beer","0.08415730337",0.138073583166957
+"DE","DEU","Germany",2020,"beer","0.02213483146",0.138073583166957
+"GR","GRC","Greece",2020,"beer","0.1404494382",0.138073583166957
+"HU","HUN","Hungary",2020,"beer","0.05573522328",0.138073583166957
+"IE","IRL","Ireland",2020,"beer","0.2533707865",0.138073583166957
+"IT","ITA","Italy",2020,"beer","0.08398876404",0.138073583166957
+"LT","LTU","Lithuania",2020,"beer","0.07988764045",0.138073583166957
+"LU","LUX","Luxembourg",2020,"beer","0.02224719101",0.138073583166957
+"PL","POL","Poland",2020,"beer","0.05580729167",0.138073583166957
+"SK","SVK","Slovak Republic",2020,"beer","0.04030337079",0.138073583166957
+"SI","SVN","Slovenia",2020,"beer","0.1359550562",0.138073583166957
+"TR","TUR","Turkey",2020,"beer","0.03586315789",0.138073583166957
+"CA","CAN","Canada",2020,"beer","",0.138073583166957
+"GB","GBR","United Kingdom",2020,"beer","0.2446153846",0.138073583166957
+"NO","NOR","Norway",2020,"beer","",0.138073583166957
+"FI","FIN","Finland",2020,"beer","0.4101123596",0.138073583166957
+"LV","LVA","Latvia",2020,"beer","0.08314606742",0.138073583166957
+"SE","SWE","Sweden",2020,"beer","0.2135306554",0.138073583166957
+"IL","ISR","Israel",2020,"beer","0.6601123596",0.138073583166957
+"US","USA","United States",2020,"beer","",0.138073583166957
+"NZ","NZL","New Zealand",2020,"spirits","",29.5148178444516
+"JP","JPN","Japan",2020,"spirits","",29.5148178444516
+"CL","CHL","Chile",2020,"spirits","",29.5148178444516
+"CO","COL","Colombia",2020,"spirits","",29.5148178444516
+"KR","KOR","Korea",2020,"spirits","",29.5148178444516
+"MX","MEX","Mexico",2020,"spirits","",29.5148178444516
+"AU","AUS","Australia",2020,"spirits","56.28472222",29.5148178444516
+"NL","NLD","Netherlands",2020,"spirits","18.94382022",29.5148178444516
+"PT","PRT","Portugal",2020,"spirits","15.58348315",29.5148178444516
+"ES","ESP","Spain",2020,"spirits","10.77460674",29.5148178444516
+"CH","CHE","Switzerland",2020,"spirits","29.29292929",29.5148178444516
+"AT","AUT","Austria",2020,"spirits","13.48314607",29.5148178444516
+"BE","BEL","Belgium",2020,"spirits","33.62685393",29.5148178444516
+"CZ","CZE","Czech Republic",2020,"spirits","14.06454427",29.5148178444516
+"DK","DNK","Denmark",2020,"spirits","22.48875562",29.5148178444516
+"IS","ISL","Iceland",2020,"spirits","126.3355354",29.5148178444516
+"EE","EST","Estonia",2020,"spirits","21.13483146",29.5148178444516
+"FR","FRA","France",2020,"spirits","19.7588764",29.5148178444516
+"DE","DEU","Germany",2020,"spirits","14.64044944",29.5148178444516
+"GR","GRC","Greece",2020,"spirits","27.52808989",29.5148178444516
+"HU","HUN","Hungary",2020,"spirits","11.4699305",29.5148178444516
+"IE","IRL","Ireland",2020,"spirits","47.83146067",29.5148178444516
+"IT","ITA","Italy",2020,"spirits","11.60134831",29.5148178444516
+"LT","LTU","Lithuania",2020,"spirits","20.58426966",29.5148178444516
+"LU","LUX","Luxembourg",2020,"spirits","11.69831461",29.5148178444516
+"PL","POL","Poland",2020,"spirits","16.34114583",29.5148178444516
+"SK","SVK","Slovak Republic",2020,"spirits","12.13483146",29.5148178444516
+"SI","SVN","Slovenia",2020,"spirits","14.83146067",29.5148178444516
+"TR","TUR","Turkey",2020,"spirits","49.25753086",29.5148178444516
+"CA","CAN","Canada",2020,"spirits","9.304511278",29.5148178444516
+"GB","GBR","United Kingdom",2020,"spirits","36.84615385",29.5148178444516
+"NO","NOR","Norway",2020,"spirits","89.09090909",29.5148178444516
+"FI","FIN","Finland",2020,"spirits","54.83146067",29.5148178444516
+"LV","LVA","Latvia",2020,"spirits","17.57303371",29.5148178444516
+"SE","SWE","Sweden",2020,"spirits","54.51268499",29.5148178444516
+"IL","ISR","Israel",2020,"spirits","24.01966292",29.5148178444516
+"US","USA","United States",2020,"spirits","9.09",29.5148178444516
+"NZ","NZL","New Zealand",2020,"wine_sparkling","1.911447368",2.01066118297931
+"JP","JPN","Japan",2020,"wine_sparkling","0.7332722273",2.01066118297931
+"CL","CHL","Chile",2020,"wine_sparkling","",2.01066118297931
+"CO","COL","Colombia",2020,"wine_sparkling","",2.01066118297931
+"KR","KOR","Korea",2020,"wine_sparkling","",2.01066118297931
+"MX","MEX","Mexico",2020,"wine_sparkling","",2.01066118297931
+"AU","AUS","Australia",2020,"wine_sparkling","",2.01066118297931
+"NL","NLD","Netherlands",2020,"wine_sparkling","0.9921348315",2.01066118297931
+"PT","PRT","Portugal",2020,"wine_sparkling","0",2.01066118297931
+"ES","ESP","Spain",2020,"wine_sparkling","0",2.01066118297931
+"CH","CHE","Switzerland",2020,"wine_sparkling","0",2.01066118297931
+"AT","AUT","Austria",2020,"wine_sparkling","1.123595506",2.01066118297931
+"BE","BEL","Belgium",2020,"wine_sparkling","2.88",2.01066118297931
+"CZ","CZE","Czech Republic",2020,"wine_sparkling","1.000427533",2.01066118297931
+"DK","DNK","Denmark",2020,"wine_sparkling","2.190404798",2.01066118297931
+"IS","ISL","Iceland",2020,"wine_sparkling","",2.01066118297931
+"EE","EST","Estonia",2020,"wine_sparkling","1.660898876",2.01066118297931
+"FR","FRA","France",2020,"wine_sparkling","0.1060674157",2.01066118297931
+"DE","DEU","Germany",2020,"wine_sparkling","1.528089888",2.01066118297931
+"GR","GRC","Greece",2020,"wine_sparkling","0",2.01066118297931
+"HU","HUN","Hungary",2020,"wine_sparkling","0.5662973921",2.01066118297931
+"IE","IRL","Ireland",2020,"wine_sparkling","9.546966292",2.01066118297931
+"IT","ITA","Italy",2020,"wine_sparkling","0",2.01066118297931
+"LT","LTU","Lithuania",2020,"wine_sparkling","1.850224719",2.01066118297931
+"LU","LUX","Luxembourg",2020,"wine_sparkling","0",2.01066118297931
+"PL","POL","Poland",2020,"wine_sparkling","0.453125",2.01066118297931
+"SK","SVK","Slovak Republic",2020,"wine_sparkling","0.8949438202",2.01066118297931
+"SI","SVN","Slovenia",2020,"wine_sparkling","0",2.01066118297931
+"TR","TUR","Turkey",2020,"wine_sparkling","11.97661376",2.01066118297931
+"CA","CAN","Canada",2020,"wine_sparkling","0.4909774436",2.01066118297931
+"GB","GBR","United Kingdom",2020,"wine_sparkling","4.74",2.01066118297931
+"NO","NOR","Norway",2020,"wine_sparkling","6.968181818",2.01066118297931
+"FI","FIN","Finland",2020,"wine_sparkling","4.460674157",2.01066118297931
+"LV","LVA","Latvia",2020,"wine_sparkling","1.134831461",2.01066118297931
+"SE","SWE","Sweden",2020,"wine_sparkling","",2.01066118297931
+"IL","ISR","Israel",2020,"wine_sparkling","",2.01066118297931
+"US","USA","United States",2020,"wine_sparkling","1.1",2.01066118297931
+"NZ","NZL","New Zealand",2020,"wine_still","1.911447368",1.12817785043367
+"JP","JPN","Japan",2020,"wine_still","0.7332722273",1.12817785043367
+"CL","CHL","Chile",2020,"wine_still","",1.12817785043367
+"CO","COL","Colombia",2020,"wine_still","",1.12817785043367
+"KR","KOR","Korea",2020,"wine_still","",1.12817785043367
+"MX","MEX","Mexico",2020,"wine_still","",1.12817785043367
+"AU","AUS","Australia",2020,"wine_still","",1.12817785043367
+"NL","NLD","Netherlands",2020,"wine_still","0.9921348315",1.12817785043367
+"PT","PRT","Portugal",2020,"wine_still","0",1.12817785043367
+"ES","ESP","Spain",2020,"wine_still","0",1.12817785043367
+"CH","CHE","Switzerland",2020,"wine_still","0",1.12817785043367
+"AT","AUT","Austria",2020,"wine_still","0",1.12817785043367
+"BE","BEL","Belgium",2020,"wine_still","0.8416853933",1.12817785043367
+"CZ","CZE","Czech Republic",2020,"wine_still","0",1.12817785043367
+"DK","DNK","Denmark",2020,"wine_still","1.688155922",1.12817785043367
+"IS","ISL","Iceland",2020,"wine_still","",1.12817785043367
+"EE","EST","Estonia",2020,"wine_still","1.660898876",1.12817785043367
+"FR","FRA","France",2020,"wine_still","0.04292134831",1.12817785043367
+"DE","DEU","Germany",2020,"wine_still","0",1.12817785043367
+"GR","GRC","Greece",2020,"wine_still","0",1.12817785043367
+"HU","HUN","Hungary",2020,"wine_still","0",1.12817785043367
+"IE","IRL","Ireland",2020,"wine_still","4.773483146",1.12817785043367
+"IT","ITA","Italy",2020,"wine_still","0",1.12817785043367
+"LT","LTU","Lithuania",2020,"wine_still","1.850224719",1.12817785043367
+"LU","LUX","Luxembourg",2020,"wine_still","0",1.12817785043367
+"PL","POL","Poland",2020,"wine_still","0.453125",1.12817785043367
+"SK","SVK","Slovak Republic",2020,"wine_still","0",1.12817785043367
+"SI","SVN","Slovenia",2020,"wine_still","0",1.12817785043367
+"TR","TUR","Turkey",2020,"wine_still","1.772680776",1.12817785043367
+"CA","CAN","Canada",2020,"wine_still","0.4909774436",1.12817785043367
+"GB","GBR","United Kingdom",2020,"wine_still","3.700641026",1.12817785043367
+"NO","NOR","Norway",2020,"wine_still","6.968181818",1.12817785043367
+"FI","FIN","Finland",2020,"wine_still","4.460674157",1.12817785043367
+"LV","LVA","Latvia",2020,"wine_still","1.134831461",1.12817785043367
+"SE","SWE","Sweden",2020,"wine_still","",1.12817785043367
+"IL","ISR","Israel",2020,"wine_still","0",1.12817785043367
+"US","USA","United States",2020,"wine_still","0.37",1.12817785043367
