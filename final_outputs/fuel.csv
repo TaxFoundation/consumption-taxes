@@ -1,112 +1,112 @@
-"iso_2","iso_3","country","fuel_type","total_tax_pct","oecd_avg_total_tax_pct"
-"AT","AUT","Austria","diesel_total_tax_pct_price",50.6296978611,46.4224073314395
-"AU","AUS","Australia","diesel_total_tax_pct_price",37.5296043656207,46.4224073314395
-"BE","BEL","Belgium","diesel_total_tax_pct_price",56.7991250934912,46.4224073314395
-"CA","CAN","Canada","diesel_total_tax_pct_price",26.9747899159664,46.4224073314395
-"CH","CHE","Switzerland","diesel_total_tax_pct_price",52.0060711292679,46.4224073314395
-"CL","CHL","Chile","diesel_total_tax_pct_price",28.1248152820602,46.4224073314395
-"CO","COL","Colombia","diesel_total_tax_pct_price",14.3500240413246,46.4224073314395
-"CZ","CZE","Czech Republic","diesel_total_tax_pct_price",51.9175531075408,46.4224073314395
-"DE","DEU","Germany","diesel_total_tax_pct_price",52.326870277156,46.4224073314395
-"DK","DNK","Denmark","diesel_total_tax_pct_price",51.1406146849556,46.4224073314395
-"EE","EST","Estonia","diesel_total_tax_pct_price",61.25,46.4224073314395
-"ES","ESP","Spain","diesel_total_tax_pct_price",48.5390946502058,46.4224073314395
-"FI","FIN","Finland","diesel_total_tax_pct_price",57.0467637329944,46.4224073314395
-"FR","FRA","France","diesel_total_tax_pct_price",58.910825815406,46.4224073314395
-"GB","GBR","United Kingdom","diesel_total_tax_pct_price",60.7433324079391,46.4224073314395
-"GR","GRC","Greece","diesel_total_tax_pct_price",49.2097554155693,46.4224073314395
-"HU","HUN","Hungary","diesel_total_tax_pct_price",49.5177663633115,46.4224073314395
-"IE","IRL","Ireland","diesel_total_tax_pct_price",54.854552323385,46.4224073314395
-"IL","ISR","Israel","diesel_total_tax_pct_price",58.5201793721973,46.4224073314395
-"IS","ISL","Iceland","diesel_total_tax_pct_price",55.813837730214,46.4224073314395
-"IT","ITA","Italy","diesel_total_tax_pct_price",59.7625581269601,46.4224073314395
-"JP","JPN","Japan","diesel_total_tax_pct_price",34,46.4224073314395
-"KR","KOR","Korea","diesel_total_tax_pct_price",48.5345985140095,46.4224073314395
-"LT","LTU","Lithuania","diesel_total_tax_pct_price",47.2413793103448,46.4224073314395
-"LU","LUX","Luxembourg","diesel_total_tax_pct_price",46.1433756805808,46.4224073314395
-"LV","LVA","Latvia","diesel_total_tax_pct_price",50.8502024291498,46.4224073314395
-"MX","MEX","Mexico","diesel_total_tax_pct_price",13.8048908756245,46.4224073314395
-"NL","NLD","Netherlands","diesel_total_tax_pct_price",53.7688971983563,46.4224073314395
-"NO","NOR","Norway","diesel_total_tax_pct_price",54.2895263509006,46.4224073314395
-"NZ","NZL","New Zealand","diesel_total_tax_pct_price",15.9741984050826,46.4224073314395
-"PL","POL","Poland","diesel_total_tax_pct_price",47.7790846411868,46.4224073314395
-"PT","PRT","Portugal","diesel_total_tax_pct_price",54.3362008493952,46.4224073314395
-"SE","SWE","Sweden","diesel_total_tax_pct_price",49.7013679275576,46.4224073314395
-"SI","SVN","Slovenia","diesel_total_tax_pct_price",55.0161812297735,46.4224073314395
-"SK","SVK","Slovak Republic","diesel_total_tax_pct_price",46.8032786885246,46.4224073314395
-"TR","TUR","Turkey","diesel_total_tax_pct_price",43.3194138162937,46.4224073314395
-"US","USA","United States","diesel_total_tax_pct_price",20.098643649815,46.4224073314395
-"AT","AUT","Austria","household_fuel_total_tax_pct_price",30.4292929292929,32.8024097869023
-"AU","AUS","Australia","household_fuel_total_tax_pct_price",NA,32.8024097869023
-"BE","BEL","Belgium","household_fuel_total_tax_pct_price",20.1126768960198,32.8024097869023
-"CA","CAN","Canada","household_fuel_total_tax_pct_price",9.03302101337215,32.8024097869023
-"CH","CHE","Switzerland","household_fuel_total_tax_pct_price",35.7783967811823,32.8024097869023
-"CL","CHL","Chile","household_fuel_total_tax_pct_price",15.9663865546219,32.8024097869023
-"CO","COL","Colombia","household_fuel_total_tax_pct_price",NA,32.8024097869023
-"CZ","CZE","Czech Republic","household_fuel_total_tax_pct_price",29.9937997313217,32.8024097869023
-"DE","DEU","Germany","household_fuel_total_tax_pct_price",25.0373150051786,32.8024097869023
-"DK","DNK","Denmark","household_fuel_total_tax_pct_price",49.6907216494845,32.8024097869023
-"EE","EST","Estonia","household_fuel_total_tax_pct_price",23.2336956521739,32.8024097869023
-"ES","ESP","Spain","household_fuel_total_tax_pct_price",29.9401896804494,32.8024097869023
-"FI","FIN","Finland","household_fuel_total_tax_pct_price",44.7412422005628,32.8024097869023
-"FR","FRA","France","household_fuel_total_tax_pct_price",33.4408602150538,32.8024097869023
-"GB","GBR","United Kingdom","household_fuel_total_tax_pct_price",23.6394557823129,32.8024097869023
-"GR","GRC","Greece","household_fuel_total_tax_pct_price",47.7581659565835,32.8024097869023
-"HU","HUN","Hungary","household_fuel_total_tax_pct_price",50.0295129205245,32.8024097869023
-"IE","IRL","Ireland","household_fuel_total_tax_pct_price",26.1816882962257,32.8024097869023
-"IL","ISR","Israel","household_fuel_total_tax_pct_price",58.5504464832901,32.8024097869023
-"IS","ISL","Iceland","household_fuel_total_tax_pct_price",NA,32.8024097869023
-"IT","ITA","Italy","household_fuel_total_tax_pct_price",48.8757251534494,32.8024097869023
-"JP","JPN","Japan","household_fuel_total_tax_pct_price",12.1288793795597,32.8024097869023
-"KR","KOR","Korea","household_fuel_total_tax_pct_price",16.6247599462429,32.8024097869023
-"LT","LTU","Lithuania","household_fuel_total_tax_pct_price",21.5073747479141,32.8024097869023
-"LU","LUX","Luxembourg","household_fuel_total_tax_pct_price",13.8698194762268,32.8024097869023
-"LV","LVA","Latvia","household_fuel_total_tax_pct_price",24.4498655780145,32.8024097869023
-"MX","MEX","Mexico","household_fuel_total_tax_pct_price",NA,32.8024097869023
-"NL","NLD","Netherlands","household_fuel_total_tax_pct_price",71.8980577820231,32.8024097869023
-"NO","NOR","Norway","household_fuel_total_tax_pct_price",45.062656641604,32.8024097869023
-"NZ","NZL","New Zealand","household_fuel_total_tax_pct_price",NA,32.8024097869023
-"PL","POL","Poland","household_fuel_total_tax_pct_price",25.5855647274983,32.8024097869023
-"PT","PRT","Portugal","household_fuel_total_tax_pct_price",44.5988444379434,32.8024097869023
-"SE","SWE","Sweden","household_fuel_total_tax_pct_price",57.1038549743366,32.8024097869023
-"SI","SVN","Slovenia","household_fuel_total_tax_pct_price",41.6342412451362,32.8024097869023
-"SK","SVK","Slovak Republic","household_fuel_total_tax_pct_price",NA,32.8024097869023
-"TR","TUR","Turkey","household_fuel_total_tax_pct_price",35.7511384162764,32.8024097869023
-"US","USA","United States","household_fuel_total_tax_pct_price",4.22705314009662,32.8024097869023
-"AT","AUT","Austria","unleaded_total_tax_pct_price",56.0479523528929,53.2350560120198
-"AU","AUS","Australia","unleaded_total_tax_pct_price",35.9270672829995,53.2350560120198
-"BE","BEL","Belgium","unleaded_total_tax_pct_price",58.089839687177,53.2350560120198
-"CA","CAN","Canada","unleaded_total_tax_pct_price",31.9712666666667,53.2350560120198
-"CH","CHE","Switzerland","unleaded_total_tax_pct_price",54.524217327923,53.2350560120198
-"CL","CHL","Chile","unleaded_total_tax_pct_price",48.9069458526544,53.2350560120198
-"CO","COL","Colombia","unleaded_total_tax_pct_price",21.9795707830231,53.2350560120198
-"CZ","CZE","Czech Republic","unleaded_total_tax_pct_price",57.9272329137643,53.2350560120198
-"DE","DEU","Germany","unleaded_total_tax_pct_price",61.2943882160991,53.2350560120198
-"DK","DNK","Denmark","unleaded_total_tax_pct_price",59.3174348592012,53.2350560120198
-"EE","EST","Estonia","unleaded_total_tax_pct_price",63.946117274168,53.2350560120198
-"ES","ESP","Spain","unleaded_total_tax_pct_price",53.8037719855902,53.2350560120198
-"FI","FIN","Finland","unleaded_total_tax_pct_price",65.3701149167495,53.2350560120198
-"FR","FRA","France","unleaded_total_tax_pct_price",62.5196556213087,53.2350560120198
-"GB","GBR","United Kingdom","unleaded_total_tax_pct_price",63.0719582312337,53.2350560120198
-"GR","GRC","Greece","unleaded_total_tax_pct_price",63.7145664950672,53.2350560120198
-"HU","HUN","Hungary","unleaded_total_tax_pct_price",53.343552899918,53.2350560120198
-"IE","IRL","Ireland","unleaded_total_tax_pct_price",62.3,53.2350560120198
-"IL","ISR","Israel","unleaded_total_tax_pct_price",64.2620823767899,53.2350560120198
-"IS","ISL","Iceland","unleaded_total_tax_pct_price",59.6823164377444,53.2350560120198
-"IT","ITA","Italy","unleaded_total_tax_pct_price",64.3024338101076,53.2350560120198
-"JP","JPN","Japan","unleaded_total_tax_pct_price",46.9934139375412,53.2350560120198
-"KR","KOR","Korea","unleaded_total_tax_pct_price",50.8437900727234,53.2350560120198
-"LT","LTU","Lithuania","unleaded_total_tax_pct_price",55.1109177903436,53.2350560120198
-"LU","LUX","Luxembourg","unleaded_total_tax_pct_price",51.4476727929027,53.2350560120198
-"LV","LVA","Latvia","unleaded_total_tax_pct_price",56.9656503400725,53.2350560120198
-"MX","MEX","Mexico","unleaded_total_tax_pct_price",13.7931034482759,53.2350560120198
-"NL","NLD","Netherlands","unleaded_total_tax_pct_price",64.9273313868795,53.2350560120198
-"NO","NOR","Norway","unleaded_total_tax_pct_price",60.6576035409421,53.2350560120198
-"NZ","NZL","New Zealand","unleaded_total_tax_pct_price",46.3828566506231,53.2350560120198
-"PL","POL","Poland","unleaded_total_tax_pct_price",52.1465166270645,53.2350560120198
-"PT","PRT","Portugal","unleaded_total_tax_pct_price",61.7949483180497,53.2350560120198
-"SE","SWE","Sweden","unleaded_total_tax_pct_price",61.760686477038,53.2350560120198
-"SI","SVN","Slovenia","unleaded_total_tax_pct_price",60.1399058217224,53.2350560120198
-"SK","SVK","Slovak Republic","unleaded_total_tax_pct_price",55.8554437328454,53.2350560120198
-"TR","TUR","Turkey","unleaded_total_tax_pct_price",50.0119417907538,53.2350560120198
-"US","USA","United States","unleaded_total_tax_pct_price",18.5628037258748,53.2350560120198
+"iso_2","iso_3","country","year","fuel_type","total_tax_pct","oecd_avg_total_tax_pct"
+"CA","CAN","Canada",2019,"diesel_total_tax_pct_price",26.97478992,46.4224073318919
+"BE","BEL","Belgium",2019,"diesel_total_tax_pct_price",56.79912509,46.4224073318919
+"CH","CHE","Switzerland",2019,"diesel_total_tax_pct_price",52.00607113,46.4224073318919
+"DE","DEU","Germany",2019,"diesel_total_tax_pct_price",52.32687028,46.4224073318919
+"DK","DNK","Denmark",2019,"diesel_total_tax_pct_price",51.14061468,46.4224073318919
+"FR","FRA","France",2019,"diesel_total_tax_pct_price",58.91082582,46.4224073318919
+"IT","ITA","Italy",2019,"diesel_total_tax_pct_price",59.76255813,46.4224073318919
+"IL","ISR","Israel",2019,"diesel_total_tax_pct_price",58.52017937,46.4224073318919
+"IS","ISL","Iceland",2019,"diesel_total_tax_pct_price",55.81383773,46.4224073318919
+"LU","LUX","Luxembourg",2019,"diesel_total_tax_pct_price",46.14337568,46.4224073318919
+"JP","JPN","Japan",2019,"diesel_total_tax_pct_price",34,46.4224073318919
+"KR","KOR","Korea",2019,"diesel_total_tax_pct_price",48.53459851,46.4224073318919
+"NL","NLD","Netherlands",2019,"diesel_total_tax_pct_price",53.7688972,46.4224073318919
+"NO","NOR","Norway",2019,"diesel_total_tax_pct_price",54.28952635,46.4224073318919
+"SI","SVN","Slovenia",2019,"diesel_total_tax_pct_price",55.01618123,46.4224073318919
+"SK","SVK","Slovak Republic",2019,"diesel_total_tax_pct_price",46.80327869,46.4224073318919
+"SE","SWE","Sweden",2019,"diesel_total_tax_pct_price",49.70136793,46.4224073318919
+"CL","CHL","Chile",2019,"diesel_total_tax_pct_price",28.12481528,46.4224073318919
+"NZ","NZL","New Zealand",2019,"diesel_total_tax_pct_price",15.97419841,46.4224073318919
+"AT","AUT","Austria",2019,"diesel_total_tax_pct_price",50.62969786,46.4224073318919
+"CO","COL","Colombia",2019,"diesel_total_tax_pct_price",14.35002404,46.4224073318919
+"CZ","CZE","Czech Republic",2019,"diesel_total_tax_pct_price",51.91755311,46.4224073318919
+"EE","EST","Estonia",2019,"diesel_total_tax_pct_price",61.25,46.4224073318919
+"ES","ESP","Spain",2019,"diesel_total_tax_pct_price",48.53909465,46.4224073318919
+"FI","FIN","Finland",2019,"diesel_total_tax_pct_price",57.04676373,46.4224073318919
+"GB","GBR","United Kingdom",2019,"diesel_total_tax_pct_price",60.74333241,46.4224073318919
+"HU","HUN","Hungary",2019,"diesel_total_tax_pct_price",49.51776636,46.4224073318919
+"IE","IRL","Ireland",2019,"diesel_total_tax_pct_price",54.85455232,46.4224073318919
+"LT","LTU","Lithuania",2019,"diesel_total_tax_pct_price",47.24137931,46.4224073318919
+"LV","LVA","Latvia",2019,"diesel_total_tax_pct_price",50.85020243,46.4224073318919
+"PL","POL","Poland",2019,"diesel_total_tax_pct_price",47.77908464,46.4224073318919
+"PT","PRT","Portugal",2019,"diesel_total_tax_pct_price",54.33620085,46.4224073318919
+"AU","AUS","Australia",2019,"diesel_total_tax_pct_price",37.52960437,46.4224073318919
+"TR","TUR","Turkey",2019,"diesel_total_tax_pct_price",43.31941382,46.4224073318919
+"MX","MEX","Mexico",2019,"diesel_total_tax_pct_price",13.80489088,46.4224073318919
+"GR","GRC","Greece",2019,"diesel_total_tax_pct_price",49.20975542,46.4224073318919
+"US","USA","United States",2019,"diesel_total_tax_pct_price",20.09864365,46.4224073318919
+"CA","CAN","Canada",2019,"household_fuel_total_tax_pct_price",9.033021013,32.8024097875161
+"BE","BEL","Belgium",2019,"household_fuel_total_tax_pct_price",20.1126769,32.8024097875161
+"CH","CHE","Switzerland",2019,"household_fuel_total_tax_pct_price",35.77839678,32.8024097875161
+"DE","DEU","Germany",2019,"household_fuel_total_tax_pct_price",25.03731501,32.8024097875161
+"DK","DNK","Denmark",2019,"household_fuel_total_tax_pct_price",49.69072165,32.8024097875161
+"FR","FRA","France",2019,"household_fuel_total_tax_pct_price",33.44086022,32.8024097875161
+"IT","ITA","Italy",2019,"household_fuel_total_tax_pct_price",48.87572515,32.8024097875161
+"IL","ISR","Israel",2019,"household_fuel_total_tax_pct_price",58.55044648,32.8024097875161
+"IS","ISL","Iceland",2019,"household_fuel_total_tax_pct_price",NA,32.8024097875161
+"LU","LUX","Luxembourg",2019,"household_fuel_total_tax_pct_price",13.86981948,32.8024097875161
+"JP","JPN","Japan",2019,"household_fuel_total_tax_pct_price",12.12887938,32.8024097875161
+"KR","KOR","Korea",2019,"household_fuel_total_tax_pct_price",16.62475995,32.8024097875161
+"NL","NLD","Netherlands",2019,"household_fuel_total_tax_pct_price",71.89805778,32.8024097875161
+"NO","NOR","Norway",2019,"household_fuel_total_tax_pct_price",45.06265664,32.8024097875161
+"SI","SVN","Slovenia",2019,"household_fuel_total_tax_pct_price",41.63424125,32.8024097875161
+"SK","SVK","Slovak Republic",2019,"household_fuel_total_tax_pct_price",NA,32.8024097875161
+"SE","SWE","Sweden",2019,"household_fuel_total_tax_pct_price",57.10385497,32.8024097875161
+"CL","CHL","Chile",2019,"household_fuel_total_tax_pct_price",15.96638655,32.8024097875161
+"NZ","NZL","New Zealand",2019,"household_fuel_total_tax_pct_price",NA,32.8024097875161
+"AT","AUT","Austria",2019,"household_fuel_total_tax_pct_price",30.42929293,32.8024097875161
+"CO","COL","Colombia",2019,"household_fuel_total_tax_pct_price",NA,32.8024097875161
+"CZ","CZE","Czech Republic",2019,"household_fuel_total_tax_pct_price",29.99379973,32.8024097875161
+"EE","EST","Estonia",2019,"household_fuel_total_tax_pct_price",23.23369565,32.8024097875161
+"ES","ESP","Spain",2019,"household_fuel_total_tax_pct_price",29.94018968,32.8024097875161
+"FI","FIN","Finland",2019,"household_fuel_total_tax_pct_price",44.7412422,32.8024097875161
+"GB","GBR","United Kingdom",2019,"household_fuel_total_tax_pct_price",23.63945578,32.8024097875161
+"HU","HUN","Hungary",2019,"household_fuel_total_tax_pct_price",50.02951292,32.8024097875161
+"IE","IRL","Ireland",2019,"household_fuel_total_tax_pct_price",26.1816883,32.8024097875161
+"LT","LTU","Lithuania",2019,"household_fuel_total_tax_pct_price",21.50737475,32.8024097875161
+"LV","LVA","Latvia",2019,"household_fuel_total_tax_pct_price",24.44986558,32.8024097875161
+"PL","POL","Poland",2019,"household_fuel_total_tax_pct_price",25.58556473,32.8024097875161
+"PT","PRT","Portugal",2019,"household_fuel_total_tax_pct_price",44.59884444,32.8024097875161
+"AU","AUS","Australia",2019,"household_fuel_total_tax_pct_price",NA,32.8024097875161
+"TR","TUR","Turkey",2019,"household_fuel_total_tax_pct_price",35.75113842,32.8024097875161
+"MX","MEX","Mexico",2019,"household_fuel_total_tax_pct_price",NA,32.8024097875161
+"GR","GRC","Greece",2019,"household_fuel_total_tax_pct_price",47.75816596,32.8024097875161
+"US","USA","United States",2019,"household_fuel_total_tax_pct_price",4.22705314,32.8024097875161
+"CA","CAN","Canada",2019,"unleaded_total_tax_pct_price",31.97126667,53.2350560124324
+"BE","BEL","Belgium",2019,"unleaded_total_tax_pct_price",58.08983969,53.2350560124324
+"CH","CHE","Switzerland",2019,"unleaded_total_tax_pct_price",54.52421733,53.2350560124324
+"DE","DEU","Germany",2019,"unleaded_total_tax_pct_price",61.29438822,53.2350560124324
+"DK","DNK","Denmark",2019,"unleaded_total_tax_pct_price",59.31743486,53.2350560124324
+"FR","FRA","France",2019,"unleaded_total_tax_pct_price",62.51965562,53.2350560124324
+"IT","ITA","Italy",2019,"unleaded_total_tax_pct_price",64.30243381,53.2350560124324
+"IL","ISR","Israel",2019,"unleaded_total_tax_pct_price",64.26208238,53.2350560124324
+"IS","ISL","Iceland",2019,"unleaded_total_tax_pct_price",59.68231644,53.2350560124324
+"LU","LUX","Luxembourg",2019,"unleaded_total_tax_pct_price",51.44767279,53.2350560124324
+"JP","JPN","Japan",2019,"unleaded_total_tax_pct_price",46.99341394,53.2350560124324
+"KR","KOR","Korea",2019,"unleaded_total_tax_pct_price",50.84379007,53.2350560124324
+"NL","NLD","Netherlands",2019,"unleaded_total_tax_pct_price",64.92733139,53.2350560124324
+"NO","NOR","Norway",2019,"unleaded_total_tax_pct_price",60.65760354,53.2350560124324
+"SI","SVN","Slovenia",2019,"unleaded_total_tax_pct_price",60.13990582,53.2350560124324
+"SK","SVK","Slovak Republic",2019,"unleaded_total_tax_pct_price",55.85544373,53.2350560124324
+"SE","SWE","Sweden",2019,"unleaded_total_tax_pct_price",61.76068648,53.2350560124324
+"CL","CHL","Chile",2019,"unleaded_total_tax_pct_price",48.90694585,53.2350560124324
+"NZ","NZL","New Zealand",2019,"unleaded_total_tax_pct_price",46.38285665,53.2350560124324
+"AT","AUT","Austria",2019,"unleaded_total_tax_pct_price",56.04795235,53.2350560124324
+"CO","COL","Colombia",2019,"unleaded_total_tax_pct_price",21.97957078,53.2350560124324
+"CZ","CZE","Czech Republic",2019,"unleaded_total_tax_pct_price",57.92723291,53.2350560124324
+"EE","EST","Estonia",2019,"unleaded_total_tax_pct_price",63.94611727,53.2350560124324
+"ES","ESP","Spain",2019,"unleaded_total_tax_pct_price",53.80377199,53.2350560124324
+"FI","FIN","Finland",2019,"unleaded_total_tax_pct_price",65.37011492,53.2350560124324
+"GB","GBR","United Kingdom",2019,"unleaded_total_tax_pct_price",63.07195823,53.2350560124324
+"HU","HUN","Hungary",2019,"unleaded_total_tax_pct_price",53.3435529,53.2350560124324
+"IE","IRL","Ireland",2019,"unleaded_total_tax_pct_price",62.3,53.2350560124324
+"LT","LTU","Lithuania",2019,"unleaded_total_tax_pct_price",55.11091779,53.2350560124324
+"LV","LVA","Latvia",2019,"unleaded_total_tax_pct_price",56.96565034,53.2350560124324
+"PL","POL","Poland",2019,"unleaded_total_tax_pct_price",52.14651663,53.2350560124324
+"PT","PRT","Portugal",2019,"unleaded_total_tax_pct_price",61.79494832,53.2350560124324
+"AU","AUS","Australia",2019,"unleaded_total_tax_pct_price",35.92706728,53.2350560124324
+"TR","TUR","Turkey",2019,"unleaded_total_tax_pct_price",50.01194179,53.2350560124324
+"MX","MEX","Mexico",2019,"unleaded_total_tax_pct_price",13.79310345,53.2350560124324
+"GR","GRC","Greece",2019,"unleaded_total_tax_pct_price",63.7145665,53.2350560124324
+"US","USA","United States",2019,"unleaded_total_tax_pct_price",18.56280373,53.2350560124324

@@ -30,7 +30,7 @@ The following files were downloaded from https://www.oecd.org/tax/tax-policy/tax
 
 VAT revenue ratio data for many years between 1976 and 2016 is from OECD, _Consumption Tax Trends 2018: VAT/GST and Excise Rates, Trends and Policy Issues_ (Paris: OECD Publishing, 2018), https://doi.org/10.1787/ctt-2018-en in Annex Table 2.A.7. It can be accessed at https://doi.org/10.1787/888933890122.
 
-VAT revenue ratio data for many years between 1992 and 2018 is from OECD, _Consumption Tax Trends 2020: VAT/GST and Excise Rates, Trends and Policy Issues_ (Paris: OECD Publishing, 2020), https://doi.org/10.1787/ctt-2018-en in Annex Table 2.A.7. It can be accessed at https://doi.org/10.1787/152def2d-en. It can be accessed at https://doi.org/10/1787/888933890122.
+VAT revenue ratio data for many years between 1992 and 2018 is from OECD, _Consumption Tax Trends 2020: VAT/GST and Excise Rates, Trends and Policy Issues_ (Paris: OECD Publishing, 2020), https://doi.org/10.1787/152def2d-en in Annex Table 2.A.7. It can be accessed at https://doi.org/10.1787/888934220135.
 
 The tax base for the reduced rates table comes from _Consumption Tax Trends_ Annex Table 2.A.2.
 
@@ -41,7 +41,7 @@ ____________________________________________________
 
 ### **SOURCE:**
 
- OECD, “Tax Database: Selected Excise Duties,” https://www.oecd.org/tax/tax-policy/tax-database/ and OECD, Consumption Tax Trends 2020: VAT/GST and Excise Rates, Trends and Policy Issues (Paris: OECD Publishing, 2020), https://doi.org/10.1787/152def2d-en.
+ OECD, “Tax Database: Selected Excise Duties,” https://www.oecd.org/tax/tax-policy/tax-database/ and OECD, "Consumption Tax Trends 2020: VAT/GST and Excise Rates, Trends and Policy Issues," (Paris: OECD Publishing, 2020), https://doi.org/10.1787/152def2d-en.
 
 The following files were downloaded from https://www.oecd.org/tax/tax-policy/tax-database/ in December 2020:
 - `taxation-beer-ctt-trends.xlsx`
