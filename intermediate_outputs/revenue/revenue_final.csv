@@ -1,4 +1,4 @@
-"iso_3","iso_2","country","year","5000_consumption_pct_total","5111_vat_pct_total","5112_sales_pct_total","5121_excise_pct_total","5000_consumption_pct_gdp","5111_vat_pct_gdp","5112_sales_pct_gdp","5121_excise_pct_gdp"
+"iso_3","iso_2","country","year","consumption_pct_total_5000","vat_pct_total_5111","sales_pct_total_5112","excise_pct_total_5121","consumption_pct_gdp_5000","vat_pct_gdp_5111","sales_pct_gdp_5112","excise_pct_gdp_5121"
 "AUS","AU","Australia","1975",29.328,0,6.667,11.818,7.442,0,1.692,2.999
 "AUS","AU","Australia","1976",28.704,0,6.721,10.639,7.335,0,1.717,2.719
 "AUS","AU","Australia","1977",28.342,0,6.591,11.061,7.205,0,1.676,2.812
