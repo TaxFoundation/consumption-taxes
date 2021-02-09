@@ -12,9 +12,9 @@ The majority of the data used in this publication comes from OECD data sources, 
 The OECD's  Revenue Statistics Database provides various categories for the different tax revenue sources. For our report, we chose the categories as follows:
 
 * **Consumption Taxes:** Covers the OECD category *5000 Taxes on goods and services*.
-* **Value added Taxes:** Covers the OECD category *5111 Taxes on goods and services*.
-* **Sales Taxes:** Covers the OECD category *5112 Taxes on goods and services*.
-* **Excise Taxes:** Covers the OECD category *5121 Taxes on goods and services*.
+* **Value added Taxes:** Covers the OECD category *5111 Value added taxes*.
+* **Sales Taxes:** Covers the OECD category *5112 Sales taxes*.
+* **Excise Taxes:** Covers the OECD category *5121 Excise taxes*.
 * **Other:** Covers the unallocated portion of Consumption Taxes.
 
 ## Explanation of Files in Repository
@@ -68,7 +68,7 @@ Location of **output tables** that are included in the country profile pages at 
 - `fuel.csv` Table of fuel excise rates.
 - `reduced_rates_base.csv` Table of VAT reduced rates and the tax base to which they apply.
 - `revenue.csv` Table showing the OECD average tax revenue shares for the three types of consumption taxes.
-- `tobacco.csv` Table of fuel excise rates.
+- `tobacco.csv` Table of tobacco excise rates.
 
 ## Explanation of Main Datasets in /intermediate_outputs
 ### `consumption_data.csv`
@@ -89,7 +89,7 @@ Location of **output tables** that are included in the country profile pages at 
 - `reduced_rate_6`: Sixth reduced rate for Italy in 1980; `reduced_rate_1` < `reduced_rate_2` < `reduced_rate_3` < `reduced_rate_4` < `reduced_rate_5` < `reduced_rate_6`
 - `standard_vat_rate`: Standard VAT rates for countries with VAT from 1967-2020
 - `threshold`: General threshold for registration or collection of VAT in US dollars. Years included are 2007, 2010, 2011, 2012, 2013, 2014, 2016, 2018, 2020.
-- `vrr`: Vat Revenue Ratio calculated as VRR = VAT Revenue/[(Consumption - VAT revenue) x standard VAT rate]. Consumption = Final Consumption Expenditure (Heading P3) in national accounts. VAT rates used are standard rates applicable as at 1 January of each year. Applicable for VAT countries from 1976-2019.
+- `vrr`: VAT Revenue Ratio calculated as VRR = VAT Revenue/[(Consumption - VAT revenue) x standard VAT rate]. Consumption = Final Consumption Expenditure (Heading P3) in national accounts. VAT rates used are standard rates applicable as of January 1 of each year. Applicable for VAT countries from 1976-2019.
 - `5000_consumption_pct_total`: Percent of total tax revenue for code 5000 Taxes on goods and services in https://stats.oecd.org/Index.aspx?DataSetCode=REV; available for years 1975-2019
 - `5111_vat_pct_total`: Percent of total tax revenue for code 5111 Value added taxes in https://stats.oecd.org/Index.aspx?DataSetCode=REV; available for years 1975-2019
 - `5112_sales_pct_total`: Percent of total tax revenue for code 5112 Sales tax in https://stats.oecd.org/Index.aspx?DataSetCode=REV; available for years 1975-2019
@@ -98,7 +98,7 @@ Location of **output tables** that are included in the country profile pages at 
 - `5111_vat_pct_gdp`: Percent of GDP for code 5111 Value added taxes in https://stats.oecd.org/Index.aspx?DataSetCode=REV; available for years 1975-2019
 - `5112_sales_pct_gdp`: Percent of GDP for code 5112 Sales tax in https://stats.oecd.org/Index.aspx?DataSetCode=REV; available for years 1975-2019
 - `5121_excise_pct_gdp`: Percent of GDP for code 5121 Excises in https://stats.oecd.org/Index.aspx?DataSetCode=REV; available for years 1975-2019
-- `beer_excise_hl_usd`: specific excise per hectoliter per & abv in US Dollars for years 2018 and 2020
+- `beer_excise_hl_usd`: specific excise per hectoliter & per abv in US Dollars for years 2018 and 2020
 - `beer_low_alc_usd`: Excise duty on low alcohol beer (not exceeding 2.8% abv), excise per hectoliter of product in US dollars. Applicable for Denmark, Finland, France, and the United Kingdom; for years 2018 and 2020.
 - `still_wine_excise_hl_usd`: Still wine excise per hectoliter in US dollars for years 2018 and 2020
 - `sparkling_wine_excise_hl_usd`: Sparkling wine excise per hectoliter in US dollars for years 2018 and 2020
